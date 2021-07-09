@@ -93,11 +93,19 @@ MonoBehaviour:
   m_AdvancedMode: 0
   threshold:
     m_OverrideState: 1
+<<<<<<< Updated upstream:Assets/_LCR/LCR_Shaders/LCR_VolumeProfile.asset
     m_Value: 0.98
     min: 0
   intensity:
     m_OverrideState: 1
     m_Value: 1.29
+=======
+    m_Value: 1.5
+    min: 0
+  intensity:
+    m_OverrideState: 1
+    m_Value: 2
+>>>>>>> Stashed changes:Assets/_LCR/LCR_VolumeProfile.asset
     min: 0
   scatter:
     m_OverrideState: 1
