@@ -67,7 +67,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e021b4c809a781e468c2988c016ebbea, type: 3}
   m_Name: ColorLookup
   m_EditorClassIdentifier: 
-  active: 1
+  active: 0
   m_AdvancedMode: 0
   texture:
     m_OverrideState: 1
@@ -109,7 +109,7 @@ MonoBehaviour:
     m_Value: 4.59
     min: 0
   tint:
-    m_OverrideState: 1
+    m_OverrideState: 0
     m_Value: {r: 0.9622642, g: 0.83581346, b: 0.45843717, a: 1}
     hdr: 0
     showAlpha: 0
