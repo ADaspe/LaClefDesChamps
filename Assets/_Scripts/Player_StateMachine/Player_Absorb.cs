@@ -42,6 +42,7 @@ public class Player_Absorb : PlayerState
 
         if (player.absorbDebug) Debug.Log("[Player_Absorb] Il n'y a pas d'éléments absorbables contenus dans le livre pour l'instant");
         //If nothing is inside the book, check if there is a source near
+        //Modify the starting point of the sphere to be in front of the book instead of in the player
         Collider[] hitColliders = Physics.OverlapSphere(player.transform.position, player.interractionRange, player.interractibleLayer, QueryTriggerInteraction.Collide);
         foreach (var c in hitColliders)
         {
