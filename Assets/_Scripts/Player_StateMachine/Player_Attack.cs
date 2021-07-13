@@ -5,6 +5,8 @@ using UnityEngine;
 
 public class Player_Attack : PlayerState
 {
+
+    public AttackSettingsSO attackStats;
     private float attackDuration;
     private Dictionary<Collider, int> attackDictionary = new Dictionary<Collider, int>();
     private bool anyHit;
