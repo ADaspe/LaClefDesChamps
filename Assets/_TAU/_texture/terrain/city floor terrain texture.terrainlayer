@@ -8,7 +8,7 @@ TerrainLayer:
   m_PrefabAsset: {fileID: 0}
   m_Name: city floor terrain texture
   m_DiffuseTexture: {fileID: 2800000, guid: 1c466d180f264d540ae92a88c636d87b, type: 3}
-  m_NormalMapTexture: {fileID: 2800000, guid: 53d5b5b928606c84baadc30cb7f225a7, type: 3}
+  m_NormalMapTexture: {fileID: 0}
   m_MaskMapTexture: {fileID: 0}
   m_TileSize: {x: 20, y: 20}
   m_TileOffset: {x: 0, y: 0}

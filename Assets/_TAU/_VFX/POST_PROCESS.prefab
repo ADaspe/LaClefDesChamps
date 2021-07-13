@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 1152674175798286597}
   - component: {fileID: 1152674175798286650}
   m_Layer: 0
-  m_Name: volume
+  m_Name: POST_PROCESS
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -47,4 +47,4 @@ MonoBehaviour:
   priority: 0
   blendDistance: 0
   weight: 1
-  sharedProfile: {fileID: 11400000, guid: ac31a236c3a8859449058680eabf9dea, type: 2}
+  sharedProfile: {fileID: 11400000, guid: 3e82636c001ae4f4694d2ec4a087b524, type: 2}
