@@ -124,22 +124,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_LookaheadTime: 0.75
-  m_LookaheadSmoothing: 23
+  m_LookaheadSmoothing: 30
   m_LookaheadIgnoreY: 0
   m_XDamping: 0.5
   m_YDamping: 0.5
   m_ZDamping: 0.5
   m_ScreenX: 0.5
-  m_ScreenY: 0.75
-  m_CameraDistance: 100
-  m_DeadZoneWidth: 0.21
+  m_ScreenY: 0.65
+  m_CameraDistance: 165
+  m_DeadZoneWidth: 0.18
   m_DeadZoneHeight: 0.16
   m_DeadZoneDepth: 0
   m_UnlimitedSoftZone: 0
-  m_SoftZoneWidth: 0.8
-  m_SoftZoneHeight: 0.8
+  m_SoftZoneWidth: 0.4
+  m_SoftZoneHeight: 0.4
   m_BiasX: 0
-  m_BiasY: 0
+  m_BiasY: -0.34999996
   m_CenterOnActivate: 1
   m_GroupFramingMode: 2
   m_AdjustmentMode: 2

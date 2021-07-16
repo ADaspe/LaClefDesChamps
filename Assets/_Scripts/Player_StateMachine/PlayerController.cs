@@ -135,7 +135,7 @@ namespace Player
 
                 Vector3 movement = new Vector3(x, 0, z).normalized;
 
-
+                
                 Vector3 rotatedMovement = Quaternion.Euler(0, mainCamera.transform.rotation.eulerAngles.y, 0) * movement;
                 if (movement.magnitude > 0.1)
                 {
@@ -168,6 +168,7 @@ namespace Player
                 }
 
                 playerController.Move(rotatedMovement * Time.deltaTime * speed);
+                
             }
         }
 
