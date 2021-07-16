@@ -21,7 +21,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: flammes_carton_MAT
-  m_Shader: {fileID: -6465566751694194690, guid: 645f114afaa9b144bb72beb3a470f4eb,
+  m_Shader: {fileID: -6465566751694194690, guid: adf122fe683c31f42a04c8b59bc22ab3,
     type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
@@ -63,7 +63,9 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - Vector1_7B8EC66D: 1
+    - Vector1_B2825C8A: 0.02
     - Vector1_DE3DFDF9: -0.5
+    - Vector1_FB5EC5F8: 20
     - _AlphaClip: 0
     - _Blend: 0
     - _BumpScale: 1
@@ -87,6 +89,7 @@ Material:
     - _ZWrite: 1
     m_Colors:
     - Color_3DD52004: {r: 2.0385942, g: 0.6115783, b: 0.25482428, a: 0}
+    - Color_9345F2FB: {r: 2.760784, g: 0.6431373, b: 0.5333334, a: 0}
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
