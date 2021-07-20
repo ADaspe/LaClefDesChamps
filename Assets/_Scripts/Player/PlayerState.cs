@@ -5,7 +5,7 @@ public abstract class PlayerState
 {
     public abstract void EnterState(PlayerController player);
 
-    public abstract void Update(PlayerController player);
+    public abstract void UpdateState(PlayerController player);
 
     public abstract void FixedUpdate(PlayerController player);
 

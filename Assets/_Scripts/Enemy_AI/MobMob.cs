@@ -72,6 +72,7 @@ public class MobMob : MonoBehaviour
     public float knockbackTime = 0f;
     public float hurtTime = 0f;
     public float invincibilityTime = 0f;
+    public bool isStun;
     [HideInInspector] public Vector3 knockDirection;
     [HideInInspector] public bool canHurt = true;
 
@@ -99,6 +100,7 @@ public class MobMob : MonoBehaviour
     public MobMob_Idle IdleState = new MobMob_Idle();
     public MobMob_Chasing ChasingState = new MobMob_Chasing();
     public MobMob_Patrol PatrolState = new MobMob_Patrol();
+    public MobMob_Stun StunState = new MobMob_Stun();
     #endregion
 
 
@@ -211,7 +213,7 @@ public class MobMob : MonoBehaviour
 
 
     #region Damage Methods
-    private void Damage(int damageAmount, Vector3 damageSource)
+    private void Damage(int damageAmount, Vector3 damageSource, float stunTime = 0)
     {
         if (canHurt)
         {
@@ -222,7 +224,6 @@ public class MobMob : MonoBehaviour
             knockDirection = knocbackDirection;
 
             lifePoints -= damageAmount;
-
             canHurt = false;
             if(lifePoints <= 0)
             {
@@ -231,7 +232,10 @@ public class MobMob : MonoBehaviour
             else TransitionToState(new MobMob_Hurt());
         }
     }
-
+    private void ResetStun()
+    {
+        isStun = false;
+    }
     #endregion
 
     private void OnDestroy()

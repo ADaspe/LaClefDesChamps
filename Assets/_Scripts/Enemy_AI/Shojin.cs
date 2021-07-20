@@ -56,7 +56,7 @@ public class Shojin : MonoBehaviour
     }
 
     #region Damage Methods
-    private void Damage(int damageAmount, Vector3 damageSource)
+    private void Damage(int damageAmount, Vector3 damageSource, float stunTime = 0)
     {
         lifePoints -= damageAmount;
     }

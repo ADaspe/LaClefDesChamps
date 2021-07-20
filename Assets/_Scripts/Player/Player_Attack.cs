@@ -5,23 +5,35 @@ using UnityEngine;
 
 public class Player_Attack : PlayerState
 {
-
+    public int currentHitCombo;
     public AttackSettingsSO attackStats;
+    public float lastHitTime;
     private float attackDuration;
     private Dictionary<Collider, int> attackDictionary = new Dictionary<Collider, int>();
     private bool anyHit;
     
     public override void EnterState(PlayerController player)
     {
-        if(player.attackDebug) Debug.Log("[Player State] Entering Attack State...");
-        
+        if(player.attackDebug) Debug.Log("[Player State] Entering Attack State for the hit "+currentHitCombo);
+
+        if(currentHitCombo == 3 && Time.time - lastHitTime <= attackStats.MaxInputDelayATK3)
+        {
+            //Anim de coup 3
+
+        } else if (currentHitCombo == 2 && Time.time - lastHitTime <= attackStats.MaxInputDelayATK2)
+        {
+            //Anim de coup 2
+        } else
+        {
+            //Anim de coup 1
+        }
         attackDuration = player.attackDuration;
         player.animator.SetBool("isAttacking", true);
         anyHit = false;
 
     }
 
-    public override void Update(PlayerController player)
+    public override void UpdateState(PlayerController player)
     {
         Attack(player);
         ApplyAttack(player);

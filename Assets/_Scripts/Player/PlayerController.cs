@@ -95,7 +95,7 @@ namespace Player
         // Update is called once per frame
         void Update()
         {
-            currentState.Update(this);
+            currentState.UpdateState(this);
         }
 
         private void FixedUpdate()

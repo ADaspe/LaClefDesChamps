@@ -355,7 +355,7 @@ SkinnedMeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 8413787c0660e47488d5558b979183d9, type: 2}
+  - {fileID: 2100000, guid: 5d91dd75497fd5f47a4af6276dc4d5f0, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -499,7 +499,7 @@ GameObject:
   - component: {fileID: 8080315198615208907}
   - component: {fileID: 8622619369896879138}
   m_Layer: 0
-  m_Name: Yak yak
+  m_Name: Yak yak Clair
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

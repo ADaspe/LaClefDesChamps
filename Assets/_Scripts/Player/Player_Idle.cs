@@ -10,7 +10,7 @@ public class Player_Idle : PlayerState
         if(player.debug)Debug.Log("Entering Idle State...");
     }
 
-    public override void Update(PlayerController player)
+    public override void UpdateState(PlayerController player)
     {
         player.Move();
 

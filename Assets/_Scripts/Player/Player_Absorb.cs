@@ -17,7 +17,7 @@ public class Player_Absorb : PlayerState
         //player.absorbFX.SetActive(true);
     }
 
-    public override void Update(PlayerController player)
+    public override void UpdateState(PlayerController player)
     {
         //float baseAbsorbDuration = absorbDuration;
         if (absorbDuration > 0)
