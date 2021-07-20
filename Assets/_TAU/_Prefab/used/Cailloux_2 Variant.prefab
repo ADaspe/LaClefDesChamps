@@ -10,10 +10,10 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: 7.8384457
-  m_Height: 18.732721
+  m_Radius: 0.08
+  m_Height: 0.28
   m_Direction: 1
-  m_Center: {x: -0.25041103, y: 9.366359, z: -1.3720677}
+  m_Center: {x: 0, y: 0.07, z: -0.02}
 --- !u!205 &614432686
 LODGroup:
   m_ObjectHideFlags: 0
@@ -51,17 +51,17 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 5a61b63fa12b48a49baf7b134bf47816,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 592.64905
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 5a61b63fa12b48a49baf7b134bf47816,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 5.7528906
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 5a61b63fa12b48a49baf7b134bf47816,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 634.20483
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 5a61b63fa12b48a49baf7b134bf47816,
         type: 3}
@@ -112,6 +112,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Cailloux_2 Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 3451118302482216456, guid: 5a61b63fa12b48a49baf7b134bf47816,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5a61b63fa12b48a49baf7b134bf47816, type: 3}
