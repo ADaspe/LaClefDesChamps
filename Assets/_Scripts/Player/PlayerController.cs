@@ -155,7 +155,7 @@ namespace Player
                     lastDirection = rotatedMovement;
                 }
                 Quaternion rotation = Quaternion.LookRotation(lastDirection, Vector3.up);
-                transform.rotation = rotation;
+                
                 //transform.LookAt(lastDirection);
 
                 //Gravity
