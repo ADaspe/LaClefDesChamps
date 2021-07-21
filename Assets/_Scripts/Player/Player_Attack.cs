@@ -20,12 +20,16 @@ public class Player_Attack : PlayerState
         {
             //Anim de coup 3
 
-        } else if (currentHitCombo == 2 && Time.time - lastHitTime <= attackStats.MaxInputDelayATK2)
+        } 
+        else if (currentHitCombo == 2 && Time.time - lastHitTime <= attackStats.MaxInputDelayATK2)
         {
             //Anim de coup 2
-        } else
+
+        } 
+        else
         {
             //Anim de coup 1
+
         }
         attackDuration = player.attackDuration;
         player.animator.SetBool("isAttacking", true);
