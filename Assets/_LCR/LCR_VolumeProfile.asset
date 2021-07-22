@@ -34,16 +34,16 @@ MonoBehaviour:
   active: 1
   m_AdvancedMode: 0
   type:
-    m_OverrideState: 0
+    m_OverrideState: 1
     m_Value: 0
   intensity:
-    m_OverrideState: 0
-    m_Value: 0
+    m_OverrideState: 1
+    m_Value: 0.304
     min: 0
     max: 1
   response:
-    m_OverrideState: 0
-    m_Value: 0.8
+    m_OverrideState: 1
+    m_Value: 0.593
     min: 0
     max: 1
   texture:
@@ -131,6 +131,7 @@ MonoBehaviour:
   - {fileID: 6092038227441061877}
   - {fileID: -4631618243654487823}
   - {fileID: -2459775236576531003}
+  - {fileID: -4312699600420480204}
 --- !u!114 &3410761628466785980
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -248,7 +249,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c01700fd266d6914ababb731e09af2eb, type: 3}
   m_Name: DepthOfField
   m_EditorClassIdentifier: 
-  active: 1
+  active: 0
   m_AdvancedMode: 0
   mode:
     m_OverrideState: 1
@@ -275,7 +276,7 @@ MonoBehaviour:
     min: 0.1
   aperture:
     m_OverrideState: 1
-    m_Value: 1
+    m_Value: 1.2
     min: 1
     max: 32
   focalLength:
