@@ -16,7 +16,7 @@ public class Player_Hurt : PlayerState
 
     }
 
-    public override void Update(PlayerController player)
+    public override void UpdateState(PlayerController player)
     {
         evaluateTime += Time.deltaTime;
         if(!stopKnockback)Knockback(player);

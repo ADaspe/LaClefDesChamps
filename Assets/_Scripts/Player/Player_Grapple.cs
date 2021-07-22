@@ -28,7 +28,7 @@ public class Player_Grapple : PlayerState
         //SetGrapplePoint(player.book);
     }
 
-    public override void Update(PlayerController player)
+    public override void UpdateState(PlayerController player)
     {
         waitTime -= Time.deltaTime;
         if (waitTime <= 0 && !grappled)

@@ -32,7 +32,7 @@ public class Player_Release : PlayerState
     }
 
     #region UnusedMethods
-    public override void Update(PlayerController player)
+    public override void UpdateState(PlayerController player)
     {
 
     }

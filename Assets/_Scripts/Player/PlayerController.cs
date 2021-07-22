@@ -95,7 +95,7 @@ namespace Player
         // Update is called once per frame
         void Update()
         {
-            currentState.Update(this);
+            currentState.UpdateState(this);
         }
 
         private void FixedUpdate()
@@ -155,7 +155,7 @@ namespace Player
                     lastDirection = rotatedMovement;
                 }
                 Quaternion rotation = Quaternion.LookRotation(lastDirection, Vector3.up);
-                transform.rotation = rotation;
+                
                 //transform.LookAt(lastDirection);
 
                 //Gravity
