@@ -9,9 +9,15 @@ CapsuleCollider:
   m_GameObject: {fileID: 3181456207930029466}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
+<<<<<<< HEAD
   m_Enabled: 1
   m_Radius: 0.08
   m_Height: 0.28
+=======
+  m_Enabled: 0
+  m_Radius: 7.8384457
+  m_Height: 18.732721
+>>>>>>> LCR_Branch
   m_Direction: 1
   m_Center: {x: 0, y: 0.07, z: -0.02}
 --- !u!205 &614432686
@@ -116,7 +122,11 @@ PrefabInstance:
     - target: {fileID: 3451118302482216456, guid: 5a61b63fa12b48a49baf7b134bf47816,
         type: 3}
       propertyPath: m_Enabled
+<<<<<<< HEAD
       value: 1
+=======
+      value: 0
+>>>>>>> LCR_Branch
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5a61b63fa12b48a49baf7b134bf47816, type: 3}
