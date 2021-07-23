@@ -9,13 +9,13 @@ public class MobMob_Hurt : MobMobState
 
     public override void EnterState(MobMob mob)
     {
+        Debug.Log("Aïe je me suis fait taper");
         mob.animator.SetTrigger("Hurt");
         mob.hurtFx.SetActive(true);
     }
 
     public override void Update(MobMob mob)
     {
-        Debug.Log("Aïe je me suis fait taper");
         evaluateTime += Time.deltaTime;
         if (!stopKnockback) Knockback(mob);
 
