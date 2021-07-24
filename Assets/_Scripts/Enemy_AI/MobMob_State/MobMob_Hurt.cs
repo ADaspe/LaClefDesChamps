@@ -15,6 +15,7 @@ public class MobMob_Hurt : MobMobState
 
     public override void Update(MobMob mob)
     {
+        Debug.Log("Aïe je me suis fait taper");
         evaluateTime += Time.deltaTime;
         if (!stopKnockback) Knockback(mob);
 
@@ -25,7 +26,7 @@ public class MobMob_Hurt : MobMobState
             mob.animator.ResetTrigger("Hurt");
             mob.hurtFx.SetActive(false);
             mob.canHurt = true;
-            mob.TransitionToState(mob.IdleState);
+            mob.TransitionToState(mob.StunState);
         }
     }
 

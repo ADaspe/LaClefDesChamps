@@ -72,6 +72,9 @@ public class MobMob : MonoBehaviour
     public float knockbackTime = 0f;
     public float hurtTime = 0f;
     public float invincibilityTime = 0f;
+    public bool isStun;
+    public float timeToBeStunned;
+    public float timeToCancelStun;
     [HideInInspector] public Vector3 knockDirection;
     [HideInInspector] public bool canHurt = true;
 
@@ -99,6 +102,7 @@ public class MobMob : MonoBehaviour
     public MobMob_Idle IdleState = new MobMob_Idle();
     public MobMob_Chasing ChasingState = new MobMob_Chasing();
     public MobMob_Patrol PatrolState = new MobMob_Patrol();
+    public MobMob_Stun StunState = new MobMob_Stun();
     #endregion
 
 
@@ -109,8 +113,6 @@ public class MobMob : MonoBehaviour
     }
     void Start()
     {
-
-
         interest = new float[nbr_rays];
         danger = new float[nbr_rays];
         ray_dir = new Vector3[nbr_rays];
@@ -190,9 +192,8 @@ public class MobMob : MonoBehaviour
         characterController.Move(incomingDir);
     }
 
-    private void SetInterest()
+    /*private void SetInterest()
     {
-        /*
        
 
         //------IF PATROLLING----
@@ -206,12 +207,11 @@ public class MobMob : MonoBehaviour
         {
 
         }
-        */
-    }
 
+    }*/
 
     #region Damage Methods
-    private void Damage(int damageAmount, Vector3 damageSource)
+    private void Damage(int damageAmount, Vector3 damageSource, float stunTime = 0)
     {
         if (canHurt)
         {
@@ -220,9 +220,12 @@ public class MobMob : MonoBehaviour
             Vector3 knocbackDirection = (damageSource - transform.position) * -1;
             knocbackDirection = knocbackDirection.normalized;
             knockDirection = knocbackDirection;
-
+            if(stunTime != 0)
+            {
+                isStun = true;
+                timeToCancelStun = Time.time + stunTime;
+            }
             lifePoints -= damageAmount;
-
             canHurt = false;
             if(lifePoints <= 0)
             {
@@ -231,7 +234,10 @@ public class MobMob : MonoBehaviour
             else TransitionToState(new MobMob_Hurt());
         }
     }
-
+    private void ResetStun()
+    {
+        isStun = false;
+    }
     #endregion
 
     private void OnDestroy()
