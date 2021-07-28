@@ -24,6 +24,6 @@ EditorBuildSettings:
     path: "Assets/_Sc\xE8nes finales/ZONE4_DONJON.unity"
     guid: 9aa2097f380495b45ae1fdd8fb73b48d
   - enabled: 1
-    path: Assets/_Scenes/LCR_Scenes/LCR_Camera_Test_Scene.unity
+    path: Assets/_Scenes/LCR_Scenes/LCR_TerrainCamera_Test.unity
     guid: 2ed35395603040b4c8d5550a44e36604
   m_configObjects: {}
