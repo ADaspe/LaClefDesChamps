@@ -37,6 +37,7 @@ namespace Player
         private bool canMove = true;
 
         [Header("Attacks Settings")]
+        public AttackSettingsSO attackStats;
         public Transform attackPoint;
         public Vector3 attackDimension;
         public float attackDuration = 0f;
@@ -46,7 +47,9 @@ namespace Player
         public LayerMask enemyAttackLayer;
         public LayerMask enemyLayer;
         public LayerMask playerAttackLayer;
-        public bool attackDebug = true;
+        public bool attackDebug;
+        public int currentHitCombo = 1;
+        public float lastHitTime;
 
         [Header("Interractible Settings")]
         public LayerMask interractibleLayer;
@@ -59,7 +62,9 @@ namespace Player
         public float absorbOffset = 0.1f;
         //private event<Action> onInterract;
 
-
+        [Header("TestFX")]
+        public GameObject testFireFX;
+        public GameObject testAbsorbFX;
 
         [HideInInspector] public CharacterController playerController;
 
@@ -69,8 +74,9 @@ namespace Player
 
         #region PlayerStates
         private PlayerState currentState;
-        public Player_Idle IdleState = new Player_Idle();
-        public Player_Hurt HurtState = new Player_Hurt();
+        public Player_Idle IdleState;
+        public Player_Hurt HurtState;
+        public Player_Attack AttackState;
         //public Player_Grapple GrappleState = new Player_Grapple();
         #endregion
 
@@ -83,7 +89,10 @@ namespace Player
             interractibleLayer = LayerMask.GetMask("Interractible");
             attackTrail.SetActive(false);
             playerHealth = new HealthSystem(5);
-           
+            IdleState = new Player_Idle();
+            HurtState = new Player_Hurt();
+            AttackState = new Player_Attack();
+            
             //playerAnimator = gameObject.GetComponentInChildren<Animator>();
         }
 
@@ -91,8 +100,6 @@ namespace Player
         {
             TransitionToState(IdleState);
         }
-
-        // Update is called once per frame
         void Update()
         {
             currentState.UpdateState(this);
@@ -100,7 +107,7 @@ namespace Player
 
         private void FixedUpdate()
         {
-            currentState.FixedUpdate(this);
+            currentState.FixedUpdateState(this);
         }
 
         private void OnTriggerEnter(Collider c)
@@ -134,15 +141,14 @@ namespace Player
                 float z = Input.GetAxisRaw("Vertical");
 
                 Vector3 movement = new Vector3(x, 0, z).normalized;
-
                 
                 Vector3 rotatedMovement = Quaternion.Euler(0, mainCamera.transform.rotation.eulerAngles.y, 0) * movement;
-                if (movement.magnitude > 0.1)
+                
+                if (movement.magnitude >= 0.1)
                 {
                     lastDirection = rotatedMovement;
                     float blendTarget = 1f;
                     animator.SetFloat("Blend", Mathf.Lerp(animator.GetFloat("Blend"), blendTarget, animationBlend * Time.deltaTime));
-
                 }
                 else
                 {
@@ -150,13 +156,9 @@ namespace Player
                     animator.SetFloat("Blend", Mathf.Lerp(animator.GetFloat("Blend"), blendTarget, animationBlend * Time.deltaTime));
                 }
 
-                if (movement.magnitude > 0.1)
-                {
-                    lastDirection = rotatedMovement;
-                }
-                Quaternion rotation = Quaternion.LookRotation(lastDirection, Vector3.up);
+                //Debug.Log("Last Direction : " + lastDirection);
                 
-                //transform.LookAt(lastDirection);
+                transform.LookAt(transform.position + lastDirection);
 
                 //Gravity
                 if (applyGravity)
@@ -166,7 +168,7 @@ namespace Player
                         rotatedMovement += Physics.gravity;
                     }
                 }
-
+                
                 playerController.Move(rotatedMovement * Time.deltaTime * speed);
                 
             }
@@ -199,6 +201,20 @@ namespace Player
             playerHealth.Heal(healAmount);
         }
         #endregion
+
+
+        public IEnumerator FireCoroutine(PlayerController player)
+        {
+            yield return new WaitForSeconds(2);
+            player.testFireFX.SetActive(false);
+        }
+
+        public IEnumerator AbsorbCoroutine(PlayerController player)
+        {
+            yield return new WaitForSeconds(2);
+            player.testAbsorbFX.SetActive(false);
+        }
+
 
         private void OnDrawGizmosSelected()
         {
