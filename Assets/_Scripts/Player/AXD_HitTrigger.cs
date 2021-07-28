@@ -6,11 +6,11 @@ using UnityEngine;
 public class AXD_HitTrigger : MonoBehaviour
 {
     public PlayerController playerController;
-    public BoxCollider fistsCollider;
+    public BoxCollider AttackZoneTrigger;
 
     private void Start()
     {
-        fistsCollider = GetComponent<BoxCollider>();
+        AttackZoneTrigger = GetComponent<BoxCollider>();
     }
     private void OnTriggerEnter(Collider other)
     {
