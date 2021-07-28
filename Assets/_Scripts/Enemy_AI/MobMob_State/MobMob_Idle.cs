@@ -6,7 +6,7 @@ public class MobMob_Idle : MobMobState
 {
     public override void EnterState(MobMob mob)
     {
-        Debug.Log("[Mob Mob] Entering Idle State");
+        //Debug.Log("[Mob Mob] Entering Idle State");
         mob.animator.SetFloat("Blend", 0f);
     }
 

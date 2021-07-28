@@ -59,7 +59,7 @@ public class Player_Absorb : PlayerState
     }
 
     #region Unused Methods
-    public override void FixedUpdate(PlayerController player)
+    public override void FixedUpdateState(PlayerController player)
     {
 
     }
