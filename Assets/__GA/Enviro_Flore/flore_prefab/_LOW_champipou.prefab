@@ -116,7 +116,7 @@ GameObject:
   - component: {fileID: 3740611889674199999}
   - component: {fileID: 8432445500233923140}
   m_Layer: 0
-  m_Name: champipou
+  m_Name: _LOW_champipou
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -154,9 +154,7 @@ LODGroup:
   m_LODs:
   - screenRelativeHeight: 0.083015956
     fadeTransitionWidth: 0
-    renderers:
-    - renderer: {fileID: 0}
-    - renderer: {fileID: 0}
+    renderers: []
   - screenRelativeHeight: 0.058524244
     fadeTransitionWidth: 0
     renderers: []

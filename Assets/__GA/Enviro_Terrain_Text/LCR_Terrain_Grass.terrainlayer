@@ -6,11 +6,11 @@ TerrainLayer:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: _terrain_grasslayer
-  m_DiffuseTexture: {fileID: 2800000, guid: 02c391e3b8ae23c4fa665f7af2d97035, type: 3}
+  m_Name: LCR_Terrain_Grass
+  m_DiffuseTexture: {fileID: 2800000, guid: ca1e8028c0c7d884ca9322247c9479a7, type: 3}
   m_NormalMapTexture: {fileID: 0}
   m_MaskMapTexture: {fileID: 0}
-  m_TileSize: {x: 20, y: 20}
+  m_TileSize: {x: 12, y: 12}
   m_TileOffset: {x: 0, y: 0}
   m_Specular: {r: 0, g: 0, b: 0, a: 0}
   m_Metallic: 0

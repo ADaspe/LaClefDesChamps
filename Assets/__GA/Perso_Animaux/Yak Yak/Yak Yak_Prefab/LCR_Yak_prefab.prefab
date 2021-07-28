@@ -380,7 +380,7 @@ SkinnedMeshRenderer:
   m_Quality: 0
   m_UpdateWhenOffscreen: 0
   m_SkinnedMotionVectors: 1
-  m_Mesh: {fileID: 1768678677813623096, guid: 84d3ca9c05cec2a49b11b15e5bba1101, type: 3}
+  m_Mesh: {fileID: 1768678677813623096, guid: fe610995d0cca244bb9f555ad0525723, type: 3}
   m_Bones:
   - {fileID: 2700617405089106124}
   - {fileID: 4522500718836499241}
@@ -439,7 +439,7 @@ GameObject:
   - component: {fileID: 8080315198615208907}
   - component: {fileID: 8622619369896879138}
   m_Layer: 0
-  m_Name: LCR_Yak
+  m_Name: LCR_Yak_prefab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
