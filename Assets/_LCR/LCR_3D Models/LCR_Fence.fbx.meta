@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
+guid: c1af689aa5d2f5d44885242cf1bb241e
+=======
 guid: 217b77539c318404cab416357813ac92
+>>>>>>> LCR_Branch
 ModelImporter:
   serializedVersion: 19301
   internalIDToNameTable: []
