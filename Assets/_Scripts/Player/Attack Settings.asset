@@ -12,3 +12,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: de69fbc370b016e4ca57293493a3184f, type: 3}
   m_Name: Attack Settings
   m_EditorClassIdentifier: 
+  damageATK1: 0
+  stunTimeATK1: 1
+  MaxInputDelayATK1: 10
+  damageATK2: 0
+  stunTimeATK2: 2
+  MaxInputDelayATK2: 10
+  damageATK3: 0
+  stunTimeATK3: 3
+  MaxInputDelayATK3: 10
+  damageATK3Fire: 0
+  stunTimeATK3Fire: 0
+  MaxInputDelayATK3Fire: 0
+  damageATK3Frog: 0
+  stunTimeATK3Frog: 0
+  MaxInputDelayATK3Frog: 0
+  damageATK3Metal: 0
+  stunTimeATK3Metal: 0
+  MaxInputDelayATK3Metal: 0

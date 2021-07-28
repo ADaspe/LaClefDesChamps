@@ -23,7 +23,7 @@ public abstract class  AbsorbElement
         Debug.Log("[Absorb Element - On Absorb] Je viens de la classe de base");
     }
 
-    public  virtual void OnRelease(PlayerBook book)
+    public virtual void OnRelease(PlayerBook book)
     {
         Debug.Log("[Absorb Element - On Release] Je viens de la classe de base");
     }

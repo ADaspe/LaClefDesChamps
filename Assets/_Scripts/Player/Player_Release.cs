@@ -37,7 +37,7 @@ public class Player_Release : PlayerState
 
     }
 
-    public override void FixedUpdate(PlayerController player)
+    public override void FixedUpdateState(PlayerController player)
     {
 
     }

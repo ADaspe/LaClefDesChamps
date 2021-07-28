@@ -222,6 +222,7 @@ public class MobMob : MonoBehaviour
             knockDirection = knocbackDirection;
             if(stunTime != 0)
             {
+                timeToBeStunned = stunTime;
                 isStun = true;
                 timeToCancelStun = Time.time + stunTime;
             }
