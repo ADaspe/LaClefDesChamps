@@ -62,7 +62,9 @@ namespace Player
         public float absorbOffset = 0.1f;
         //private event<Action> onInterract;
 
-
+        [Header("TestFX")]
+        public GameObject testFireFX;
+        public GameObject testAbsorbFX;
 
         [HideInInspector] public CharacterController playerController;
 
@@ -90,7 +92,7 @@ namespace Player
             IdleState = new Player_Idle();
             HurtState = new Player_Hurt();
             AttackState = new Player_Attack();
-           
+            
             //playerAnimator = gameObject.GetComponentInChildren<Animator>();
         }
 
@@ -147,17 +149,16 @@ namespace Player
                     lastDirection = rotatedMovement;
                     float blendTarget = 1f;
                     animator.SetFloat("Blend", Mathf.Lerp(animator.GetFloat("Blend"), blendTarget, animationBlend * Time.deltaTime));
-
                 }
                 else
                 {
                     float blendTarget = 0f;
                     animator.SetFloat("Blend", Mathf.Lerp(animator.GetFloat("Blend"), blendTarget, animationBlend * Time.deltaTime));
                 }
+
                 //Debug.Log("Last Direction : " + lastDirection);
-                Quaternion rotation = Quaternion.LookRotation(lastDirection, Vector3.up);
                 
-                //transform.LookAt(lastDirection);
+                transform.LookAt(transform.position + lastDirection);
 
                 //Gravity
                 if (applyGravity)
@@ -167,7 +168,7 @@ namespace Player
                         rotatedMovement += Physics.gravity;
                     }
                 }
-
+                
                 playerController.Move(rotatedMovement * Time.deltaTime * speed);
                 
             }
@@ -200,6 +201,20 @@ namespace Player
             playerHealth.Heal(healAmount);
         }
         #endregion
+
+
+        public IEnumerator FireCoroutine(PlayerController player)
+        {
+            yield return new WaitForSeconds(2);
+            player.testFireFX.SetActive(false);
+        }
+
+        public IEnumerator AbsorbCoroutine(PlayerController player)
+        {
+            yield return new WaitForSeconds(2);
+            player.testAbsorbFX.SetActive(false);
+        }
+
 
         private void OnDrawGizmosSelected()
         {
