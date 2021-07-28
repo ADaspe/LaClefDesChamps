@@ -7,7 +7,7 @@ public class MobMob_Chasing : MobMobState
 
     public override void EnterState(MobMob mob)
     {
-        Debug.Log("[Mob Mob] Entering Chasing State");
+        //Debug.Log("[Mob Mob] Entering Chasing State");
         mob.animator.SetFloat("Blend", 1f);
     }
 

@@ -51,9 +51,24 @@ public class Player_Idle : PlayerState
             }
                 
         }
+
+        if (Input.GetButtonDown("TestFire"))
+        {
+            Debug.Log("Glouglou");
+            player.testFireFX.SetActive(true);
+            player.StartCoroutine("FireCoroutine", player);
+        }
+
+        if (Input.GetButtonDown("TestAbsorb"))
+        {
+            Debug.Log("Glagla");
+            player.testAbsorbFX.SetActive(true);
+            player.StartCoroutine("AbsorbCoroutine", player);
+        }
     }
 
-    public override void FixedUpdate(PlayerController player)
+    
+    public override void FixedUpdateState(PlayerController player)
     {
         
     }
