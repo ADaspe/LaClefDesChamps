@@ -12,9 +12,9 @@ Material:
     type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
+  m_EnableInstancingVariants: 1
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
+  m_CustomRenderQueue: 3000
   stringTagMap: {}
   disabledShaderPasses: []
   m_SavedProperties:
@@ -55,7 +55,7 @@ Material:
     - Vector1_91DA202: 20
     - Vector1_9D692848: 0.2
     - Vector1_B562801E: 4
-    - Vector1_D4E5A01: 32.16
+    - Vector1_D4E5A01: 7.9
     - Vector1_E00AE6EB: 0.01
     - _AlphaClip: 0
     - _Blend: 0
