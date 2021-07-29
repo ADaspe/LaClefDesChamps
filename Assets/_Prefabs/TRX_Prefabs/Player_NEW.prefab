@@ -2260,7 +2260,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerController: {fileID: 4558224477980250681}
-  fistsCollider: {fileID: 5211676297165756468}
+  AttackZoneTrigger: {fileID: 0}
 --- !u!65 &5211676297165756468
 BoxCollider:
   m_ObjectHideFlags: 0
