@@ -124,7 +124,7 @@ public class Player_Grapple : PlayerState
     }
 
     #region UnusedMethods
-    public override void FixedUpdate(PlayerController player)
+    public override void FixedUpdateState(PlayerController player)
     {
        
     }

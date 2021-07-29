@@ -7,7 +7,7 @@ public abstract class PlayerState
 
     public abstract void UpdateState(PlayerController player);
 
-    public abstract void FixedUpdate(PlayerController player);
+    public abstract void FixedUpdateState(PlayerController player);
 
     public abstract void OnTriggerEnter(PlayerController player, Collider collider);
 
