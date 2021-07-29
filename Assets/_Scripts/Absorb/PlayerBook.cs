@@ -7,7 +7,6 @@ public class PlayerBook : MonoBehaviour
 {
     
     [SerializeField] private AbsorbUI ui = null;
-    [SerializeField] private float safeExit = 25f;
 
     [Header("Fire Settings")]
     [SerializeField] public GameObject firePrefab;
@@ -28,8 +27,8 @@ public class PlayerBook : MonoBehaviour
     public float arrowLifetime = 8f;
     public float arrowforce = 5f;
     public float fadeOutTime = 0.8f;
-
     private AbsorbElement currentElement;
+
 
     private void Start()
     {
@@ -41,16 +40,15 @@ public class PlayerBook : MonoBehaviour
     {
         currentElement = element;
         print("[Player Book : Set Element] " + currentElement);
-
-        ui.SetIcon(currentElement);
+        //Remettre cette ligne quand on aura l'UI
+        //ui.SetIcon(currentElement);
         currentElement.OnAbsorb(this);
-        StartCoroutine(SupprCurrentElement(safeExit));
     }
 
     public void ReleaseElement()
     {
         currentElement.OnRelease(this);
-        ui.NoIcon();
+        //ui.NoIcon();
         currentElement = null;
     }
 

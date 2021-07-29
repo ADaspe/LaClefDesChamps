@@ -25,6 +25,13 @@ namespace Player
         public PlayerBook book;
         public float absorbDuration;
         public bool absorbDebug = true;
+        public GameObject AbsorbPoint;
+        [Header("Absorb Debug")]
+        public float AbsorbRangeWidth;
+        public float AbsorbRangeHeight;
+        public float AbsorbRangeDepth;
+        public LayerMask DetectedLayers;
+
 
         [Header("Hurt Settings")]
         public AnimationCurve knockbackCurve;
