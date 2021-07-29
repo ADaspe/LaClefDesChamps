@@ -2509,6 +2509,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: _LOW_feu_exp
       objectReference: {fileID: 0}
+    - target: {fileID: 7444548202781782856, guid: 147c88438a9adaa42adc473afae1868e,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7444548202781782857, guid: 147c88438a9adaa42adc473afae1868e,
         type: 3}
       propertyPath: m_LocalPosition.x
