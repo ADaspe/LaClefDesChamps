@@ -30,7 +30,7 @@ Transform:
   - {fileID: 6544010813417892930}
   - {fileID: 3002695727616978883}
   m_Father: {fileID: 4558224477980250676}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &708500069362136890
 GameObject:
@@ -1089,7 +1089,7 @@ Transform:
   - {fileID: 2072414915919047011}
   - {fileID: 872164592469932705}
   m_Father: {fileID: 4558224477980250676}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!95 &4127844462072238345
 Animator:
@@ -1246,6 +1246,7 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1.4, y: 1.4, z: 1.4}
   m_Children:
+  - {fileID: 7000233459152719290}
   - {fileID: 3603684577078496178}
   - {fileID: 5818438073757345672}
   - {fileID: 4189970644813137285}
@@ -1292,6 +1293,13 @@ MonoBehaviour:
   book: {fileID: 872164592116722687}
   absorbDuration: 0.8
   absorbDebug: 0
+  AbsorbPoint: {fileID: 7271283824057341837}
+  AbsorbRangeWidth: 7.5
+  AbsorbRangeHeight: 7.5
+  AbsorbRangeDepth: 15
+  DetectedLayers:
+    serializedVersion: 2
+    m_Bits: 8192
   knockbackCurve:
     serializedVersion: 2
     m_Curve:
@@ -1372,7 +1380,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ui: {fileID: 0}
-  safeExit: 30
   firePrefab: {fileID: 8814769591557556034, guid: 811c420a024fc404c9f3dd3b9e3527c5,
     type: 3}
   grappleRope: {fileID: 872164592469932718}
@@ -1843,6 +1850,36 @@ Transform:
   m_Father: {fileID: 8287173876531690124}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &7271283824057341837
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7000233459152719290}
+  m_Layer: 8
+  m_Name: Absorb point
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7000233459152719290
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7271283824057341837}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 5, z: 15}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4558224477980250676}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &7359140544279486313
 GameObject:
   m_ObjectHideFlags: 0
@@ -2260,7 +2297,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerController: {fileID: 4558224477980250681}
-  fistsCollider: {fileID: 5211676297165756468}
+  AttackZoneTrigger: {fileID: 0}
 --- !u!65 &5211676297165756468
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2798,7 +2835,7 @@ PrefabInstance:
     - target: {fileID: 7889527442553111994, guid: 907d2370b068e2e40ae45be70e33158f,
         type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7889527442553111994, guid: 907d2370b068e2e40ae45be70e33158f,
         type: 3}
