@@ -59,7 +59,7 @@ SkinnedMeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: bfaa4dedd0d96b943a2e45aeb6161130, type: 2}
+  - {fileID: 2100000, guid: ea5f1dc5d1e42be4484c0df32484d7fe, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -89,8 +89,8 @@ SkinnedMeshRenderer:
   m_BlendShapeWeights: []
   m_RootBone: {fileID: 0}
   m_AABB:
-    m_Center: {x: -1.0436172, y: 22.906397, z: -6.1677947}
-    m_Extent: {x: 6.71838, y: 5.096716, z: 4.1976743}
+    m_Center: {x: -0.5218086, y: 11.453198, z: -3.0838974}
+    m_Extent: {x: 3.35919, y: 2.548358, z: 2.0988371}
   m_DirtyAABB: 0
 --- !u!183 &7018124854141690980
 Cloth:
@@ -193,7 +193,7 @@ SkinnedMeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: bfaa4dedd0d96b943a2e45aeb6161130, type: 2}
+  - {fileID: 2100000, guid: ea5f1dc5d1e42be4484c0df32484d7fe, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -223,8 +223,8 @@ SkinnedMeshRenderer:
   m_BlendShapeWeights: []
   m_RootBone: {fileID: 0}
   m_AABB:
-    m_Center: {x: 9.067121, y: 12.202884, z: -6.2151613}
-    m_Extent: {x: 6.21012, y: 1.3853502, z: 3.9215336}
+    m_Center: {x: 4.5335603, y: 6.101442, z: -3.1075807}
+    m_Extent: {x: 3.10506, y: 0.6926751, z: 1.9607668}
   m_DirtyAABB: 0
 --- !u!183 &865438119722100008
 Cloth:
@@ -327,7 +327,7 @@ SkinnedMeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: bfaa4dedd0d96b943a2e45aeb6161130, type: 2}
+  - {fileID: 2100000, guid: ea5f1dc5d1e42be4484c0df32484d7fe, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -357,8 +357,8 @@ SkinnedMeshRenderer:
   m_BlendShapeWeights: []
   m_RootBone: {fileID: 0}
   m_AABB:
-    m_Center: {x: 1.4419613, y: 25.481953, z: -3.880817}
-    m_Extent: {x: 5.7728558, y: 4.196705, z: 4.6443744}
+    m_Center: {x: 0.72098064, y: 12.740976, z: -1.9404085}
+    m_Extent: {x: 2.8864279, y: 2.0983524, z: 2.3221872}
   m_DirtyAABB: 0
 --- !u!183 &523183455387282332
 Cloth:
@@ -461,7 +461,7 @@ SkinnedMeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: bfaa4dedd0d96b943a2e45aeb6161130, type: 2}
+  - {fileID: 2100000, guid: ea5f1dc5d1e42be4484c0df32484d7fe, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -491,8 +491,8 @@ SkinnedMeshRenderer:
   m_BlendShapeWeights: []
   m_RootBone: {fileID: 0}
   m_AABB:
-    m_Center: {x: -2.8249006, y: 25.481953, z: 6.3691974}
-    m_Extent: {x: 3.912527, y: 4.196705, z: 6.0298457}
+    m_Center: {x: -1.4124503, y: 12.740976, z: 3.1845987}
+    m_Extent: {x: 1.9562635, y: 2.0983524, z: 3.0149229}
   m_DirtyAABB: 0
 --- !u!183 &4936250150385504134
 Cloth:
@@ -595,7 +595,7 @@ SkinnedMeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: bfaa4dedd0d96b943a2e45aeb6161130, type: 2}
+  - {fileID: 2100000, guid: ea5f1dc5d1e42be4484c0df32484d7fe, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -625,8 +625,8 @@ SkinnedMeshRenderer:
   m_BlendShapeWeights: []
   m_RootBone: {fileID: 0}
   m_AABB:
-    m_Center: {x: 4.6533523, y: 22.88774, z: -2.9674988}
-    m_Extent: {x: 2.5729232, y: 3.89505, z: 6.0692453}
+    m_Center: {x: 2.3266761, y: 11.44387, z: -1.4837494}
+    m_Extent: {x: 1.2864616, y: 1.947525, z: 3.0346227}
   m_DirtyAABB: 0
 --- !u!183 &3665356196091567942
 Cloth:
@@ -729,7 +729,7 @@ SkinnedMeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: bfaa4dedd0d96b943a2e45aeb6161130, type: 2}
+  - {fileID: 2100000, guid: ea5f1dc5d1e42be4484c0df32484d7fe, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -759,8 +759,8 @@ SkinnedMeshRenderer:
   m_BlendShapeWeights: []
   m_RootBone: {fileID: 0}
   m_AABB:
-    m_Center: {x: 4.3355255, y: 25.61346, z: 0.03412962}
-    m_Extent: {x: 3.4112682, y: 4.117712, z: 5.3714137}
+    m_Center: {x: 2.1677628, y: 12.80673, z: 0.01706481}
+    m_Extent: {x: 1.7056341, y: 2.058856, z: 2.6857069}
   m_DirtyAABB: 0
 --- !u!183 &3723111369558614638
 Cloth:
@@ -863,7 +863,7 @@ SkinnedMeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: bfaa4dedd0d96b943a2e45aeb6161130, type: 2}
+  - {fileID: 2100000, guid: ea5f1dc5d1e42be4484c0df32484d7fe, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -893,8 +893,8 @@ SkinnedMeshRenderer:
   m_BlendShapeWeights: []
   m_RootBone: {fileID: 0}
   m_AABB:
-    m_Center: {x: 3.582316, y: 29.484886, z: -2.5169744}
-    m_Extent: {x: 6.445831, y: 4.1967087, z: 4.374691}
+    m_Center: {x: 1.791158, y: 14.742443, z: -1.2584872}
+    m_Extent: {x: 3.2229154, y: 2.0983543, z: 2.1873455}
   m_DirtyAABB: 0
 --- !u!183 &4871138023597833972
 Cloth:
@@ -997,7 +997,7 @@ SkinnedMeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: bfaa4dedd0d96b943a2e45aeb6161130, type: 2}
+  - {fileID: 2100000, guid: ea5f1dc5d1e42be4484c0df32484d7fe, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1027,8 +1027,8 @@ SkinnedMeshRenderer:
   m_BlendShapeWeights: []
   m_RootBone: {fileID: 0}
   m_AABB:
-    m_Center: {x: -6.7797127, y: 25.126713, z: -1.9602418}
-    m_Extent: {x: 5.990465, y: 4.1967087, z: 4.536153}
+    m_Center: {x: -3.3898563, y: 12.563356, z: -0.9801209}
+    m_Extent: {x: 2.9952326, y: 2.0983543, z: 2.2680764}
   m_DirtyAABB: 0
 --- !u!183 &4034561379705914164
 Cloth:
@@ -1131,7 +1131,7 @@ SkinnedMeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: bfaa4dedd0d96b943a2e45aeb6161130, type: 2}
+  - {fileID: 2100000, guid: ea5f1dc5d1e42be4484c0df32484d7fe, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1161,8 +1161,8 @@ SkinnedMeshRenderer:
   m_BlendShapeWeights: []
   m_RootBone: {fileID: 0}
   m_AABB:
-    m_Center: {x: -2.3722157, y: 29.484886, z: -2.060689}
-    m_Extent: {x: 5.0683403, y: 4.1967087, z: 4.8992815}
+    m_Center: {x: -1.1861079, y: 14.742443, z: -1.0303445}
+    m_Extent: {x: 2.5341702, y: 2.0983543, z: 2.4496408}
   m_DirtyAABB: 0
 --- !u!183 &2414645406256832622
 Cloth:
@@ -1265,7 +1265,7 @@ SkinnedMeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: bfaa4dedd0d96b943a2e45aeb6161130, type: 2}
+  - {fileID: 2100000, guid: ea5f1dc5d1e42be4484c0df32484d7fe, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1295,8 +1295,8 @@ SkinnedMeshRenderer:
   m_BlendShapeWeights: []
   m_RootBone: {fileID: 0}
   m_AABB:
-    m_Center: {x: 2.779832, y: 28.82893, z: 1.6123285}
-    m_Extent: {x: 6.031831, y: 3.5270233, z: 5.130894}
+    m_Center: {x: 1.389916, y: 14.414465, z: 0.80616426}
+    m_Extent: {x: 3.0159154, y: 1.7635117, z: 2.565447}
   m_DirtyAABB: 0
 --- !u!183 &2259018802502303072
 Cloth:
@@ -1446,7 +1446,7 @@ SkinnedMeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: bfaa4dedd0d96b943a2e45aeb6161130, type: 2}
+  - {fileID: 2100000, guid: ea5f1dc5d1e42be4484c0df32484d7fe, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1476,8 +1476,8 @@ SkinnedMeshRenderer:
   m_BlendShapeWeights: []
   m_RootBone: {fileID: 0}
   m_AABB:
-    m_Center: {x: 4.3355265, y: 25.61346, z: 0.034128666}
-    m_Extent: {x: 3.4112692, y: 4.117712, z: 5.3714156}
+    m_Center: {x: 2.1677632, y: 12.80673, z: 0.017064333}
+    m_Extent: {x: 1.7056346, y: 2.058856, z: 2.6857078}
   m_DirtyAABB: 0
 --- !u!183 &3668064787722442428
 Cloth:
@@ -1580,7 +1580,7 @@ SkinnedMeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: bfaa4dedd0d96b943a2e45aeb6161130, type: 2}
+  - {fileID: 2100000, guid: ea5f1dc5d1e42be4484c0df32484d7fe, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1610,8 +1610,8 @@ SkinnedMeshRenderer:
   m_BlendShapeWeights: []
   m_RootBone: {fileID: 0}
   m_AABB:
-    m_Center: {x: -2.3676822, y: 29.733562, z: 3.1420436}
-    m_Extent: {x: 3.7007287, y: 3.9480324, z: 5.939471}
+    m_Center: {x: -1.1838411, y: 14.866781, z: 1.5710218}
+    m_Extent: {x: 1.8503643, y: 1.9740162, z: 2.9697354}
   m_DirtyAABB: 0
 --- !u!183 &3265256907534717219
 Cloth:
@@ -1714,7 +1714,7 @@ SkinnedMeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: bfaa4dedd0d96b943a2e45aeb6161130, type: 2}
+  - {fileID: 2100000, guid: ea5f1dc5d1e42be4484c0df32484d7fe, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1744,8 +1744,8 @@ SkinnedMeshRenderer:
   m_BlendShapeWeights: []
   m_RootBone: {fileID: 0}
   m_AABB:
-    m_Center: {x: 2.5416527, y: 29.484886, z: -2.516974}
-    m_Extent: {x: 4.573319, y: 4.1967087, z: 4.374693}
+    m_Center: {x: 1.2708263, y: 14.742443, z: -1.258487}
+    m_Extent: {x: 2.2866595, y: 2.0983543, z: 2.1873465}
   m_DirtyAABB: 0
 --- !u!183 &784089004554558235
 Cloth:
