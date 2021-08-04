@@ -5,6 +5,9 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "Attack Settings", menuName = "Scriptable Objects/Attack Settings", order = 1)]
 public class AttackSettingsSO : ScriptableObject
 {
+    [Header("Global Settings")]
+    public int GlobalChargeNumber;
+
     [Header("Attack 1")]
     public int damageATK1;
     public float stunTimeATK1;
@@ -25,20 +28,25 @@ public class AttackSettingsSO : ScriptableObject
     public int damageATK3Fire;
     public float stunTimeATK3Fire;
     public float MaxInputDelayATK3Fire;
+    public int MaxChargeFire;
 
     [Header("Attack 3 Frog")]
 
-    public int damageATK3Frog;
+    public float frogTimeATK3;
     public float stunTimeATK3Frog;
     public float MaxInputDelayATK3Frog;
+    public int MaxChargeFrog;
 
     [Header("Attack 3 Metal")]
 
-    public int damageATK3Metal;
-    public float stunTimeATK3Metal;
+    public float damageReductionATK3Metal;
     public float MaxInputDelayATK3Metal;
+    public int MaxChargeMetal;
 
+    [Header("Attack 3 Firefly")]
 
-
+    public float stunTimeATK3Firefly;
+    public float MaxInputDelayATK3Firefly;
+    public int MaxChargeFirefly;
 
 }
