@@ -79,6 +79,12 @@ public class MobMob : MonoBehaviour
     [HideInInspector] public Vector3 knockDirection;
     [HideInInspector] public bool canHurt = true;
 
+    [Header("Fire DoT settings")]
+    public bool isOnFire;
+    public float timeToEndFire;
+    public int damagePerTick;
+    public float tickPerSecond;
+
     [Header("FX")]
     public GameObject hurtFx;
     public GameObject deathFX;
@@ -239,6 +245,28 @@ public class MobMob : MonoBehaviour
             else TransitionToState(new MobMob_Hurt());
         }
     }
+
+    public void SetOnFire(int damagePerTick, float time, float frequency)
+    {
+        StopCoroutine(FireCoroutine());
+        isOnFire = true;
+        this.damagePerTick = damagePerTick;
+        timeToEndFire = Time.time + time;
+        tickPerSecond = frequency;
+        StartCoroutine(FireCoroutine());
+
+    }
+
+    IEnumerator FireCoroutine()
+    {
+        Damage(damagePerTick, transform.position);
+        while (Time.time < timeToEndFire)
+        {
+            yield return new WaitForSeconds(1/tickPerSecond);
+        }
+        isOnFire = false;
+    }
+
     private void ResetStun()
     {
         isStun = false;

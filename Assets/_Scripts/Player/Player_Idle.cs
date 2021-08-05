@@ -32,7 +32,6 @@ public class Player_Idle : PlayerState
             }
         }
         
-
         if(Input.GetButtonDown("Fire3"))
         {
             //Check if smthg is inside the book
@@ -50,6 +49,30 @@ public class Player_Idle : PlayerState
                     player.TransitionToState(new Player_Release());
             }
                 
+        }
+
+        if (Input.GetButtonDown("UseElement"))
+        {
+            if(player.book.currentElement != null && player.currentHitCombo == 2)
+            {
+                if(player.book.currentElement.GetType() == typeof(FireElement))
+                {
+                    //cône de feu pour mettre du DoT
+                }
+                else if (player.book.currentElement.GetType() == typeof(FrogElement))
+                {
+                    //Créer une tourelle grenouille
+                }
+                else if (player.book.currentElement.GetType() == typeof(MetalElement))
+                {
+                    //Augmenter les résistances
+                }
+                //Ajouter l'éléménet des lucioles
+                /*else if (player.book.currentElement.GetType() == typeof(FireElement))
+                {
+
+                }*/
+            }
         }
 
         if (Input.GetButtonDown("TestFire"))
