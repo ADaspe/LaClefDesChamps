@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 5091908230698894510}
   - component: {fileID: 2542180624242564664}
   - component: {fileID: 1259903172861237170}
+  - component: {fileID: 3596399669691576031}
   m_Layer: 0
   m_Name: feuille_long-eau
   m_TagString: Untagged
@@ -58,7 +59,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 670224309865224971, guid: c1c36622e7ac0694095452d3e3a31202, type: 3}
+  - {fileID: 2100000, guid: 7f036f06b993998469eee5c7c9385477, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -79,6 +80,31 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!205 &3596399669691576031
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3158238832881233295}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: -0.17870986, y: -0.0030836165, z: -0.20932627}
+  m_Size: 3.052246
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.008764251
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 1259903172861237170}
+  - screenRelativeHeight: 0.0005622802
+    fadeTransitionWidth: 0
+    renderers: []
+  - screenRelativeHeight: 0
+    fadeTransitionWidth: 0
+    renderers: []
+  m_Enabled: 1
 --- !u!1 &3441791964524914370
 GameObject:
   m_ObjectHideFlags: 0
@@ -90,6 +116,7 @@ GameObject:
   - component: {fileID: 4606482052324021889}
   - component: {fileID: 3234382576605780072}
   - component: {fileID: 7107946771970931691}
+  - component: {fileID: 726923126929170864}
   m_Layer: 0
   m_Name: Line005
   m_TagString: Untagged
@@ -137,7 +164,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 670224309865224971, guid: c1c36622e7ac0694095452d3e3a31202, type: 3}
+  - {fileID: 2100000, guid: 7f036f06b993998469eee5c7c9385477, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -158,6 +185,31 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!205 &726923126929170864
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3441791964524914370}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: -0.26534963, y: -0.0030225813, z: -0.1037972}
+  m_Size: 3.2633615
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.013060523
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 7107946771970931691}
+  - screenRelativeHeight: 0
+    fadeTransitionWidth: 0
+    renderers: []
+  - screenRelativeHeight: 0
+    fadeTransitionWidth: 0
+    renderers: []
+  m_Enabled: 1
 --- !u!1 &3928893552725354754
 GameObject:
   m_ObjectHideFlags: 0
@@ -167,8 +219,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4453474481938379704}
+  - component: {fileID: 6205546064123788748}
   m_Layer: 0
-  m_Name: feuille_eau
+  m_Name: LCR_TallGrass
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -182,7 +235,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3928893552725354754}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 245.32399, y: 7.947324, z: 313.8099}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 5091908230698894510}
@@ -191,6 +244,31 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!205 &6205546064123788748
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3928893552725354754}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: -4.4900627, y: 1.5262176, z: 1.373245}
+  m_Size: 3.0522459
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.017059961
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 1259903172861237170}
+  - screenRelativeHeight: 0.0025151307
+    fadeTransitionWidth: 0
+    renderers: []
+  - screenRelativeHeight: 0
+    fadeTransitionWidth: 0
+    renderers: []
+  m_Enabled: 1
 --- !u!1 &4413367440851987378
 GameObject:
   m_ObjectHideFlags: 0
@@ -202,6 +280,7 @@ GameObject:
   - component: {fileID: 1521956122541605459}
   - component: {fileID: 7334217404208986668}
   - component: {fileID: 8559522332980654904}
+  - component: {fileID: 7799348481324997155}
   m_Layer: 0
   m_Name: feuille_long_eau_2
   m_TagString: Untagged
@@ -249,7 +328,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 670224309865224971, guid: c1c36622e7ac0694095452d3e3a31202, type: 3}
+  - {fileID: 2100000, guid: 7f036f06b993998469eee5c7c9385477, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -270,3 +349,28 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!205 &7799348481324997155
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4413367440851987378}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: -0.41576946, y: -0.0030836165, z: 0.282804}
+  m_Size: 4.036861
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.0046398314
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 8559522332980654904}
+  - screenRelativeHeight: 0
+    fadeTransitionWidth: 0
+    renderers: []
+  - screenRelativeHeight: 0
+    fadeTransitionWidth: 0
+    renderers: []
+  m_Enabled: 1
