@@ -316,6 +316,11 @@ PrefabInstance:
       propertyPath: attackDebug
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4236575802023795219, guid: 51314a7ae056ed64086726e90b2009cc,
+        type: 3}
+      propertyPath: stateDebug
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4236575802023795220, guid: 51314a7ae056ed64086726e90b2009cc,
         type: 3}
       propertyPath: m_Name

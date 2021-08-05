@@ -23,6 +23,7 @@ public class MobMob : MonoBehaviour
     public float awareRadius = 1f;
     public float nearPlayerRadius = 1f;
     public float chaseBackMargin = 2f;
+    public Transform target;
 
     /*
     [Space(10f)]
@@ -98,6 +99,7 @@ public class MobMob : MonoBehaviour
     #endregion
 
     #region MobMob State
+    public bool stateDebug;
     private MobMobState currentState;
     public MobMob_Idle IdleState = new MobMob_Idle();
     public MobMob_Chasing ChasingState = new MobMob_Chasing();
@@ -149,12 +151,14 @@ public class MobMob : MonoBehaviour
         currentState.Update(this);
     }
 
-    public void LookAtTarget(Transform target)
+    public void LookAtTarget(Vector3 target)
     {
-        Vector3 lookPos = target.position - transform.position;
+
+        Vector3 lookPos = target - transform.position;
         lookPos.y = 0;
         var rotation = Quaternion.LookRotation(lookPos);
         transform.rotation = Quaternion.Slerp(transform.rotation, rotation, Time.deltaTime * 3f);
+        
     }
 
     public bool DetectPlayer(float radius)
