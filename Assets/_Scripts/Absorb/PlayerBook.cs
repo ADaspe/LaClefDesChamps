@@ -27,7 +27,7 @@ public class PlayerBook : MonoBehaviour
     public float arrowLifetime = 8f;
     public float arrowforce = 5f;
     public float fadeOutTime = 0.8f;
-    private AbsorbElement currentElement;
+    public AbsorbElement currentElement;
 
 
     private void Start()
