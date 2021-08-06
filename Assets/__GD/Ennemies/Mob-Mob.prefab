@@ -612,9 +612,10 @@ MonoBehaviour:
   speed: 1.8
   animationBlend: 2
   nbr_rays: 16
-  awareRadius: 20
+  awareRadius: 60
   nearPlayerRadius: 10
   chaseBackMargin: 3
+  target: {fileID: 0}
   minAngle: 30
   maxAngle: 70
   reevaluateTime: 1
@@ -687,6 +688,9 @@ MonoBehaviour:
   knockbackTime: 0.22
   hurtTime: 0.55
   invincibilityTime: 0.2
+  isStun: 0
+  timeToBeStunned: 0
+  timeToCancelStun: 0
   knockDirection: {x: 0, y: 0, z: 0}
   canHurt: 0
   hurtFx: {fileID: 3491457544489075339}
@@ -698,6 +702,7 @@ MonoBehaviour:
   danger: []
   ray_dir: []
   velocity: {x: 0, y: 0, z: 0}
+  stateDebug: 0
 --- !u!114 &4236575802023795218
 MonoBehaviour:
   m_ObjectHideFlags: 0

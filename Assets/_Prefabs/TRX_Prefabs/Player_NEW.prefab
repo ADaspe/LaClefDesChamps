@@ -2240,7 +2240,7 @@ PrefabInstance:
     - target: {fileID: 7444548202781782856, guid: 147c88438a9adaa42adc473afae1868e,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7444548202781782857, guid: 147c88438a9adaa42adc473afae1868e,
         type: 3}
@@ -2371,6 +2371,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: _LOW_absorption rework_2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8121267445594647631, guid: 345f0b3cf02780d4b915f4b33012cdd8,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 345f0b3cf02780d4b915f4b33012cdd8, type: 3}
