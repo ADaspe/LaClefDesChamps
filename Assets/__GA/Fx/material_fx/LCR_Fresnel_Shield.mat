@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: LCR_Fresnel_Shield
-  m_Shader: {fileID: -6465566751694194690, guid: 55cf87f90cc33d84c8334bbdbf64a310,
+  m_Shader: {fileID: -6465566751694194690, guid: ca4dc3c908c3a1045830e27c85ad8ff1,
     type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
@@ -25,7 +25,8 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - Alpha: 0.187
-    - Fresnel_Power: 2.07
+    - Alpha: 0.3
+    - Fresnel_Power: 3.09
+    - Vector1_2278410E: 0.46
     m_Colors:
-    - Color_37F642ED: {r: 1.513726, g: 0.7215686, b: 0.1568628, a: 0}
+    - Color_37F642ED: {r: 6.9213276, g: 9.938316, b: 33.89676, a: 1}
