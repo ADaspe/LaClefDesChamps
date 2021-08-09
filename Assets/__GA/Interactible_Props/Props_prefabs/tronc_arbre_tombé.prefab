@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 6717991414994095626}
   - component: {fileID: 8854057973258402496}
   - component: {fileID: 4826362084954968140}
-  - component: {fileID: 7862857724938856003}
+  - component: {fileID: 2517745230770068800}
   m_Layer: 0
   m_Name: "tronc_arbre_tomb\xE9"
   m_TagString: Untagged
@@ -89,22 +89,35 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7052376023822211861}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 4
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -951608786083511892, guid: cd4c29c996c9d7044a32590cc8726fda, type: 3}
---- !u!65 &7862857724938856003
-BoxCollider:
+--- !u!114 &2517745230770068800
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7052376023822211861}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 8.215025, y: 7.0151052, z: 29.827862}
-  m_Center: {x: -5.589193, y: 0.0056850025, z: 9.108133}
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5afe8952485a152488fd6e4d1b8b5596, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  OnSetFire:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 7052376023822211861}
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
