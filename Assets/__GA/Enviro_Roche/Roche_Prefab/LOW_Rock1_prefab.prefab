@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &8095357441872365668
+--- !u!1 &5756570435214674999
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,46 +8,47 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 8868621341812478686}
-  - component: {fileID: 5529425877363940731}
-  - component: {fileID: 7735073939213363633}
-  - component: {fileID: 4531550104032162383}
+  - component: {fileID: 4947383287343273613}
+  - component: {fileID: 8288727188921112872}
+  - component: {fileID: 6116889122781212130}
+  - component: {fileID: 4341744630901593311}
+  - component: {fileID: 5997431364644485370}
   m_Layer: 0
-  m_Name: LCR_Rock_Cliff_prefab
+  m_Name: LCR_Rock1_prefab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &8868621341812478686
+--- !u!4 &4947383287343273613
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8095357441872365668}
-  m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
+  m_GameObject: {fileID: 5756570435214674999}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 200, y: 200, z: 200}
+  m_LocalScale: {x: 5, y: 5, z: 5}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
---- !u!33 &5529425877363940731
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &8288727188921112872
 MeshFilter:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8095357441872365668}
-  m_Mesh: {fileID: -6128337317733245834, guid: 1e82215286892cf4e82e8eac2e87bad6, type: 3}
---- !u!23 &7735073939213363633
+  m_GameObject: {fileID: 5756570435214674999}
+  m_Mesh: {fileID: -4288654420741486315, guid: 757fbfe442cd6664d9eb6100956ac9a9, type: 3}
+--- !u!23 &6116889122781212130
 MeshRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8095357441872365668}
+  m_GameObject: {fileID: 5756570435214674999}
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -59,7 +60,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: c0db3e3f6b4112c469abdd91c7000e40, type: 2}
+  - {fileID: 2100000, guid: 64dacaed22ae93041834f6db3abd5074, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -80,17 +81,42 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!64 &4531550104032162383
-MeshCollider:
+--- !u!136 &4341744630901593311
+CapsuleCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8095357441872365668}
+  m_GameObject: {fileID: 5756570435214674999}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -6128337317733245834, guid: 1e82215286892cf4e82e8eac2e87bad6, type: 3}
+  m_Radius: 0.8
+  m_Height: 10
+  m_Direction: 1
+  m_Center: {x: -0.00089931116, y: 0.18511616, z: 0.009417035}
+--- !u!205 &5997431364644485370
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5756570435214674999}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: -0.008993149, y: 1.8511615, z: 0.09417033}
+  m_Size: 3.702323
+  m_FadeMode: 0
+  m_AnimateCrossFading: 1
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.03500849
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 6116889122781212130}
+  - screenRelativeHeight: 0.015774932
+    fadeTransitionWidth: 0
+    renderers: []
+  - screenRelativeHeight: 0.0071651908
+    fadeTransitionWidth: 0
+    renderers: []
+  m_Enabled: 1
