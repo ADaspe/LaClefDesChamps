@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 5498822085523970815}
   - component: {fileID: 7264265609311473388}
   m_Layer: 0
-  m_Name: Object022
+  m_Name: Bouton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -25,9 +25,9 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1573520089972743955}
-  m_LocalRotation: {x: 0.00000005088522, y: 0.7071067, z: -0.00000005088521, w: 0.7071068}
-  m_LocalPosition: {x: -2.02, y: 0, z: 0}
-  m_LocalScale: {x: 0.883406, y: 0.883406, z: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -1.14}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 7749928771035615326}
   m_RootOrder: 1
@@ -58,7 +58,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 3cdd86f898b8b9343a7170af82eaed9c, type: 2}
+  - {fileID: 2100000, guid: acfb71e85c6443649ad8ebf49b22b45c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -91,7 +91,7 @@ GameObject:
   - component: {fileID: 1062721058084753624}
   - component: {fileID: 1018901353229039139}
   m_Layer: 0
-  m_Name: Box099
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -104,7 +104,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1973530609556824362}
-  m_LocalRotation: {x: 0.000000015454312, y: 0.7071067, z: -0.000000015454308, w: 0.7071068}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -137,7 +137,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: ea924b3454c59014d95aaed28617cc4a, type: 2}
+  - {fileID: 2100000, guid: acfb71e85c6443649ad8ebf49b22b45c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -168,7 +168,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7749928771035615326}
   - component: {fileID: 2849676219826748944}
-  - component: {fileID: 2849676219826748945}
+  - component: {fileID: 2386732548084509485}
   m_Layer: 0
   m_Name: LCR_Bouton_Poussoir
   m_TagString: Metal
@@ -183,9 +183,9 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6973427668680706788}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -82.01742, y: 35.86445, z: 56.516216}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1.2, y: 1.2, z: 1.2}
   m_Children:
   - {fileID: 7679530621309597058}
   - {fileID: 4300219403951294055}
@@ -218,7 +218,7 @@ MonoBehaviour:
           m_StringArgument: Activate
           m_BoolArgument: 0
         m_CallState: 2
---- !u!65 &2849676219826748945
+--- !u!65 &2386732548084509485
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -229,5 +229,5 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 4.698372, y: 11.192444, z: 11.614176}
-  m_Center: {x: -0.011539459, y: 0.381752, z: -0.044813156}
+  m_Size: {x: 6.6806183, y: 5.792881, z: 2.1778412}
+  m_Center: {x: 0.14852905, y: 0.45095634, z: 0.5889206}
