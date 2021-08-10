@@ -126,8 +126,8 @@ MonoBehaviour:
   active: 1
   m_AdvancedMode: 0
   mode:
-    m_OverrideState: 0
-    m_Value: 0
+    m_OverrideState: 1
+    m_Value: 1
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -148,6 +148,7 @@ MonoBehaviour:
   - {fileID: 6092038227441061877}
   - {fileID: -4631618243654487823}
   - {fileID: -2459775236576531003}
+  - {fileID: -816340392454828340}
 --- !u!114 &3410761628466785980
 MonoBehaviour:
   m_ObjectHideFlags: 3
