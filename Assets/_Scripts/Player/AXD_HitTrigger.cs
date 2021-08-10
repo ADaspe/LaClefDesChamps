@@ -1,32 +1,33 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using Player;
 using UnityEngine;
 
 public class AXD_HitTrigger : MonoBehaviour
 {
-    public GameObject PlayerObject;
-    public BoxCollider fistsCollider;
-    public Player_Attack playerAttack;
+    public PlayerController playerController;
+    public BoxCollider AttackZoneTrigger;
 
     private void Start()
     {
-        fistsCollider = GetComponent<BoxCollider>();
+        AttackZoneTrigger = GetComponent<BoxCollider>();
     }
     private void OnTriggerEnter(Collider other)
     {
+        //Debug.Log("J'ai tapé " + other.gameObject.name+" et son layer est "+ LayerMask.LayerToName(other.gameObject.layer));
         if(other.gameObject.layer == LayerMask.NameToLayer("Enemy") )
         {
-            if(playerAttack.currentHitCombo == 1)
+            if(playerController.currentHitCombo == 1)
             {
-                other.GetComponent<Enemy_Core>().InvokeDamage(playerAttack.attackStats.damageATK1, PlayerObject.transform.position, playerAttack.attackStats.stunTimeATK1);
+                other.GetComponent<Enemy_Core>().InvokeDamage(playerController.attackStats.damageATK1, playerController.transform.position, playerController.attackStats.stunTimeATK1);
             }
-            else if (playerAttack.currentHitCombo == 2)
+            else if (playerController.currentHitCombo == 2)
             {
-                other.GetComponent<Enemy_Core>().InvokeDamage(playerAttack.attackStats.damageATK2, PlayerObject.transform.position, playerAttack.attackStats.stunTimeATK2);
+                other.GetComponent<Enemy_Core>().InvokeDamage(playerController.attackStats.damageATK2, playerController.transform.position, playerController.attackStats.stunTimeATK2);
             }
-            else if (playerAttack.currentHitCombo == 3)
+            else if (playerController.currentHitCombo == 3)
             {
-                other.GetComponent<Enemy_Core>().InvokeDamage(playerAttack.attackStats.damageATK3, PlayerObject.transform.position, playerAttack.attackStats.stunTimeATK3);
+                other.GetComponent<Enemy_Core>().InvokeDamage(playerController.attackStats.damageATK3, playerController.transform.position, playerController.attackStats.stunTimeATK3);
             }
                 
         }

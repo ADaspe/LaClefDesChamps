@@ -12,7 +12,10 @@ public class MobMob_Patrol : MobMobState
     private float attackTreshold = 2f;
     public override void EnterState(MobMob mob)
     {
-        Debug.Log("[Mob Mob] Entering Patrol State");
+        if (mob.stateDebug)
+        {
+            Debug.Log("[Mob Mob] Entering Patrol State");
+        }
         attackRate = 0f;
         attackTreshold = 0f;
 
@@ -22,7 +25,7 @@ public class MobMob_Patrol : MobMobState
 
     public override void Update(MobMob mob)
     {
-        mob.LookAtTarget(mob.player.transform);
+        mob.LookAtTarget(mob.player.transform.position);
         if (!hasTarget) mob.StartCoroutine(SetInterest(mob));
 
         //Steer in the direction of the target;
@@ -58,14 +61,14 @@ public class MobMob_Patrol : MobMobState
     private void EvaluateAttackTreshold(MobMob mob)
     {  
         attackTreshold = Random.Range(mob.minAttackTreshold,mob.maxAttackTreshold);
-        Debug.Log("[Mob Patrol] Evaluate Attack Treshold = " + attackTreshold);
+        //Debug.Log("[Mob Patrol] Evaluate Attack Treshold = " + attackTreshold);
     }
     private IEnumerator IncreaseAttackProbability(float timeStep, float rateStep)
     {
         while (attackTreshold > attackRate)
         {
             attackRate += rateStep;
-            Debug.Log("[Mob Patrol] Increase Attack Probability = " + attackRate);
+            //Debug.Log("[Mob Patrol] Increase Attack Probability = " + attackRate);
             yield return new WaitForSeconds(timeStep);
         }
     }

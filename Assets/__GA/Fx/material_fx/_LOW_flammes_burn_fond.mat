@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: _LOW_flammes_burn_fond
+  m_Shader: {fileID: -6465566751694194690, guid: 5277e28f5527c8540ad6d426d4a6e839,
+    type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - Texture2D_D71A6828:
+        m_Texture: {fileID: 2800000, guid: 141a4a0073c987144b4a8d15b56ac9d6, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_A5373A4_Texture_1:
+        m_Texture: {fileID: 2800000, guid: 3f563f8abebe4f44a959810584ea3ca0, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture2DAsset_A0F7B3C_Out_0:
+        m_Texture: {fileID: 2800000, guid: 9b1a09331dccbd845bea98bde5a383da, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture2DAsset_FFB7EC75_Out_0:
+        m_Texture: {fileID: 2800000, guid: 8f69244f76f005e40b8ab39bb852381f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - Vector1_152DBB3B: 1.5
+    - Vector1_26407797: 0
+    - Vector1_5C51E65E: 1
+    - Vector1_974E399C: 14.1
+    - Vector1_9F998F35: 2.12
+    - Vector1_FC84D7AB: 1
+    m_Colors:
+    - Color_23D3C691: {r: 0, g: 0, b: 0, a: 0}
+    - Color_CC8DC6F2: {r: 1.5686275, g: 0.47843137, b: 0.05490196, a: 0}
+    - Color_F57C57D3: {r: 4.768628, g: 1.1294118, b: 0.18823525, a: 1}
+    - Vector2_CE8889BC: {r: 1, g: 1, b: 0, a: 0}

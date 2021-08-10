@@ -7,7 +7,10 @@ public class MobMob_Chasing : MobMobState
 
     public override void EnterState(MobMob mob)
     {
-        Debug.Log("[Mob Mob] Entering Chasing State");
+        if (mob.stateDebug)
+        {
+            Debug.Log("[Mob Mob] Entering Chasing State");
+        }
         mob.animator.SetFloat("Blend", 1f);
     }
 
@@ -15,7 +18,6 @@ public class MobMob_Chasing : MobMobState
     {
         Vector3 acc = SetInterest(mob);
         mob.Steer(acc);
-        
         if (mob.DetectPlayer(mob.nearPlayerRadius)) mob.TransitionToState(mob.PatrolState);
         if(!mob.DetectPlayer(mob.awareRadius * 1.2f)) mob.TransitionToState(mob.IdleState);
 

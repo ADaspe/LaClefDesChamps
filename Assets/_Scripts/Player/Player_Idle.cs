@@ -32,7 +32,6 @@ public class Player_Idle : PlayerState
             }
         }
         
-
         if(Input.GetButtonDown("Fire3"))
         {
             //Check if smthg is inside the book
@@ -51,9 +50,60 @@ public class Player_Idle : PlayerState
             }
                 
         }
+
+        if (Input.GetButtonDown("UseElement"))
+        {
+            if(player.book.currentElement != null && player.currentHitCombo == 2)
+            {
+                if(player.book.currentElement.GetType() == typeof(FireElement))
+                {
+                    //cône de feu pour mettre du DoT
+                }
+                else if (player.book.currentElement.GetType() == typeof(FrogElement))
+                {
+                    //Créer une tourelle grenouille
+                }
+                else if (player.book.currentElement.GetType() == typeof(MetalElement))
+                {
+                    //Augmenter les résistances
+                }
+                //Ajouter l'éléménet des lucioles
+                /*else if (player.book.currentElement.GetType() == typeof(FireElement))
+                {
+
+                }*/
+            }
+        }
+
+        if (Input.GetButtonDown("TestFire"))
+        {
+            Debug.Log("Test Fire");
+            player.testFireFX.SetActive(true);
+            player.StartCoroutine("FireCoroutine", player);
+        }
+
+        if (Input.GetButtonDown("TestAbsorb"))
+        {
+            Debug.Log("Test Absorb");
+            player.testAbsorbFX.SetActive(true);
+            player.StartCoroutine("AbsorbCoroutine", player);
+        }
+        if (Input.GetButtonDown("TestHeal"))
+        {
+            Debug.Log("Test Heal");
+            player.testHealFX.SetActive(true);
+            player.StartCoroutine("HealCoroutine", player);
+        }
+        if (Input.GetButtonDown("TestShield"))
+        {
+            Debug.Log("Test Shield");
+            player.testShieldFX.SetActive(true);
+            player.StartCoroutine("ShieldCoroutine", player);
+        }
     }
 
-    public override void FixedUpdate(PlayerController player)
+    
+    public override void FixedUpdateState(PlayerController player)
     {
         
     }

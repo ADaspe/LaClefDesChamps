@@ -23,6 +23,7 @@ public class MobMob : MonoBehaviour
     public float awareRadius = 1f;
     public float nearPlayerRadius = 1f;
     public float chaseBackMargin = 2f;
+    public Transform target;
 
     /*
     [Space(10f)]
@@ -78,6 +79,12 @@ public class MobMob : MonoBehaviour
     [HideInInspector] public Vector3 knockDirection;
     [HideInInspector] public bool canHurt = true;
 
+    [Header("Fire DoT settings")]
+    public bool isOnFire;
+    public float timeToEndFire;
+    public int damagePerTick;
+    public float tickPerSecond;
+
     [Header("FX")]
     public GameObject hurtFx;
     public GameObject deathFX;
@@ -98,6 +105,7 @@ public class MobMob : MonoBehaviour
     #endregion
 
     #region MobMob State
+    public bool stateDebug;
     private MobMobState currentState;
     public MobMob_Idle IdleState = new MobMob_Idle();
     public MobMob_Chasing ChasingState = new MobMob_Chasing();
@@ -149,12 +157,14 @@ public class MobMob : MonoBehaviour
         currentState.Update(this);
     }
 
-    public void LookAtTarget(Transform target)
+    public void LookAtTarget(Vector3 target)
     {
-        Vector3 lookPos = target.position - transform.position;
+
+        Vector3 lookPos = target - transform.position;
         lookPos.y = 0;
         var rotation = Quaternion.LookRotation(lookPos);
         transform.rotation = Quaternion.Slerp(transform.rotation, rotation, Time.deltaTime * 3f);
+        
     }
 
     public bool DetectPlayer(float radius)
@@ -222,6 +232,7 @@ public class MobMob : MonoBehaviour
             knockDirection = knocbackDirection;
             if(stunTime != 0)
             {
+                timeToBeStunned = stunTime;
                 isStun = true;
                 timeToCancelStun = Time.time + stunTime;
             }
@@ -234,6 +245,28 @@ public class MobMob : MonoBehaviour
             else TransitionToState(new MobMob_Hurt());
         }
     }
+
+    public void SetOnFire(int damagePerTick, float time, float frequency)
+    {
+        StopCoroutine(FireCoroutine());
+        isOnFire = true;
+        this.damagePerTick = damagePerTick;
+        timeToEndFire = Time.time + time;
+        tickPerSecond = frequency;
+        StartCoroutine(FireCoroutine());
+
+    }
+
+    IEnumerator FireCoroutine()
+    {
+        Damage(damagePerTick, transform.position);
+        while (Time.time < timeToEndFire)
+        {
+            yield return new WaitForSeconds(1/tickPerSecond);
+        }
+        isOnFire = false;
+    }
+
     private void ResetStun()
     {
         isStun = false;
