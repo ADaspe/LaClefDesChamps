@@ -26,4 +26,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/_Scenes/LCR_Scenes/LCR_TerrainCamera_Test.unity
     guid: 2ed35395603040b4c8d5550a44e36604
+  - enabled: 0
+    path: Assets/LOW/LOW_scenes/LOW_zone1_blockmesh 1.unity
+    guid: 2b2831322f3320c449f07b6ac762da89
   m_configObjects: {}
