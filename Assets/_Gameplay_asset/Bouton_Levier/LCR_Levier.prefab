@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 4054506104309558798}
   - component: {fileID: 6321045089933736454}
   m_Layer: 0
-  m_Name: levier_pivot_fix
+  m_Name: LCR_Levier
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
