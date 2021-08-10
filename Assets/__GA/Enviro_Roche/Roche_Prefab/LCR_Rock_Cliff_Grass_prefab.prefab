@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 302294762185917267}
   - component: {fileID: 2581970192885970841}
   - component: {fileID: 2673590668553191193}
+  - component: {fileID: 1185047213207894284}
   m_Layer: 0
   m_Name: LCR_Rock_Cliff_Grass_prefab
   m_TagString: Untagged
@@ -89,7 +90,21 @@ BoxCollider:
   m_GameObject: {fileID: 4095456812956046924}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
-  m_Size: {x: 0.4440887, y: 0.7396739, z: 0.452666}
-  m_Center: {x: 0.018189399, y: -0.095707625, z: 0.22371255}
+  m_Size: {x: 0.4440887, y: 0.724123, z: 0.45266604}
+  m_Center: {x: 0.018189391, y: -0.10348305, z: 0.22371253}
+--- !u!64 &1185047213207894284
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4095456812956046924}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -6128337317733245834, guid: 1e82215286892cf4e82e8eac2e87bad6, type: 3}

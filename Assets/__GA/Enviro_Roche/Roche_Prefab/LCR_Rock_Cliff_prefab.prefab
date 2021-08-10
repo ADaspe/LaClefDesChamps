@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 8868621341812478686}
   - component: {fileID: 5529425877363940731}
   - component: {fileID: 7735073939213363633}
-  - component: {fileID: 3890382401565484025}
+  - component: {fileID: 4531550104032162383}
   m_Layer: 0
   m_Name: LCR_Rock_Cliff_prefab
   m_TagString: Untagged
@@ -80,8 +80,8 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!65 &3890382401565484025
-BoxCollider:
+--- !u!64 &4531550104032162383
+MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -90,6 +90,7 @@ BoxCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.44408876, y: 0.7396737, z: 0.45266595}
-  m_Center: {x: 0.018189568, y: -0.095707595, z: 0.2237125}
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -6128337317733245834, guid: 1e82215286892cf4e82e8eac2e87bad6, type: 3}
