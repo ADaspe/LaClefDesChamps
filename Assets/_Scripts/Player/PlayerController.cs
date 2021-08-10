@@ -72,6 +72,8 @@ namespace Player
         [Header("TestFX")]
         public GameObject testFireFX;
         public GameObject testAbsorbFX;
+        public GameObject testHealFX;
+        public GameObject testShieldFX;
 
         [HideInInspector] public CharacterController playerController;
 
@@ -220,6 +222,16 @@ namespace Player
         {
             yield return new WaitForSeconds(2);
             player.testAbsorbFX.SetActive(false);
+        }
+        public IEnumerator HealCoroutine(PlayerController player)
+        {
+            yield return new WaitForSeconds(5);
+            player.testHealFX.SetActive(false);
+        }
+        public IEnumerator ShieldCoroutine(PlayerController player)
+        {
+            yield return new WaitForSeconds(5);
+            player.testShieldFX.SetActive(false);
         }
 
 
