@@ -26,7 +26,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - Alpha: 0
-    - Fresnel_Power: 3.44
+    - Fresnel_Power: 5.5
     - Vector1_2278410E: 0.05
     m_Colors:
     - Color_37F642ED: {r: 1, g: 1, b: 1, a: 1}
