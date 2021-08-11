@@ -29,4 +29,4 @@ Material:
     - Fresnel_Power: 3.44
     - Vector1_2278410E: 0.05
     m_Colors:
-    - Color_37F642ED: {r: 0, g: 3.4415908, b: 3.4415908, a: 0.21960784}
+    - Color_37F642ED: {r: 1, g: 1, b: 1, a: 1}
