@@ -277,9 +277,9 @@ public class MobMob : MonoBehaviour
     IEnumerator FireCoroutine()
     {
         igniteFX.SetActive(true);
-        Damage(damagePerTick, transform.position);
         while (Time.time < timeToEndFire)
         {
+            Damage(damagePerTick, transform.position);
             yield return new WaitForSeconds(1/tickPerSecond);
         }
         isOnFire = false;

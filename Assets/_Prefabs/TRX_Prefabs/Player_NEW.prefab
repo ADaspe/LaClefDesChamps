@@ -951,6 +951,9 @@ MonoBehaviour:
   playerAttackLayer:
     serializedVersion: 2
     m_Bits: 512
+  burnLayers:
+    serializedVersion: 2
+    m_Bits: 9216
   attackDebug: 1
   currentHitCombo: 1
   lastHitTime: 0

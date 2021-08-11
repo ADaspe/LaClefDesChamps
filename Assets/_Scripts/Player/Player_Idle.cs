@@ -57,14 +57,17 @@ public class Player_Idle : PlayerState
             {
                 if(player.book.currentElement.GetType() == typeof(FireElement))
                 {
+                    //Animation
                     //cône de feu pour mettre du DoT
                 }
                 else if (player.book.currentElement.GetType() == typeof(FrogElement))
                 {
-                    //Créer une tourelle grenouille
+                    //Animation
+                    //Grab l'ennemi le plus loin dans la range et le rapprocher
                 }
                 else if (player.book.currentElement.GetType() == typeof(MetalElement))
                 {
+                    //Animation
                     //Augmenter les résistances
                 }
                 //Ajouter l'éléménet des lucioles
@@ -100,7 +103,13 @@ public class Player_Idle : PlayerState
             player.testShieldFX.SetActive(true);
             player.StartCoroutine("ShieldCoroutine", player);
         }
+        if (Input.GetButtonDown("TestClastCone"))
+        {
+            Debug.Log("Blastcone");
+            player.BlastCone();
+        }
     }
+
 
     
     public override void FixedUpdateState(PlayerController player)
