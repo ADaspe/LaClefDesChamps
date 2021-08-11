@@ -10,7 +10,7 @@ public class DialogBehavior : PlayableBehaviour
 {
     public string text;
     public string name;
-    public float typingSpeed;
+    /*public float typingSpeed;*/
 
     [HideInInspector] public DialogManager dialogManager;
 
@@ -25,7 +25,7 @@ public class DialogBehavior : PlayableBehaviour
 
     public override void OnBehaviourPlay(Playable playable, FrameData info)
     {
-        dialogManager.SetText(text, name, typingSpeed);
+        dialogManager.SetText(text, name/*, typingSpeed*/);
     }
 
     public override void OnGraphStop(Playable playable)

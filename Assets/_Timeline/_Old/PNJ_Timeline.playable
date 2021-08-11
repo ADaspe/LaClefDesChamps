@@ -15,6 +15,7 @@ MonoBehaviour:
   template:
     text: WOaW Such Technology
     name: PNJ_1
+    typingSpeed: 0
     dialogManager: {fileID: 0}
   dialogManager:
     exposedName: dfcce96fa067e864b894499d69a1112b
@@ -359,6 +360,7 @@ MonoBehaviour:
   template:
     text: I am voiceless, such amazingness
     name: PNJ_2
+    typingSpeed: 0
     dialogManager: {fileID: 0}
   dialogManager:
     exposedName: b78266628b12e76488dafd406c815a9e
