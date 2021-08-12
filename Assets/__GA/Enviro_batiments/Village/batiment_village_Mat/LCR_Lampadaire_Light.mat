@@ -7,15 +7,15 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: _Water_StylizedWater alt
-  m_Shader: {fileID: -6465566751694194690, guid: 99f985b0d31d4a64c94801e2dedc4a5a,
-    type: 3}
-  m_ShaderKeywords: 
-  m_LightmapFlags: 4
+  m_Name: LCR_Lampadaire_Light
+  m_Shader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
+  m_ShaderKeywords: _EMISSION
+  m_LightmapFlags: 2
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
+  m_CustomRenderQueue: 2050
+  stringTagMap:
+    RenderType: Opaque
   disabledShaderPasses: []
   m_SavedProperties:
     serializedVersion: 3
@@ -49,14 +49,6 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - Vector1_42763EB4: 5.92
-    - Vector1_46B79E82: 1.6
-    - Vector1_7B73FA5D: 1.02
-    - Vector1_91DA202: 60.16
-    - Vector1_9D692848: 0.23
-    - Vector1_B562801E: 3
-    - Vector1_D4E5A01: 32.16
-    - Vector1_E00AE6EB: 0.102
     - _AlphaClip: 0
     - _Blend: 0
     - _BumpScale: 1
@@ -79,14 +71,11 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - Color_31FB67E2: {r: 0.855558, g: 0.8651685, b: 0.894, a: 0.8352941}
-    - Color_954B1251: {r: 0.047591202, g: 0, b: 0.6415094, a: 0.6431373}
-    - Color_CBA81E6F: {r: 0.1764706, g: 0.5529412, b: 0.5568628, a: 0.7372549}
-    - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
+    - _BaseColor: {r: 0.9716981, g: 0.7813554, b: 0.45376468, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _SpecColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
---- !u!114 &5813980584421259038
+    - _EmissionColor: {r: 3.4415908, g: 0.20838733, b: 0, a: 1}
+    - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
+--- !u!114 &7118587645944600843
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
