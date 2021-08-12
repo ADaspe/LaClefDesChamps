@@ -13,10 +13,10 @@ public class DialogManager : Singleton<DialogManager>
         //dialogUI.DisplayText("Bridging Cinematic and Gameplay...", "Toinon");
     }
 
-    public void SetText(string text, string name, float typingSpeed)
+    public void SetText(string text, string name/*, float typingSpeed*/)
     {
         dialogUI.ToggleDialogPanel(true);
-        dialogUI.DisplayText(text, name, typingSpeed);
+        dialogUI.DisplayText(text, name/*, typingSpeed*/);
 
     }
 
