@@ -693,6 +693,10 @@ MonoBehaviour:
   timeToCancelStun: 0
   knockDirection: {x: 0, y: 0, z: 0}
   canHurt: 0
+  isOnFire: 0
+  timeToEndFire: 0
+  damagePerTick: 0
+  tickPerSecond: 0
   hurtFx: {fileID: 3491457544489075339}
   deathFX: {fileID: 6831719975881704263}
   lifePoints: 5
