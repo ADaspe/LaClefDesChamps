@@ -24,7 +24,7 @@ public class DialogUI : MonoBehaviour
         //allPanels = GameObject.Find("Pannels");
     }
 
-    public void DisplayText(string text, string name, float typingSpeed)
+    public void DisplayText(string text, string name/*, float typingSpeed*/)
     {
         
         ResetText();
@@ -32,12 +32,23 @@ public class DialogUI : MonoBehaviour
         currentName = name;
 
         targetText = text;
-        StartCoroutine(Typing(typingSpeed));
+        //StartCoroutine(Typing(/*typingSpeed*/));
+
+        isTyping = true;
+
+        for (int i = 0; i < targetText.Length; i++)
+        {
+            nextLetter = targetText.Substring(i, 1);
+            currentText = currentText + nextLetter;
+            textPanel.text = currentText;
+        }
+
+        EndingDialogue();
 
         ToggleDialogPanel(true);
     }
 
-    private IEnumerator Typing(float typingSpeed)
+    /*private IEnumerator Typing(/*float typingSpeed)
     {
         isTyping = true;
 
@@ -46,13 +57,13 @@ public class DialogUI : MonoBehaviour
             nextLetter = targetText.Substring(i, 1);
             currentText = currentText + nextLetter;
             textPanel.text = currentText;
-            yield return new WaitForSeconds(typingSpeed);
+            yield return new WaitForSeconds(0.1f);
  
         }
 
         EndingDialogue();
 
-    }
+    }*/
 
     private void EndingDialogue()
     {
