@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: material_portal
-  m_Shader: {fileID: -6465566751694194690, guid: bf839b72ca701a846b900cf35cc6c563,
+  m_Name: _LOW_portail_closing_fx
+  m_Shader: {fileID: -6465566751694194690, guid: 777b343ab32e39341b4f95f5c464280b,
     type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
@@ -26,6 +26,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - Vector1_2DDBDA90: 22.53
+    - Vector1_BD0ABA76: -0.65
     - Vector1_BDA43063: 2
     - Vector1_C91845A8: 0.25
     - Vector1_F8667531: 3
