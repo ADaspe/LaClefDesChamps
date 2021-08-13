@@ -10,9 +10,11 @@ GameObject:
   m_Component:
   - component: {fileID: 625913359938150945}
   - component: {fileID: 7547332673550659698}
+  - component: {fileID: 8337379357263194029}
+  - component: {fileID: 6924373535386743593}
   m_Layer: 0
   m_Name: LCR_Poire_prefab
-  m_TagString: Untagged
+  m_TagString: Pear
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -51,6 +53,33 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!135 &8337379357263194029
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4104367265383958596}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 15
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &6924373535386743593
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4104367265383958596}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a58ecd746558fb54d9ab88659b2cac5a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 0
+  accelerationFactor: 0
 --- !u!1001 &657686020583141574
 PrefabInstance:
   m_ObjectHideFlags: 0

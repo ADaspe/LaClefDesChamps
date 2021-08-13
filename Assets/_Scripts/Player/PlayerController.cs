@@ -63,6 +63,10 @@ namespace Player
         public LayerMask interractibleLayer;
         public float interractionRange = 4f;
 
+        [Header("Collectibles")]
+        public int pears;
+        public int seeds;
+
         [Header("Fx")]
         public GameObject attackTrail;
         public float attackTrailOffset = 0.2f;
@@ -227,6 +231,16 @@ namespace Player
                 }
             }
 
+        }
+
+        public void AddPear(int number = 1)
+        {
+            pears += number;
+        }
+
+        public void AddSeed(int number = 1)
+        {
+            seeds += number;
         }
         #endregion
 
