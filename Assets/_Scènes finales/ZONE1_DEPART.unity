@@ -4157,88 +4157,6 @@ MonoBehaviour:
         m_Calls: []
   m_LegacyBlendHint: 0
   m_ComponentOwner: {fileID: 817314277}
-<<<<<<< HEAD
---- !u!1001 &467164633
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 131394161}
-    m_Modifications:
-    - target: {fileID: 7411913888661207253, guid: 2d0d717099da6b84bbb6b3efd0043d02,
-        type: 3}
-      propertyPath: m_Name
-      value: mur_invisible (29)
-      objectReference: {fileID: 0}
-    - target: {fileID: 7411913888661207254, guid: 2d0d717099da6b84bbb6b3efd0043d02,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 146.1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7411913888661207254, guid: 2d0d717099da6b84bbb6b3efd0043d02,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 218.6
-      objectReference: {fileID: 0}
-    - target: {fileID: 7411913888661207254, guid: 2d0d717099da6b84bbb6b3efd0043d02,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 195
-      objectReference: {fileID: 0}
-    - target: {fileID: 7411913888661207254, guid: 2d0d717099da6b84bbb6b3efd0043d02,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7411913888661207254, guid: 2d0d717099da6b84bbb6b3efd0043d02,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0.8549489
-      objectReference: {fileID: 0}
-    - target: {fileID: 7411913888661207254, guid: 2d0d717099da6b84bbb6b3efd0043d02,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7411913888661207254, guid: 2d0d717099da6b84bbb6b3efd0043d02,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.5187123
-      objectReference: {fileID: 0}
-    - target: {fileID: 7411913888661207254, guid: 2d0d717099da6b84bbb6b3efd0043d02,
-        type: 3}
-      propertyPath: m_LocalScale.x
-      value: 60.024265
-      objectReference: {fileID: 0}
-    - target: {fileID: 7411913888661207254, guid: 2d0d717099da6b84bbb6b3efd0043d02,
-        type: 3}
-      propertyPath: m_LocalScale.y
-      value: 45.0196
-      objectReference: {fileID: 0}
-    - target: {fileID: 7411913888661207254, guid: 2d0d717099da6b84bbb6b3efd0043d02,
-        type: 3}
-      propertyPath: m_LocalScale.z
-      value: 4.9282007
-      objectReference: {fileID: 0}
-    - target: {fileID: 7411913888661207254, guid: 2d0d717099da6b84bbb6b3efd0043d02,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 29
-      objectReference: {fileID: 0}
-    - target: {fileID: 7411913888661207254, guid: 2d0d717099da6b84bbb6b3efd0043d02,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 117.508
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 2d0d717099da6b84bbb6b3efd0043d02, type: 3}
---- !u!4 &467164634 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 7411913888661207254, guid: 2d0d717099da6b84bbb6b3efd0043d02,
-    type: 3}
-  m_PrefabInstance: {fileID: 467164633}
-  m_PrefabAsset: {fileID: 0}
-=======
 --- !u!1 &424456670
 GameObject:
   m_ObjectHideFlags: 3
@@ -4348,7 +4266,6 @@ Transform:
   m_Father: {fileID: 647106823}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
->>>>>>> Sylvain
 --- !u!1001 &494281224
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14812,11 +14729,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1602542244}
-<<<<<<< HEAD
-  m_LocalRotation: {x: 0.2078851, y: 0.4535934, z: -0.109689824, w: 0.859654}
-=======
   m_LocalRotation: {x: 0.20788513, y: 0.45359343, z: -0.10968985, w: 0.859654}
->>>>>>> Sylvain
   m_LocalPosition: {x: -56.68, y: 31, z: -42.45}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -15529,11 +15442,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD
-  m_Name: pb_Mesh65544
-=======
   m_Name: pb_Mesh19420
->>>>>>> Sylvain
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
