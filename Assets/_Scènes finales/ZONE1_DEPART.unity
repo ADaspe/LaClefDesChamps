@@ -1342,7 +1342,6 @@ Transform:
   - {fileID: 669500135}
   - {fileID: 96819565}
   - {fileID: 2003351985}
-  - {fileID: 467164634}
   - {fileID: 1739423717}
   - {fileID: 887281614}
   - {fileID: 503609459}
@@ -14123,7 +14122,7 @@ PlayableDirector:
   m_Enabled: 1
   serializedVersion: 3
   m_PlayableAsset: {fileID: 11400000, guid: 848ae552b2719d542bb62365bf60158b, type: 2}
-  m_InitialState: 1
+  m_InitialState: 0
   m_WrapMode: 2
   m_DirectorUpdateMode: 1
   m_InitialTime: 0
@@ -14729,7 +14728,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1602542244}
-  m_LocalRotation: {x: 0.20788513, y: 0.45359343, z: -0.10968985, w: 0.859654}
+  m_LocalRotation: {x: 0.20788512, y: 0.4535934, z: -0.10968983, w: 0.859654}
   m_LocalPosition: {x: -56.68, y: 31, z: -42.45}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -23723,7 +23722,7 @@ SphereCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2059544865}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Radius: 16.359722
@@ -24151,7 +24150,7 @@ SphereCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2104026508}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Radius: 16.359722
