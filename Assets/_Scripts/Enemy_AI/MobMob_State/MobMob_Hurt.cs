@@ -9,7 +9,7 @@ public class MobMob_Hurt : MobMobState
 
     public override void EnterState(MobMob mob)
     {
-        Debug.Log("Aïe je me suis fait taper");
+        //Debug.Log("Aïe je me suis fait taper");
         mob.animator.SetTrigger("Hurt");
         mob.hurtFx.SetActive(true);
     }
