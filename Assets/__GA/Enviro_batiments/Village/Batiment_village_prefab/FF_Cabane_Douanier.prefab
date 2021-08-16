@@ -313,6 +313,7 @@ GameObject:
   - component: {fileID: 8750894565409464495}
   - component: {fileID: 1802157777504691911}
   - component: {fileID: 7401744512612889379}
+  - component: {fileID: 816453829022524226}
   m_Layer: 0
   m_Name: douane
   m_TagString: Untagged
@@ -381,6 +382,19 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!65 &816453829022524226
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5653324247456178846}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 29.928177, y: 27.850298, z: 33.38392}
+  m_Center: {x: -2.019495, y: 0, z: 16.691631}
 --- !u!1 &6784654521473727774
 GameObject:
   m_ObjectHideFlags: 0
