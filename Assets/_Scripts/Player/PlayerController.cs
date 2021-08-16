@@ -79,6 +79,7 @@ namespace Player
         public GameObject testAbsorbFX;
         public GameObject testHealFX;
         public GameObject testShieldFX;
+        public GameObject testFireBlastConeFX;
 
         [HideInInspector] public CharacterController playerController;
 
@@ -219,6 +220,7 @@ namespace Player
         {
             Collider[] detectedBurnable = Physics.OverlapSphere(book.gameObject.transform.position, attackStats.maxDistanceDetectionATK3Fire, burnLayers);
             Debug.Log("J'ai détecté " + detectedBurnable.Length + " items.");
+            StartCoroutine(BlastConeCoroutine(this));
             foreach (Collider detectedItem in detectedBurnable)
             {
                 //Si le machin détecté est à moins de maxAngleDetectionATK3Fire° => s'il est dans le cône de feu
@@ -265,6 +267,13 @@ namespace Player
         {
             yield return new WaitForSeconds(5);
             player.testShieldFX.SetActive(false);
+        }
+        
+        public IEnumerator BlastConeCoroutine(PlayerController player)
+        {
+            testFireBlastConeFX.SetActive(true);
+            yield return new WaitForSeconds(1);
+            testFireBlastConeFX.SetActive(false);
         }
 
 
