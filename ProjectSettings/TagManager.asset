@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Fire
   - Metal
+  - Pear
+  - Seed
   layers:
   - Default
   - TransparentFX

@@ -54,6 +54,7 @@ namespace Player
         public LayerMask enemyAttackLayer;
         public LayerMask enemyLayer;
         public LayerMask playerAttackLayer;
+        public LayerMask burnLayers;
         public bool attackDebug;
         public int currentHitCombo = 1;
         public float lastHitTime;
@@ -61,6 +62,10 @@ namespace Player
         [Header("Interractible Settings")]
         public LayerMask interractibleLayer;
         public float interractionRange = 4f;
+
+        [Header("Collectibles")]
+        public int pears;
+        public int seeds;
 
         [Header("Fx")]
         public GameObject attackTrail;
@@ -208,6 +213,34 @@ namespace Player
         public void HealPlayer(int healAmount)
         {
             playerHealth.Heal(healAmount);
+        }
+
+        public void BlastCone()
+        {
+            Collider[] detectedBurnable = Physics.OverlapSphere(book.gameObject.transform.position, attackStats.maxDistanceDetectionATK3Fire, burnLayers);
+            Debug.Log("J'ai détecté " + detectedBurnable.Length + " items.");
+            foreach (Collider detectedItem in detectedBurnable)
+            {
+                //Si le machin détecté est à moins de maxAngleDetectionATK3Fire° => s'il est dans le cône de feu
+                if (Vector3.Dot(lastDirection, (detectedItem.transform.position - book.transform.position).normalized) >= Mathf.Cos(attackStats.maxAngleDetectionATK3Fire*Mathf.Rad2Deg))
+                {
+                    if(detectedItem.gameObject.layer == LayerMask.NameToLayer("Enemy"))
+                    {
+                        detectedItem.GetComponent<MobMob>().SetOnFire(attackStats.damagePerTickATK3Fire, attackStats.dotTimeATK3Fire,attackStats.tickPerSecondATK3Fire);
+                    }
+                }
+            }
+
+        }
+
+        public void AddPear(int number = 1)
+        {
+            pears += number;
+        }
+
+        public void AddSeed(int number = 1)
+        {
+            seeds += number;
         }
         #endregion
 
