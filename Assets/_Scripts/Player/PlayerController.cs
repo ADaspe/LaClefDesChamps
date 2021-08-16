@@ -58,6 +58,7 @@ namespace Player
         public bool attackDebug;
         public int currentHitCombo = 1;
         public float lastHitTime;
+        public bool shieldOn;
 
         [Header("Interractible Settings")]
         public LayerMask interractibleLayer;
@@ -233,6 +234,21 @@ namespace Player
                 }
             }
 
+        }
+
+        public bool GetHit(int damages = 1)
+        {
+            if (shieldOn)
+            {
+                shieldOn = false;
+                return false;
+            }
+            else
+            {
+                //prendre des dégats
+                playerHealth.Damage(damages);
+                return true;
+            }
         }
 
         public void AddPear(int number = 1)

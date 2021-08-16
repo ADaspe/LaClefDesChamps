@@ -119,8 +119,8 @@ public class Player_Idle : PlayerState
 
     public override void OnTriggerEnter(PlayerController player, Collider c)
     {
-        /*
-        if (player.CheckEnemyCollision(c))
+        
+        /*if (player.CheckEnemyCollision(c))
         {
             player.TransitionToState(player.HurtState);
         }*/
