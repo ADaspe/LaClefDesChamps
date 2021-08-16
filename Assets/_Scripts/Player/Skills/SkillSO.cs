@@ -50,7 +50,7 @@ public class SkillSO : ScriptableObject
                 attackSO.damageATK3 += (int)skillValue;
                 break;
             case Effect.FireAttackBuff:
-                attackSO.dpsATK3Fire += (int)skillValue;
+                attackSO.damagePerTickATK3Fire += (int)skillValue;
                 break;
             case Effect.FrogBuff:
                 attackSO.frogTimeATK3 += skillValue;
@@ -94,7 +94,7 @@ public class SkillSO : ScriptableObject
                     attackSO.damageATK3 -= (int)skillValue;
                     break;
                 case Effect.FireAttackBuff:
-                    attackSO.dpsATK3Fire -= (int)skillValue;
+                    attackSO.damagePerTickATK3Fire -= (int)skillValue;
                     break;
                 case Effect.FrogBuff:
                     attackSO.frogTimeATK3 -= skillValue;
