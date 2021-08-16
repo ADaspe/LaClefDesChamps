@@ -19,7 +19,6 @@ public class AXD_Collectible : MonoBehaviour
     {
         if(target != null)
         {
-            Debug.Log("J'y vais");
             transform.position = Vector3.MoveTowards(transform.position, target.transform.position, speed);
             if (Vector3.Distance(transform.position, target.transform.position) <= 2)
             {

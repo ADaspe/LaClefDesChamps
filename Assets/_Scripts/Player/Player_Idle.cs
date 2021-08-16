@@ -82,28 +82,28 @@ public class Player_Idle : PlayerState
         {
             Debug.Log("Test Fire");
             player.testFireFX.SetActive(true);
-            player.StartCoroutine("FireCoroutine", player);
+            player.StartCoroutine(player.FireCoroutine(player));
         }
 
         if (Input.GetButtonDown("TestAbsorb"))
         {
             Debug.Log("Test Absorb");
             player.testAbsorbFX.SetActive(true);
-            player.StartCoroutine("AbsorbCoroutine", player);
+            player.StartCoroutine(player.AbsorbCoroutine(player));
         }
         if (Input.GetButtonDown("TestHeal"))
         {
             Debug.Log("Test Heal");
             player.testHealFX.SetActive(true);
-            player.StartCoroutine("HealCoroutine", player);
+            player.StartCoroutine(player.HealCoroutine(player));
         }
         if (Input.GetButtonDown("TestShield"))
         {
             Debug.Log("Test Shield");
             player.testShieldFX.SetActive(true);
-            player.StartCoroutine("ShieldCoroutine", player);
+            player.StartCoroutine(player.ShieldCoroutine(player));
         }
-        if (Input.GetButtonDown("TestClastCone"))
+        if (Input.GetButtonDown("TestBlastCone"))
         {
             Debug.Log("Blastcone");
             player.BlastCone();
