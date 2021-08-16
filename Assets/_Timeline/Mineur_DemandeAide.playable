@@ -93,7 +93,7 @@ MonoBehaviour:
   - m_Version: 1
     m_Start: 2
     m_ClipIn: 0
-    m_Asset: {fileID: -2166834437447276230}
+    m_Asset: {fileID: -4752414226876986148}
     m_Duration: 1
     m_TimeScale: 1
     m_ParentTrack: {fileID: -8809324497532815893}
@@ -162,7 +162,7 @@ MonoBehaviour:
   - m_Version: 1
     m_Start: 3
     m_ClipIn: 0
-    m_Asset: {fileID: -966399082945787486}
+    m_Asset: {fileID: 4371292762008603561}
     m_Duration: 1
     m_TimeScale: 1
     m_ParentTrack: {fileID: -8809324497532815893}
@@ -231,7 +231,7 @@ MonoBehaviour:
   - m_Version: 1
     m_Start: 4
     m_ClipIn: 0
-    m_Asset: {fileID: -5793913687546254260}
+    m_Asset: {fileID: 8582557144226565320}
     m_Duration: 1
     m_TimeScale: 1
     m_ParentTrack: {fileID: -8809324497532815893}
@@ -300,284 +300,8 @@ MonoBehaviour:
   - m_Version: 1
     m_Start: 5
     m_ClipIn: 0
-    m_Asset: {fileID: 8555109924530514958}
-    m_Duration: 1
-    m_TimeScale: 1
-    m_ParentTrack: {fileID: -8809324497532815893}
-    m_EaseInDuration: 0
-    m_EaseOutDuration: 0
-    m_BlendInDuration: 0
-    m_BlendOutDuration: 0
-    m_MixInCurve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    m_MixOutCurve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    m_BlendInCurveMode: 0
-    m_BlendOutCurveMode: 0
-    m_ExposedParameterNames: []
-    m_AnimationCurves: {fileID: 0}
-    m_Recordable: 0
-    m_PostExtrapolationMode: 0
-    m_PreExtrapolationMode: 0
-    m_PostExtrapolationTime: 0
-    m_PreExtrapolationTime: 0
-    m_DisplayName: DialogClip
-  - m_Version: 1
-    m_Start: 6
-    m_ClipIn: 0
-    m_Asset: {fileID: -7578185201724385797}
-    m_Duration: 1
-    m_TimeScale: 1
-    m_ParentTrack: {fileID: -8809324497532815893}
-    m_EaseInDuration: 0
-    m_EaseOutDuration: 0
-    m_BlendInDuration: 0
-    m_BlendOutDuration: 0
-    m_MixInCurve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    m_MixOutCurve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    m_BlendInCurveMode: 0
-    m_BlendOutCurveMode: 0
-    m_ExposedParameterNames: []
-    m_AnimationCurves: {fileID: 0}
-    m_Recordable: 0
-    m_PostExtrapolationMode: 0
-    m_PreExtrapolationMode: 0
-    m_PostExtrapolationTime: 0
-    m_PreExtrapolationTime: 0
-    m_DisplayName: DialogClip
-  - m_Version: 1
-    m_Start: 7
-    m_ClipIn: 0
-    m_Asset: {fileID: 3248355573255168178}
-    m_Duration: 1
-    m_TimeScale: 1
-    m_ParentTrack: {fileID: -8809324497532815893}
-    m_EaseInDuration: 0
-    m_EaseOutDuration: 0
-    m_BlendInDuration: 0
-    m_BlendOutDuration: 0
-    m_MixInCurve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    m_MixOutCurve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    m_BlendInCurveMode: 0
-    m_BlendOutCurveMode: 0
-    m_ExposedParameterNames: []
-    m_AnimationCurves: {fileID: 0}
-    m_Recordable: 0
-    m_PostExtrapolationMode: 0
-    m_PreExtrapolationMode: 0
-    m_PostExtrapolationTime: 0
-    m_PreExtrapolationTime: 0
-    m_DisplayName: DialogClip
-  - m_Version: 1
-    m_Start: 8
-    m_ClipIn: 0
-    m_Asset: {fileID: 711999022391497284}
-    m_Duration: 1
-    m_TimeScale: 1
-    m_ParentTrack: {fileID: -8809324497532815893}
-    m_EaseInDuration: 0
-    m_EaseOutDuration: 0
-    m_BlendInDuration: 0
-    m_BlendOutDuration: 0
-    m_MixInCurve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    m_MixOutCurve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    m_BlendInCurveMode: 0
-    m_BlendOutCurveMode: 0
-    m_ExposedParameterNames: []
-    m_AnimationCurves: {fileID: 0}
-    m_Recordable: 0
-    m_PostExtrapolationMode: 0
-    m_PreExtrapolationMode: 0
-    m_PostExtrapolationTime: 0
-    m_PreExtrapolationTime: 0
-    m_DisplayName: DialogClip
-  - m_Version: 1
-    m_Start: 9
-    m_ClipIn: 0
-    m_Asset: {fileID: -522147244368696120}
-    m_Duration: 1
+    m_Asset: {fileID: 8017518649808272459}
+    m_Duration: 1.5
     m_TimeScale: 1
     m_ParentTrack: {fileID: -8809324497532815893}
     m_EaseInDuration: 0
@@ -644,21 +368,6 @@ MonoBehaviour:
     m_DisplayName: DialogClip
   m_Markers:
     m_Objects: []
---- !u!114 &-8801215187162473234
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f870a116e411b794f8846191f5821f2d, type: 3}
-  m_Name: TimeStopClip(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
-  m_EditorClassIdentifier: 
-  timeManager:
-    exposedName: f9a8075e07ef8ab4d98d55ee0fc0bb0d
-    defaultValue: {fileID: 0}
 --- !u!114 &-8693948378048061873
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -694,168 +403,9 @@ MonoBehaviour:
   m_Curves: {fileID: 0}
   m_Parent: {fileID: 11400000}
   m_Children: []
-  m_Clips:
-  - m_Version: 1
-    m_Start: 8
-    m_ClipIn: 0
-    m_Asset: {fileID: -3036291611328851776}
-    m_Duration: 1
-    m_TimeScale: 1
-    m_ParentTrack: {fileID: -7673014436903962155}
-    m_EaseInDuration: 0
-    m_EaseOutDuration: 0
-    m_BlendInDuration: 0
-    m_BlendOutDuration: 0
-    m_MixInCurve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    m_MixOutCurve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    m_BlendInCurveMode: 0
-    m_BlendOutCurveMode: 0
-    m_ExposedParameterNames: []
-    m_AnimationCurves: {fileID: 0}
-    m_Recordable: 0
-    m_PostExtrapolationMode: 0
-    m_PreExtrapolationMode: 0
-    m_PostExtrapolationTime: 0
-    m_PreExtrapolationTime: 0
-    m_DisplayName: TriggerPE_1ereRencontre
-  - m_Version: 1
-    m_Start: 9
-    m_ClipIn: 0
-    m_Asset: {fileID: -1003499312244050678}
-    m_Duration: 1
-    m_TimeScale: 1
-    m_ParentTrack: {fileID: -7673014436903962155}
-    m_EaseInDuration: 0
-    m_EaseOutDuration: 0
-    m_BlendInDuration: 0
-    m_BlendOutDuration: 0
-    m_MixInCurve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    m_MixOutCurve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    m_BlendInCurveMode: 0
-    m_BlendOutCurveMode: 0
-    m_ExposedParameterNames: []
-    m_AnimationCurves: {fileID: 0}
-    m_Recordable: 0
-    m_PostExtrapolationMode: 0
-    m_PreExtrapolationMode: 0
-    m_PostExtrapolationTime: 0
-    m_PreExtrapolationTime: 0
-    m_DisplayName: "TriggerOI_ArbreDeComp\xE9tence"
+  m_Clips: []
   m_Markers:
     m_Objects: []
---- !u!114 &-7578185201724385797
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d9eb5210d8c6e0d4b8d1068b4bddc594, type: 3}
-  m_Name: DialogClip(Clone)(Clone)(Clone)(Clone)(Clone)
-  m_EditorClassIdentifier: 
-  template:
-    text: "Certains fruits sont perdus, d\u2019autres ont \xE9t\xE9 d\xE9vor\xE9s
-      par ces petits \xEAtres stupides qui se prom\xE8nent un peu partout depuis
-      quelque temps."
-    name: "Comp\xE9tence"
-    dialogManager: {fileID: 0}
-  dialogManager:
-    exposedName: d62498bce187e98478e165d54f5980d4
-    defaultValue: {fileID: 0}
 --- !u!114 &-6446832121540605152
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -881,41 +431,6 @@ MonoBehaviour:
     m_Objects:
     - {fileID: -3437218741391842071}
     - {fileID: 688020610541692427}
---- !u!114 &-5793913687546254260
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d9eb5210d8c6e0d4b8d1068b4bddc594, type: 3}
-  m_Name: DialogClip(Clone)(Clone)(Clone)
-  m_EditorClassIdentifier: 
-  template:
-    text: "La poire que vous avez mang\xE9e appartient \xE0 l\u2019arbre juste derri\xE8re
-      moi. Je suis Comp\xE9tence, le gardien de l\u2019arbre."
-    name: "Comp\xE9tence"
-    dialogManager: {fileID: 0}
-  dialogManager:
-    exposedName: fde1f1a5e337416438cf81e3e160fa4c
-    defaultValue: {fileID: 0}
---- !u!114 &-5746959874319078253
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f870a116e411b794f8846191f5821f2d, type: 3}
-  m_Name: TimeStopClip(Clone)(Clone)(Clone)(Clone)
-  m_EditorClassIdentifier: 
-  timeManager:
-    exposedName: bc5f8c7e6dea02d48bdd8d7bf4b607ae
-    defaultValue: {fileID: 0}
 --- !u!114 &-5429322825923975308
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -929,12 +444,47 @@ MonoBehaviour:
   m_Name: DialogClip
   m_EditorClassIdentifier: 
   template:
-    text: "Arr\xEAtez-vous ! Qu\u2019avez-vous fait ? Pardon ? Vous ne voyez pas
-      de quoi je parle ?"
-    name: "Comp\xE9tence"
+    text: "\xC0 l\u2019aide ! Vous \xEAtes aventurier, n\u2019est-ce pas ? Nous avons
+      besoin de votre aide."
+    name: Mineur
     dialogManager: {fileID: 0}
   dialogManager:
     exposedName: 4b66cf2561d06b04fbf0b425cd1a22dc
+    defaultValue: {fileID: 0}
+--- !u!114 &-4752414226876986148
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9eb5210d8c6e0d4b8d1068b4bddc594, type: 3}
+  m_Name: DialogClip(Clone)
+  m_EditorClassIdentifier: 
+  template:
+    text: "Il y a quelques jours, la mine a \xE9t\xE9 envahie par ces petites cr\xE9atures
+      mesquines avec leurs lames aff\xFBt\xE9es."
+    name: Mineur
+    dialogManager: {fileID: 0}
+  dialogManager:
+    exposedName: 8be5420cd4b08b04ebf126b45fce2d82
+    defaultValue: {fileID: 0}
+--- !u!114 &-4110812671973483338
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f870a116e411b794f8846191f5821f2d, type: 3}
+  m_Name: TimeStopClip(Clone)(Clone)(Clone)(Clone)
+  m_EditorClassIdentifier: 
+  timeManager:
+    exposedName: 03b084be849724f48bf0b8a2a288cc7d
     defaultValue: {fileID: 0}
 --- !u!114 &-3437218741391842071
 MonoBehaviour:
@@ -952,29 +502,6 @@ MonoBehaviour:
   m_Retroactive: 0
   m_EmitOnce: 0
   m_Asset: {fileID: 11400000, guid: 18c168d1a75bc594c9599408032c4e02, type: 2}
---- !u!114 &-3036291611328851776
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 48853ae485fa386428341ac1ea122570, type: 3}
-  m_Name: ControlPlayableAsset
-  m_EditorClassIdentifier: 
-  sourceGameObject:
-    exposedName: 0d2e170a0462ac74eaffe1ee87dc18f2
-    defaultValue: {fileID: 0}
-  prefabGameObject: {fileID: 0}
-  updateParticle: 1
-  particleRandomSeed: 5328
-  updateDirector: 1
-  updateITimeControl: 1
-  searchHierarchy: 0
-  active: 1
-  postPlayback: 1
 --- !u!114 &-2561906636400543372
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1066,216 +593,9 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: TimeStopClip
   - m_Version: 1
-    m_Start: 2.5000000000000004
-    m_ClipIn: 0
-    m_Asset: {fileID: -2093860021733764173}
-    m_Duration: 0.4999999999999998
-    m_TimeScale: 1
-    m_ParentTrack: {fileID: -2561906636400543372}
-    m_EaseInDuration: 0
-    m_EaseOutDuration: 0
-    m_BlendInDuration: 0
-    m_BlendOutDuration: 0
-    m_MixInCurve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    m_MixOutCurve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    m_BlendInCurveMode: 0
-    m_BlendOutCurveMode: 0
-    m_ExposedParameterNames: []
-    m_AnimationCurves: {fileID: 0}
-    m_Recordable: 0
-    m_PostExtrapolationMode: 0
-    m_PreExtrapolationMode: 0
-    m_PostExtrapolationTime: 0
-    m_PreExtrapolationTime: 0
-    m_DisplayName: TimeStopClip
-  - m_Version: 1
-    m_Start: 3.5000000000000004
-    m_ClipIn: 0
-    m_Asset: {fileID: -2273564354914915346}
-    m_Duration: 0.4999999999999998
-    m_TimeScale: 1
-    m_ParentTrack: {fileID: -2561906636400543372}
-    m_EaseInDuration: 0
-    m_EaseOutDuration: 0
-    m_BlendInDuration: 0
-    m_BlendOutDuration: 0
-    m_MixInCurve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    m_MixOutCurve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    m_BlendInCurveMode: 0
-    m_BlendOutCurveMode: 0
-    m_ExposedParameterNames: []
-    m_AnimationCurves: {fileID: 0}
-    m_Recordable: 0
-    m_PostExtrapolationMode: 0
-    m_PreExtrapolationMode: 0
-    m_PostExtrapolationTime: 0
-    m_PreExtrapolationTime: 0
-    m_DisplayName: TimeStopClip
-  - m_Version: 1
-    m_Start: 6.5
-    m_ClipIn: 0
-    m_Asset: {fileID: -5746959874319078253}
-    m_Duration: 0.4999999999999998
-    m_TimeScale: 1
-    m_ParentTrack: {fileID: -2561906636400543372}
-    m_EaseInDuration: 0
-    m_EaseOutDuration: 0
-    m_BlendInDuration: 0
-    m_BlendOutDuration: 0
-    m_MixInCurve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    m_MixOutCurve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    m_BlendInCurveMode: 0
-    m_BlendOutCurveMode: 0
-    m_ExposedParameterNames: []
-    m_AnimationCurves: {fileID: 0}
-    m_Recordable: 0
-    m_PostExtrapolationMode: 0
-    m_PreExtrapolationMode: 0
-    m_PostExtrapolationTime: 0
-    m_PreExtrapolationTime: 0
-    m_DisplayName: TimeStopClip
-  - m_Version: 1
     m_Start: 4.5
     m_ClipIn: 0
-    m_Asset: {fileID: -1128369949940250783}
+    m_Asset: {fileID: 4655225871472584762}
     m_Duration: 0.4999999999999998
     m_TimeScale: 1
     m_ParentTrack: {fileID: -2561906636400543372}
@@ -1342,9 +662,9 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: TimeStopClip
   - m_Version: 1
-    m_Start: 5.5
+    m_Start: 2.5
     m_ClipIn: 0
-    m_Asset: {fileID: 2929696358821474178}
+    m_Asset: {fileID: 7521225784036958213}
     m_Duration: 0.4999999999999998
     m_TimeScale: 1
     m_ParentTrack: {fileID: -2561906636400543372}
@@ -1411,10 +731,10 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: TimeStopClip
   - m_Version: 1
-    m_Start: 9.5
+    m_Start: 6
     m_ClipIn: 0
-    m_Asset: {fileID: -8801215187162473234}
-    m_Duration: 0.4999999999999998
+    m_Asset: {fileID: -4110812671973483338}
+    m_Duration: 0.5
     m_TimeScale: 1
     m_ParentTrack: {fileID: -2561906636400543372}
     m_EaseInDuration: 0
@@ -1480,78 +800,9 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: TimeStopClip
   - m_Version: 1
-    m_Start: 7.5
+    m_Start: 3.5
     m_ClipIn: 0
-    m_Asset: {fileID: 8595113416170071031}
-    m_Duration: 0.4999999999999998
-    m_TimeScale: 1
-    m_ParentTrack: {fileID: -2561906636400543372}
-    m_EaseInDuration: 0
-    m_EaseOutDuration: 0
-    m_BlendInDuration: 0
-    m_BlendOutDuration: 0
-    m_MixInCurve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    m_MixOutCurve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    m_BlendInCurveMode: 0
-    m_BlendOutCurveMode: 0
-    m_ExposedParameterNames: []
-    m_AnimationCurves: {fileID: 0}
-    m_Recordable: 0
-    m_PostExtrapolationMode: 0
-    m_PreExtrapolationMode: 0
-    m_PostExtrapolationTime: 0
-    m_PreExtrapolationTime: 0
-    m_DisplayName: TimeStopClip
-  - m_Version: 1
-    m_Start: 8.5
-    m_ClipIn: 0
-    m_Asset: {fileID: -399874684334729596}
+    m_Asset: {fileID: -1049555139993614884}
     m_Duration: 0.4999999999999998
     m_TimeScale: 1
     m_ParentTrack: {fileID: -2561906636400543372}
@@ -1619,57 +870,6 @@ MonoBehaviour:
     m_DisplayName: TimeStopClip
   m_Markers:
     m_Objects: []
---- !u!114 &-2273564354914915346
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f870a116e411b794f8846191f5821f2d, type: 3}
-  m_Name: TimeStopClip(Clone)(Clone)(Clone)
-  m_EditorClassIdentifier: 
-  timeManager:
-    exposedName: 71a8985991dc6424dbe82d842a573c9b
-    defaultValue: {fileID: 0}
---- !u!114 &-2166834437447276230
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d9eb5210d8c6e0d4b8d1068b4bddc594, type: 3}
-  m_Name: DialogClip(Clone)
-  m_EditorClassIdentifier: 
-  template:
-    text: "Vous ne vous sentez pas bizarre ? Une sensation \xE9trange ? En haut \xE0
-      gauche de votre \xE9cran par exemple ? Un changement apparu apr\xE8s avoir
-      mang\xE9 un fruit ? "
-    name: "Comp\xE9tence"
-    dialogManager: {fileID: 0}
-  dialogManager:
-    exposedName: 9db61c7ec90d78743a3f7885b10bd176
-    defaultValue: {fileID: 0}
---- !u!114 &-2093860021733764173
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f870a116e411b794f8846191f5821f2d, type: 3}
-  m_Name: TimeStopClip(Clone)(Clone)
-  m_EditorClassIdentifier: 
-  timeManager:
-    exposedName: 3a546aa7368342a47a0788d77459fe48
-    defaultValue: {fileID: 0}
 --- !u!114 &-2057514733186137384
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1695,7 +895,22 @@ MonoBehaviour:
   m_Clips: []
   m_Markers:
     m_Objects: []
---- !u!114 &-1128369949940250783
+--- !u!114 &-1495449635599320301
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90fb794a295e73545af71bcdb7375791, type: 3}
+  m_Name: CinemachineShot
+  m_EditorClassIdentifier: 
+  VirtualCamera:
+    exposedName: 7f83a53c09c3f3a48a7554de4e4c045d
+    defaultValue: {fileID: 0}
+--- !u!114 &-1049555139993614884
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1708,86 +923,7 @@ MonoBehaviour:
   m_Name: TimeStopClip(Clone)(Clone)(Clone)(Clone)(Clone)
   m_EditorClassIdentifier: 
   timeManager:
-    exposedName: ea4e5285703b705469cbebef9b0f7fa0
-    defaultValue: {fileID: 0}
---- !u!114 &-1003499312244050678
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 48853ae485fa386428341ac1ea122570, type: 3}
-  m_Name: ControlPlayableAsset
-  m_EditorClassIdentifier: 
-  sourceGameObject:
-    exposedName: feb8dd3519b74224598816f178b197e8
-    defaultValue: {fileID: 0}
-  prefabGameObject: {fileID: 0}
-  updateParticle: 1
-  particleRandomSeed: 8618
-  updateDirector: 1
-  updateITimeControl: 1
-  searchHierarchy: 0
-  active: 1
-  postPlayback: 0
---- !u!114 &-966399082945787486
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d9eb5210d8c6e0d4b8d1068b4bddc594, type: 3}
-  m_Name: DialogClip(Clone)(Clone)
-  m_EditorClassIdentifier: 
-  template:
-    text: "Ah ! \xC7a y est vous voyez ! Exactement, les c\u0153urs de votre barre
-      de vie se sont transform\xE9s en poires."
-    name: "Comp\xE9tence"
-    dialogManager: {fileID: 0}
-  dialogManager:
-    exposedName: 735283da91b85d947a7f3ee7ca5b2719
-    defaultValue: {fileID: 0}
---- !u!114 &-522147244368696120
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d9eb5210d8c6e0d4b8d1068b4bddc594, type: 3}
-  m_Name: DialogClip(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
-  m_EditorClassIdentifier: 
-  template:
-    text: "Voil\xE0, vous savez tout. J\u2019esp\xE8re que vous r\xE9ussirez \xE0
-      m\u2019aider \xE0 gu\xE9rir l\u2019arbre. Je reste ici, revenez me voir quand
-      vous le souhaitez."
-    name: "Comp\xE9tence"
-    dialogManager: {fileID: 0}
-  dialogManager:
-    exposedName: dbb5ce49e369b8c438368edcfe185f19
-    defaultValue: {fileID: 0}
---- !u!114 &-399874684334729596
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f870a116e411b794f8846191f5821f2d, type: 3}
-  m_Name: TimeStopClip(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
-  m_EditorClassIdentifier: 
-  timeManager:
-    exposedName: 468519e936b83a2409d3da5a78573b41
+    exposedName: 1d27e79a3edcc1442ac2cdd99705ff9d
     defaultValue: {fileID: 0}
 --- !u!114 &11400000
 MonoBehaviour:
@@ -1799,7 +935,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bfda56da833e2384a9677cd3c976a436, type: 3}
-  m_Name: "Comp\xE9tence_1\xE8reRencontre"
+  m_Name: Mineur_DemandeAide
   m_EditorClassIdentifier: 
   m_Version: 0
   m_Tracks:
@@ -1838,13 +974,13 @@ MonoBehaviour:
     m_Start: 0
     m_ClipIn: 0
     m_Asset: {fileID: 7773415274442531449}
-    m_Duration: 11
+    m_Duration: 5.7
     m_TimeScale: 1
     m_ParentTrack: {fileID: 181067261560115846}
     m_EaseInDuration: 1
-    m_EaseOutDuration: 1
+    m_EaseOutDuration: 0
     m_BlendInDuration: -1
-    m_BlendOutDuration: -1
+    m_BlendOutDuration: 0.9833333333333334
     m_MixInCurve:
       serializedVersion: 2
       m_Curve:
@@ -1902,7 +1038,58 @@ MonoBehaviour:
     m_PreExtrapolationMode: 0
     m_PostExtrapolationTime: 0
     m_PreExtrapolationTime: 0
-    m_DisplayName: "CM_Comp\xE9tence"
+    m_DisplayName: CM_Mineur
+  - m_Version: 1
+    m_Start: 4.716666666666667
+    m_ClipIn: 0
+    m_Asset: {fileID: -1495449635599320301}
+    m_Duration: 2.783333333333333
+    m_TimeScale: 1
+    m_ParentTrack: {fileID: 181067261560115846}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 1
+    m_BlendInDuration: 0.9833333333333334
+    m_BlendOutDuration: -1
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: CM_CheminVersLeNord
   m_Markers:
     m_Objects: []
 --- !u!114 &688020610541692427
@@ -1917,30 +1104,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15c38f6fa1940124db1ab7f6fe7268d1, type: 3}
   m_Name: Signal Emitter
   m_EditorClassIdentifier: 
-  m_Time: 10
+  m_Time: 6.5
   m_Retroactive: 0
   m_EmitOnce: 0
   m_Asset: {fileID: 11400000, guid: 088f4ffd139d48c409417b1eaaa9cbc1, type: 2}
---- !u!114 &711999022391497284
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d9eb5210d8c6e0d4b8d1068b4bddc594, type: 3}
-  m_Name: DialogClip(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
-  m_EditorClassIdentifier: 
-  template:
-    text: "Si vous trouvez des fruits ou des p\xE9pins, venez me voir pour les remettre
-      sur l\u2019arbre et vous deviendrez plus fort."
-    name: "Comp\xE9tence"
-    dialogManager: {fileID: 0}
-  dialogManager:
-    exposedName: 96c100530c9db6543b17a9d24358410b
-    defaultValue: {fileID: 0}
 --- !u!114 &811942781553582131
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1982,42 +1149,6 @@ MonoBehaviour:
   m_OpenClipOffsetRotation: {x: 0, y: 0, z: 0, w: 1}
   m_Rotation: {x: 0, y: 0, z: 0, w: 1}
   m_ApplyOffsets: 0
---- !u!114 &2929696358821474178
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f870a116e411b794f8846191f5821f2d, type: 3}
-  m_Name: TimeStopClip(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
-  m_EditorClassIdentifier: 
-  timeManager:
-    exposedName: a136153bf805d4a48adb868d841ef7b7
-    defaultValue: {fileID: 0}
---- !u!114 &3248355573255168178
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d9eb5210d8c6e0d4b8d1068b4bddc594, type: 3}
-  m_Name: DialogClip(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
-  m_EditorClassIdentifier: 
-  template:
-    text: "Je vais vous expliquer. Il semblerait qu\u2019un lien s\u2019est cr\xE9\xE9
-      entre l\u2019arbre et vous. Votre vitalit\xE9 et puissance est maintenant li\xE9e
-      \xE0 mon arbre."
-    name: "Comp\xE9tence"
-    dialogManager: {fileID: 0}
-  dialogManager:
-    exposedName: 5fff3515acd6ec04e93406247f4e5f9f
-    defaultValue: {fileID: 0}
 --- !u!114 &4077125619881748908
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2041,6 +1172,26 @@ MonoBehaviour:
   m_Clips: []
   m_Markers:
     m_Objects: []
+--- !u!114 &4371292762008603561
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9eb5210d8c6e0d4b8d1068b4bddc594, type: 3}
+  m_Name: DialogClip(Clone)(Clone)
+  m_EditorClassIdentifier: 
+  template:
+    text: "On a d\xFB abandonner la mine et nous aurions besoin d\u2019un combattant
+      pour \xE9liminer la vermine. "
+    name: Mineur
+    dialogManager: {fileID: 0}
+  dialogManager:
+    exposedName: 423d2d580fa1fb34eb18f8737c5ade0a
+    defaultValue: {fileID: 0}
 --- !u!114 &4387818713992722545
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2082,6 +1233,36 @@ MonoBehaviour:
   m_OpenClipOffsetRotation: {x: 0, y: 0, z: 0, w: 1}
   m_Rotation: {x: 0, y: 0, z: 0, w: 1}
   m_ApplyOffsets: 0
+--- !u!114 &4655225871472584762
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f870a116e411b794f8846191f5821f2d, type: 3}
+  m_Name: TimeStopClip(Clone)(Clone)
+  m_EditorClassIdentifier: 
+  timeManager:
+    exposedName: d4213134604682640a4767ea03821985
+    defaultValue: {fileID: 0}
+--- !u!114 &7521225784036958213
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f870a116e411b794f8846191f5821f2d, type: 3}
+  m_Name: TimeStopClip(Clone)(Clone)(Clone)
+  m_EditorClassIdentifier: 
+  timeManager:
+    exposedName: 795c9038cde0dee4db35f200e66d8553
+    defaultValue: {fileID: 0}
 --- !u!114 &7773415274442531449
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2096,6 +1277,26 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   VirtualCamera:
     exposedName: b73d92d5024a1c8498c7ba1649475281
+    defaultValue: {fileID: 0}
+--- !u!114 &8017518649808272459
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9eb5210d8c6e0d4b8d1068b4bddc594, type: 3}
+  m_Name: DialogClip(Clone)(Clone)(Clone)(Clone)
+  m_EditorClassIdentifier: 
+  template:
+    text: "Suivez le chemin qui va vers le Nord pour vous rendre \xE0 la mine. Merci
+      de votre aide !"
+    name: Mineur
+    dialogManager: {fileID: 0}
+  dialogManager:
+    exposedName: 426372bcbbdbd3f4198230ba584ca3f0
     defaultValue: {fileID: 0}
 --- !u!114 &8430982845036091896
 MonoBehaviour:
@@ -2122,7 +1323,7 @@ MonoBehaviour:
   m_Clips: []
   m_Markers:
     m_Objects: []
---- !u!114 &8555109924530514958
+--- !u!114 &8582557144226565320
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2132,28 +1333,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d9eb5210d8c6e0d4b8d1068b4bddc594, type: 3}
-  m_Name: DialogClip(Clone)(Clone)(Clone)(Clone)
+  m_Name: DialogClip(Clone)(Clone)(Clone)
   m_EditorClassIdentifier: 
   template:
-    text: "C\u2019est une catastrophe ! Ces fruits sont sacr\xE9s ! Sans eux, l\u2019arbre
-      perd sa magie et sa puissance. Enfin je ne peux pas vous en vouloir\u2026"
-    name: "Comp\xE9tence"
+    text: "De plus, l\u2019entr\xE9e principale est condamn\xE9e pour une raison
+      myst\xE9rieuse. Il faudra passer par l\u2019entr\xE9e de derri\xE8re."
+    name: Mineur
     dialogManager: {fileID: 0}
   dialogManager:
-    exposedName: c44a32e2e7fa31341a46df20fbf90e55
-    defaultValue: {fileID: 0}
---- !u!114 &8595113416170071031
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f870a116e411b794f8846191f5821f2d, type: 3}
-  m_Name: TimeStopClip(Clone)(Clone)(Clone)(Clone)(Clone)
-  m_EditorClassIdentifier: 
-  timeManager:
-    exposedName: e7f1ea99a16402246962463cdda0b96d
+    exposedName: 146dc3ee0155cea4eaa72833696fa435
     defaultValue: {fileID: 0}
