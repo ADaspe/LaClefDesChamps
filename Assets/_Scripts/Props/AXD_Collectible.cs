@@ -19,19 +19,12 @@ public class AXD_Collectible : MonoBehaviour
     {
         if(target != null)
         {
-            Vector3.MoveTowards(transform.position, target.transform.position, speed * Time.deltaTime);
-            if (Physics.Raycast(transform.position,target.transform.position,2,LayerMask.NameToLayer("Player")))
+            Debug.Log("J'y vais");
+            transform.position = Vector3.MoveTowards(transform.position, target.transform.position, speed);
+            if (Vector3.Distance(transform.position, target.transform.position) <= 2)
             {
-                if(this.tag == "Pear")
-                {
-                    target.AddPear();
-                    Destroy(this);
-                }
-                if(tag == "Seed")
-                {
-                    target.AddSeed();
-                    Destroy(this);
-                }
+                target.AddSeed();
+                Destroy(gameObject);
             }
         }
     }
@@ -49,7 +42,10 @@ public class AXD_Collectible : MonoBehaviour
 
     IEnumerator AccelerateCoroutine()
     {
-        speed *= accelerationFactor;
-        yield return new WaitForSeconds(0.3f);
+        while (true)
+        {
+            speed *= accelerationFactor;
+            yield return new WaitForSeconds(0.3f);
+        }
     }
 }
