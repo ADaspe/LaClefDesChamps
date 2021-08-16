@@ -1,5 +1,18 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-6772232079464591510
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 1
 --- !u!21 &2100000
 Material:
   serializedVersion: 6
@@ -7,8 +20,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: _Water_StylizedWater alt
-  m_Shader: {fileID: -6465566751694194690, guid: 99f985b0d31d4a64c94801e2dedc4a5a,
+  m_Name: LCR_Fog_White
+  m_Shader: {fileID: -6465566751694194690, guid: 83880a1d4fd50ef4ea465c79ef8eb44d,
     type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
@@ -49,14 +62,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - Vector1_42763EB4: 5.92
-    - Vector1_46B79E82: 6
-    - Vector1_7B73FA5D: 1
-    - Vector1_91DA202: 60.16
-    - Vector1_9D692848: 0.23
-    - Vector1_B562801E: 3
-    - Vector1_D4E5A01: 32.16
-    - Vector1_E00AE6EB: 0.075
+    - Vector1_21013651: 1
     - _AlphaClip: 0
     - _Blend: 0
     - _BumpScale: 1
@@ -64,6 +70,7 @@ Material:
     - _Cutoff: 0.5
     - _DstBlend: 0
     - _EnvironmentReflections: 1
+    - _FogDensity: 72
     - _GlossMapScale: 0
     - _Glossiness: 0
     - _GlossyReflections: 0
@@ -79,23 +86,9 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - Color_31FB67E2: {r: 0.855558, g: 0.8651685, b: 0.894, a: 0.8352941}
-    - Color_954B1251: {r: 0.047591172, g: 0.383, b: 0.6415094, a: 0.6431373}
-    - Color_CBA81E6F: {r: 0.17647055, g: 0.55294114, b: 0.5568628, a: 0.4627451}
+    - Color_6AE311F3: {r: 0.6018156, g: 0.816444, b: 0.8679245, a: 0}
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _SpecColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
---- !u!114 &5813980584421259038
-MonoBehaviour:
-  m_ObjectHideFlags: 11
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  version: 1
+    - _FogColor: {r: 0.28642353, g: 0.4367668, b: 0.5529412, a: 1}
+    - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
