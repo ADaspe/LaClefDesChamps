@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c509dbaa7b6f416409e3195321a2187e, type: 3}
+  m_Name: LCR_Layers_Terrain
+  m_EditorClassIdentifier: 
+  PaletteLayers:
+  - {fileID: 8574412962073106934, guid: 413c4e5804ab1d0439797688e4cfc547, type: 2}
+  - {fileID: 8574412962073106934, guid: 249dc3dd689aa5943827ed686f1d1f93, type: 2}
+  - {fileID: 8574412962073106934, guid: aae157465e05031418970d93532e9ecc, type: 2}
+  - {fileID: 8574412962073106934, guid: 51c3ec24fe3d0e9408a2b1bb7057b2fa, type: 2}
+  - {fileID: 8574412962073106934, guid: b3b1d999be6fc764a9441d38f3b98a24, type: 2}
+  - {fileID: 8574412962073106934, guid: e03ae291c9d2a8e48a909c9cc0c4cd54, type: 2}
+  - {fileID: 8574412962073106934, guid: 8dc9c74a8eba02e43824d6bb52dfa6a0, type: 2}
+  - {fileID: 8574412962073106934, guid: 0efd10d7eef9524438259641285e7cb1, type: 2}
