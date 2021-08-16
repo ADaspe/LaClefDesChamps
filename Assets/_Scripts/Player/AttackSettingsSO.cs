@@ -25,8 +25,11 @@ public class AttackSettingsSO : ScriptableObject
 
     [Header("Attack 3 Fire")]
 
-    public int dpsATK3Fire;
+    public int damagePerTickATK3Fire;
     public float dotTimeATK3Fire;
+    public float tickPerSecondATK3Fire;
+    public float maxDistanceDetectionATK3Fire;
+    public float maxAngleDetectionATK3Fire;
     public float MaxInputDelayATK3Fire;
     public int MaxChargeFire;
 

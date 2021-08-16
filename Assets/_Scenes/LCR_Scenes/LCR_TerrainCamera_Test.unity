@@ -3314,6 +3314,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Mob-Mob (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 4236575802023795220, guid: 51314a7ae056ed64086726e90b2009cc,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4236575802023795221, guid: 51314a7ae056ed64086726e90b2009cc,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5052,6 +5057,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 164914058819668931, guid: 605262a5f97cc2640bb6b68c6e85c655,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2758415741389126698, guid: 605262a5f97cc2640bb6b68c6e85c655,
         type: 3}
       propertyPath: m_IsActive
@@ -5091,6 +5101,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 280
+      objectReference: {fileID: 0}
+    - target: {fileID: 3792919718747045188, guid: 605262a5f97cc2640bb6b68c6e85c655,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4127844462072238344, guid: 605262a5f97cc2640bb6b68c6e85c655,
         type: 3}
@@ -5136,6 +5151,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Player_NEW
+      objectReference: {fileID: 0}
+    - target: {fileID: 4558224477980250680, guid: 605262a5f97cc2640bb6b68c6e85c655,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4558224477980250681, guid: 605262a5f97cc2640bb6b68c6e85c655,
         type: 3}

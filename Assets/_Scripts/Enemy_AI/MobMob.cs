@@ -96,6 +96,13 @@ public class MobMob : MonoBehaviour
 
     [HideInInspector] public GameObject player;
 
+    [Header("VFXs")]
+    public GameObject igniteFX;
+    public GameObject igniteHitFX;
+    public GameObject stunFX;
+    public Material defaultMaterial;
+    public Material burnMaterial;
+
     #region Steering Variables
     [HideInInspector] public float[] interest;
     [HideInInspector] public float[] danger;
@@ -249,6 +256,8 @@ public class MobMob : MonoBehaviour
     public void SetOnFire(int damagePerTick, float time, float frequency)
     {
         StopCoroutine(FireCoroutine());
+        StopCoroutine(BurnHitCoroutine());
+        StartCoroutine(BurnHitCoroutine());
         isOnFire = true;
         this.damagePerTick = damagePerTick;
         timeToEndFire = Time.time + time;
@@ -257,14 +266,24 @@ public class MobMob : MonoBehaviour
 
     }
 
+    IEnumerator BurnHitCoroutine()
+    {
+        igniteHitFX.SetActive(true);
+        yield return new WaitForSeconds(1f);
+        igniteHitFX.SetActive(false);
+    }
+
+
     IEnumerator FireCoroutine()
     {
-        Damage(damagePerTick, transform.position);
+        igniteFX.SetActive(true);
         while (Time.time < timeToEndFire)
         {
+            Damage(damagePerTick, transform.position);
             yield return new WaitForSeconds(1/tickPerSecond);
         }
         isOnFire = false;
+        igniteFX.SetActive(false);
     }
 
     private void ResetStun()
