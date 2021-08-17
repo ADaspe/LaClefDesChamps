@@ -11,8 +11,9 @@ GameObject:
   - component: {fileID: 3406066754031108643}
   - component: {fileID: 1795559937326566790}
   - component: {fileID: 4544109441201813836}
+  - component: {fileID: 5926057750396066585}
   m_Layer: 0
-  m_Name: TAU_banc_pierre_et_bois
+  m_Name: TAU_Banc
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -79,3 +80,17 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!136 &5926057750396066585
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2598320825391814809}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 6.4789424
+  m_Height: 21.701193
+  m_Direction: 1
+  m_Center: {x: 0.11685085, y: 8.489601, z: 4.2100315}
