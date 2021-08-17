@@ -233,6 +233,26 @@ namespace Player
                     }
                 }
             }
+        }
+
+        public void FrogDetect()
+        {
+            Collider[] detectedEnemies = Physics.OverlapSphere(book.gameObject.transform.position, attackStats.maxDistanceDetectionATK3Fire, LayerMask.NameToLayer("Enemy"));
+            Debug.Log("J'ai détecté " + detectedEnemies.Length + " items.");
+            GameObject furtherEnemy = null;
+            foreach (Collider enemy  in detectedEnemies)
+            {
+                if(furtherEnemy == null || Vector3.Distance(enemy.transform.position, transform.position) > Vector3.Distance(furtherEnemy.transform.position, transform.position))
+                {
+                    furtherEnemy = enemy.gameObject;
+                }
+            }
+
+        }
+
+        public void FrogGrab(GameObject target) 
+        {
+
 
         }
 

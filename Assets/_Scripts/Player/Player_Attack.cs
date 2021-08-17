@@ -11,13 +11,14 @@ public class Player_Attack : PlayerState
     
     public override void EnterState(PlayerController player)
     {
-        if(player.attackDebug) Debug.Log("[Player State] Entering Attack State for the hit "+player.currentHitCombo);
-
-        Debug.Log("Current Hit Combo : "+ player.currentHitCombo);
-        Debug.Log("Time : "+Time.time+" LastHitTime : "+ player.lastHitTime);
-        Debug.Log("Temps depuis le dernier coup ? " + (Time.time - player.lastHitTime));
-        Debug.Log("A eu le temps ? "+ (Time.time - player.lastHitTime <= player.attackStats.MaxInputDelayATK3));
-
+        if (player.attackDebug)
+        {
+            Debug.Log("[Player State] Entering Attack State for the hit " + player.currentHitCombo);
+            Debug.Log("Current Hit Combo : " + player.currentHitCombo);
+            Debug.Log("Time : " + Time.time + " LastHitTime : " + player.lastHitTime);
+            Debug.Log("Temps depuis le dernier coup ? " + (Time.time - player.lastHitTime));
+            Debug.Log("A eu le temps ? " + (Time.time - player.lastHitTime <= player.attackStats.MaxInputDelayATK3));
+        }
         if(player.currentHitCombo == 3 && Time.time - player.lastHitTime <= player.attackStats.MaxInputDelayATK3)
         {
             Debug.Log("Coup 3");
