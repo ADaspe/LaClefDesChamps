@@ -168,8 +168,8 @@ MonoBehaviour:
   m_Name: DialogClip
   m_EditorClassIdentifier: 
   template:
-    text: "Ah vous voil\xE0 ! Vous avez retrouv\xE9 des fruits ? Rendez \xE0 l\u2019arbre
-      toute sa puissance !"
+    text: "Ah vous voil\xE0 ! Vous avez retrouv\xE9 des fruits ? Rendez-moi toute
+      ma puissance !"
     name: "Comp\xE9tence"
     dialogManager: {fileID: 0}
   dialogManager:

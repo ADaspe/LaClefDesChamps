@@ -145,7 +145,7 @@ MonoBehaviour:
   m_Name: DialogClip
   m_EditorClassIdentifier: 
   template:
-    text: Bienvenue dans "La Clef Des Champs" !
+    text: "Bienvenue dans la vall\xE9e ! Contr\xF4le de douanes fr\xE9quent !"
     name: Panneau
     dialogManager: {fileID: 0}
   dialogManager:

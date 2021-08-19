@@ -848,9 +848,9 @@ MonoBehaviour:
   m_Name: DialogClip(Clone)(Clone)(Clone)(Clone)(Clone)
   m_EditorClassIdentifier: 
   template:
-    text: "Certains fruits sont perdus, d\u2019autres ont \xE9t\xE9 d\xE9vor\xE9s
+    text: "Certains de mes fruits sont perdus, d\u2019autres ont \xE9t\xE9 d\xE9vor\xE9s
       par ces petits \xEAtres stupides qui se prom\xE8nent un peu partout depuis
-      quelque temps."
+      quelque temps. "
     name: "Comp\xE9tence"
     dialogManager: {fileID: 0}
   dialogManager:
@@ -894,8 +894,9 @@ MonoBehaviour:
   m_Name: DialogClip(Clone)(Clone)(Clone)
   m_EditorClassIdentifier: 
   template:
-    text: "La poire que vous avez mang\xE9e appartient \xE0 l\u2019arbre juste derri\xE8re
-      moi. Je suis Comp\xE9tence, le gardien de l\u2019arbre."
+    text: "Je suis Comp\xE9tence, un arbre magique pr\xE9sent dans cette vall\xE9e
+      depuis l\u2019origine du monde, j\u2019ai connu les dieux disparus. Et la poire
+      que vous avez mang\xE9e est un de mes fruits !"
     name: "Comp\xE9tence"
     dialogManager: {fileID: 0}
   dialogManager:
@@ -930,7 +931,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   template:
     text: "Arr\xEAtez-vous ! Qu\u2019avez-vous fait ? Pardon ? Vous ne voyez pas
-      de quoi je parle ?"
+      de quoi je parle ? Eh Oh ! Par ici, c\u2019est l\u2019arbre qui vous parle
+      !"
     name: "Comp\xE9tence"
     dialogManager: {fileID: 0}
   dialogManager:
@@ -1649,7 +1651,7 @@ MonoBehaviour:
   template:
     text: "Vous ne vous sentez pas bizarre ? Une sensation \xE9trange ? En haut \xE0
       gauche de votre \xE9cran par exemple ? Un changement apparu apr\xE8s avoir
-      mang\xE9 un fruit ? "
+      mang\xE9 un fruit ?"
     name: "Comp\xE9tence"
     dialogManager: {fileID: 0}
   dialogManager:
@@ -1746,7 +1748,7 @@ MonoBehaviour:
   m_Name: DialogClip(Clone)(Clone)
   m_EditorClassIdentifier: 
   template:
-    text: "Ah ! \xC7a y est vous voyez ! Exactement, les c\u0153urs de votre barre
+    text: "Ah ! \xC7a y est vous voyez... Exactement ! Les c\u0153urs de votre barre
       de vie se sont transform\xE9s en poires."
     name: "Comp\xE9tence"
     dialogManager: {fileID: 0}
@@ -1767,8 +1769,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   template:
     text: "Voil\xE0, vous savez tout. J\u2019esp\xE8re que vous r\xE9ussirez \xE0
-      m\u2019aider \xE0 gu\xE9rir l\u2019arbre. Je reste ici, revenez me voir quand
-      vous le souhaitez."
+      m\u2019aider \xE0 gu\xE9rir. Je suis enracin\xE9 ici, vous savez o\xF9 me trouver
+      quand vous le souhaitez."
     name: "Comp\xE9tence"
     dialogManager: {fileID: 0}
   dialogManager:
@@ -1935,7 +1937,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   template:
     text: "Si vous trouvez des fruits ou des p\xE9pins, venez me voir pour les remettre
-      sur l\u2019arbre et vous deviendrez plus fort."
+      \xE0 leur place et vous deviendrez plus fort."
     name: "Comp\xE9tence"
     dialogManager: {fileID: 0}
   dialogManager:
@@ -2010,9 +2012,9 @@ MonoBehaviour:
   m_Name: DialogClip(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
   m_EditorClassIdentifier: 
   template:
-    text: "Je vais vous expliquer. Il semblerait qu\u2019un lien s\u2019est cr\xE9\xE9
-      entre l\u2019arbre et vous. Votre vitalit\xE9 et puissance est maintenant li\xE9e
-      \xE0 mon arbre."
+    text: "Je vais vous expliquer. Il semblerait qu\u2019un lien se soit cr\xE9\xE9
+      entre vous et moi. Votre vitalit\xE9 et puissance est maintenant li\xE9e \xE0
+      moi. "
     name: "Comp\xE9tence"
     dialogManager: {fileID: 0}
   dialogManager:
@@ -2135,8 +2137,8 @@ MonoBehaviour:
   m_Name: DialogClip(Clone)(Clone)(Clone)(Clone)
   m_EditorClassIdentifier: 
   template:
-    text: "C\u2019est une catastrophe ! Ces fruits sont sacr\xE9s ! Sans eux, l\u2019arbre
-      perd sa magie et sa puissance. Enfin je ne peux pas vous en vouloir\u2026"
+    text: "C\u2019est une catastrophe ! Mes fruits sont sacr\xE9s ! Sans eux, je
+      perds ma magie et ma puissance. Enfin je ne peux pas vous en vouloir\u2026"
     name: "Comp\xE9tence"
     dialogManager: {fileID: 0}
   dialogManager:
