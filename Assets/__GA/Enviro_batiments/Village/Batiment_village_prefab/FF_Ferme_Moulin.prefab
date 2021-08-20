@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 5283932732261782727}
   - component: {fileID: 3656722447877110645}
   - component: {fileID: 520614472893113917}
+  - component: {fileID: 1514939662141303651}
   m_Layer: 0
   m_Name: Ferme
   m_TagString: Untagged
@@ -79,6 +80,19 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!65 &1514939662141303651
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 243572160941771544}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 14.937724, y: 26.81085, z: 17.804926}
+  m_Center: {x: -3.9611259, y: 0.13036111, z: -4.560053}
 --- !u!1 &493292913585941225
 GameObject:
   m_ObjectHideFlags: 0
@@ -347,6 +361,7 @@ GameObject:
   - component: {fileID: 6490005053598937445}
   - component: {fileID: 4225826145061818514}
   - component: {fileID: 3029044451034437622}
+  - component: {fileID: 4656181549483090585}
   m_Layer: 0
   m_Name: moulin
   m_TagString: Untagged
@@ -415,6 +430,19 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!65 &4656181549483090585
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4370853746317269228}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 8.300693, y: 8.055777, z: 19.940872}
+  m_Center: {x: 2.8114603, y: -9.623496, z: -3.4864943}
 --- !u!1 &4860162938834254476
 GameObject:
   m_ObjectHideFlags: 0
