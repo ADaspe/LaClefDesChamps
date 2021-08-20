@@ -36,7 +36,7 @@ public class AXD_HitTrigger : MonoBehaviour
             }
             else if (other.gameObject.layer == LayerMask.NameToLayer("DestructibleOnHit"))
             {
-
+                GetComponent<AXD_Brambles>().DestroyBrambles();
             }
         }
     }
