@@ -18,7 +18,7 @@ public class Player_Idle : PlayerState
         if (Input.GetButtonDown("Fire1"))
         {
             if(player.debug)Debug.Log("Fire button down");
-            player.TransitionToState(new Player_Attack());
+            player.TransitionToState(new Player_Attack1());
         }
 
         //Enter Interact if player is Near an Interractible element

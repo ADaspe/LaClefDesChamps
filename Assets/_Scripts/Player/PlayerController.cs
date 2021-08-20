@@ -92,7 +92,12 @@ namespace Player
         private PlayerState currentState;
         public Player_Idle IdleState;
         public Player_Hurt HurtState;
-        public Player_Attack AttackState;
+        public Player_Attack1 AttackState;
+        public AXD_Player_Attack3 Attack3State;
+        public AXD_Player_Attack3_Fire Attack3FireState;
+        public AXD_Player_Attack3_Firefly Attack3FireflyState;
+        public AXD_Player_Attack3_Frog Attack3FrogState;
+        public AXD_Player_Attack3_Metal Attack3MetalState;
         //public Player_Grapple GrappleState = new Player_Grapple();
         #endregion
 
@@ -107,8 +112,12 @@ namespace Player
             playerHealth = new HealthSystem(5);
             IdleState = new Player_Idle();
             HurtState = new Player_Hurt();
-            AttackState = new Player_Attack();
-            
+            AttackState = new Player_Attack1();
+            Attack3State = new AXD_Player_Attack3();
+            Attack3FireState = new AXD_Player_Attack3_Fire();
+            Attack3FireflyState = new AXD_Player_Attack3_Firefly();
+            Attack3FrogState = new AXD_Player_Attack3_Frog();
+            Attack3MetalState = new AXD_Player_Attack3_Metal();
             //playerAnimator = gameObject.GetComponentInChildren<Animator>();
         }
 

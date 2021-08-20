@@ -21,7 +21,7 @@ TagManager:
   - PlayerAttacks
   - Enemy
   - EnemyAttacks
-  - 
+  - DestructibleOnHit
   - Interractible
   - Grapple
   - 

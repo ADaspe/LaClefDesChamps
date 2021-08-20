@@ -30,7 +30,7 @@ public class ElementSource : MonoBehaviour
                 }
                 else if (sourceElement == Element.Light)
                 {
-                    LightElement lightElement = new LightElement(Element.Light);
+                    FireflyElement lightElement = new FireflyElement(Element.Light);
                     book.SetElement(lightElement);
                 }
                 else if (sourceElement == Element.Metal)

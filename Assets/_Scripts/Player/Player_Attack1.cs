@@ -3,14 +3,15 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Player_Attack : PlayerState
+public class Player_Attack1 : PlayerState
 {
-    private float attackDuration;
+    private float stateTime;
     private Dictionary<Collider, int> attackDictionary = new Dictionary<Collider, int>();
     private bool anyHit;
     
     public override void EnterState(PlayerController player)
     {
+        stateTime = Time.time;
         if (player.attackDebug)
         {
             Debug.Log("[Player State] Entering Attack State for the hit " + player.currentHitCombo);
@@ -19,7 +20,7 @@ public class Player_Attack : PlayerState
             Debug.Log("Temps depuis le dernier coup ? " + (Time.time - player.lastHitTime));
             Debug.Log("A eu le temps ? " + (Time.time - player.lastHitTime <= player.attackStats.MaxInputDelayATK3));
         }
-        if(player.currentHitCombo == 3 && Time.time - player.lastHitTime <= player.attackStats.MaxInputDelayATK3)
+        /*if(player.currentHitCombo == 3 && Time.time - player.lastHitTime <= player.attackStats.MaxInputDelayATK3)
         {
             Debug.Log("Coup 3");
             player.currentHitCombo = 1;
@@ -42,8 +43,8 @@ public class Player_Attack : PlayerState
             player.lastHitTime = Time.time;
             //Anim de coup 1
 
-        }
-        attackDuration = player.attackDuration;
+        }*/
+
         player.animator.SetBool("isAttacking", true);
         anyHit = false;
 
@@ -51,10 +52,12 @@ public class Player_Attack : PlayerState
 
     public override void UpdateState(PlayerController player)
     {
-        Attack(player);
-        //ApplyAttack(player);
 
-        float baseAttackDuration = player.attackDuration;
+        //Jouer l'anim
+        //Ne pas oublier le buffering
+
+
+        /*float baseAttackDuration = player.attackDuration;
         if(attackDuration < baseAttackDuration - player.attackTrailOffset)
         {
             player.attackTrail.SetActive(true);
@@ -71,7 +74,7 @@ public class Player_Attack : PlayerState
 
             player.attackTrail.SetActive(false);
             player.TransitionToState(player.IdleState); 
-        }
+        }*/
     }
 
     public override void FixedUpdateState(PlayerController player)
@@ -90,7 +93,7 @@ public class Player_Attack : PlayerState
     }
 
     #region Attack Methods
-    private void Attack(PlayerController player)
+    /*private void Attack(PlayerController player)
     {
         Collider[] enemyHits = Physics.OverlapBox(player.attackPoint.position, player.attackDimension, player.attackPoint.rotation, player.enemyLayer);
 
@@ -129,7 +132,7 @@ public class Player_Attack : PlayerState
         }
 
         anyHit = true;
-    }
+    }*/
     #endregion
 
     public override void OnTriggerExit(PlayerController player, Collider collider)
