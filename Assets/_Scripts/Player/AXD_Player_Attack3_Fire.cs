@@ -24,7 +24,7 @@ public class AXD_Player_Attack3_Fire : PlayerState
 
     public override void OnTriggerExit(PlayerController player, Collider collider)
     {
-        throw new System.NotImplementedException();
+        
     }
 
     public override void OnTriggerStay(PlayerController player, Collider collider)
@@ -34,6 +34,7 @@ public class AXD_Player_Attack3_Fire : PlayerState
 
     public override void UpdateState(PlayerController player)
     {
-        throw new System.NotImplementedException();
+        //Animation
+        player.Invoke("BlastCone", 1/*Mettre le temps d'animation*/);
     }
 }
