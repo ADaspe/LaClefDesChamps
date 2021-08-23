@@ -12,14 +12,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: de69fbc370b016e4ca57293493a3184f, type: 3}
   m_Name: Attack Settings
   m_EditorClassIdentifier: 
-  GlobalChargeNumber: 0
-  damageATK1: 0
+  GlobalChargeNumber: 3
+  ReleaseCost: 2
+  Attack3Cost: 1
+  damageATK1: 1
   stunTimeATK1: 1
   MaxInputDelayATK1: 10
-  damageATK2: 0
+  damageATK2: 2
   stunTimeATK2: 2
   MaxInputDelayATK2: 10
-  damageATK3: 0
+  damageATK3: 3
   stunTimeATK3: 3
   MaxInputDelayATK3: 10
   damagePerTickATK3Fire: 1
@@ -27,11 +29,11 @@ MonoBehaviour:
   tickPerSecondATK3Fire: 2
   maxDistanceDetectionATK3Fire: 30
   maxAngleDetectionATK3Fire: 15
-  MaxInputDelayATK3Fire: 0
+  MaxInputDelayATK3Fire: 10
   MaxChargeFire: 0
   frogTimeATK3: 0
   stunTimeATK3Frog: 0
-  MaxInputDelayATK3Frog: 0
+  MaxInputDelayATK3Frog: 10
   MaxChargeFrog: 0
   damageReductionATK3Metal: 0
   MaxInputDelayATK3Metal: 0

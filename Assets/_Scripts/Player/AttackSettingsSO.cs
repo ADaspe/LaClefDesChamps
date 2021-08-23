@@ -7,6 +7,8 @@ public class AttackSettingsSO : ScriptableObject
 {
     [Header("Global Settings")]
     public int GlobalChargeNumber;
+    public int ReleaseCost;
+    public int Attack3Cost;
 
     [Header("Attack 1")]
     public int damageATK1;
@@ -31,25 +33,25 @@ public class AttackSettingsSO : ScriptableObject
     public float maxDistanceDetectionATK3Fire;
     public float maxAngleDetectionATK3Fire;
     public float MaxInputDelayATK3Fire;
-    public int MaxChargeFire;
+    public int AdditionnalFireCharge;
 
     [Header("Attack 3 Frog")]
 
     public float frogTimeATK3;
     public float stunTimeATK3Frog;
     public float MaxInputDelayATK3Frog;
-    public int MaxChargeFrog;
+    public int AdditionnalFrogCharge;
 
     [Header("Attack 3 Metal")]
 
     public float damageReductionATK3Metal;
     public float MaxInputDelayATK3Metal;
-    public int MaxChargeMetal;
+    public int AdditionnalMetalCharge;
 
     [Header("Attack 3 Firefly")]
 
     public float stunTimeATK3Firefly;
     public float MaxInputDelayATK3Firefly;
-    public int MaxChargeFirefly;
+    public int AdditionnalFireflyCharge;
 
 }
