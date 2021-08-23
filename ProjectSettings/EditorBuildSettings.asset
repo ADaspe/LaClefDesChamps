@@ -35,4 +35,7 @@ EditorBuildSettings:
   - enabled: 1
     path: "Assets/_Sc\xE8nes finales/ZONE2_VILLAGE.unity"
     guid: aeb32752d9c840f4bb7609ebf905d677
+  - enabled: 1
+    path: "Assets/_Sc\xE8nes finales/ZONE3_MINE.unity"
+    guid: 11fc50a8451d7c2479f11c16095dddb0
   m_configObjects: {}
