@@ -110,4 +110,4 @@ MonoBehaviour:
   detectorColldier: {fileID: 403354636690761602}
   VFXs:
   - {fileID: 2643130407297664289, guid: ac98ed814eccd6241bc29ebc2ace7b77, type: 3}
-  timeToDelayDestruction: 0
+  timeToDelayDestruction: 0.1
