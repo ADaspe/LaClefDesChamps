@@ -11,6 +11,8 @@ GameObject:
   - component: {fileID: 3604065354782010132}
   - component: {fileID: 408681656285521073}
   - component: {fileID: 2472223878966743163}
+  - component: {fileID: 403354636690761602}
+  - component: {fileID: 702056725304729589}
   m_Layer: 0
   m_Name: LCR_Ronce
   m_TagString: Untagged
@@ -79,3 +81,33 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &403354636690761602
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4129773322351325614}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -4233957156868394210, guid: 2e081ab56ad90f946af4598214faf3e1, type: 3}
+--- !u!114 &702056725304729589
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4129773322351325614}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 954c3e3c6aa8163448a2884668b8c875, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  detectorColldier: {fileID: 403354636690761602}
+  VFXs:
+  - {fileID: 2643130407297664289, guid: ac98ed814eccd6241bc29ebc2ace7b77, type: 3}
+  timeToDelayDestruction: 0
