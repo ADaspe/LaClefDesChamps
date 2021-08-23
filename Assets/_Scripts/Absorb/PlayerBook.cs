@@ -7,6 +7,9 @@ public class PlayerBook : MonoBehaviour
 {
     
     [SerializeField] private AbsorbUI ui = null;
+    [Header("Global Settings")]
+    public PlayerController player;
+    [SerializeField] private int chargeNumber;
 
     [Header("Fire Settings")]
     [SerializeField] public GameObject firePrefab;
@@ -42,6 +45,22 @@ public class PlayerBook : MonoBehaviour
         print("[Player Book : Set Element] " + currentElement);
         //Remettre cette ligne quand on aura l'UI
         //ui.SetIcon(currentElement);
+        if(currentElement.GetType() == typeof(FireElement))
+        {
+            chargeNumber = player.attackStats.GlobalChargeNumber + player.attackStats.AdditionnalFireCharge;
+        }
+        else if (currentElement.GetType() == typeof(MetalElement))
+        {
+            chargeNumber = player.attackStats.GlobalChargeNumber + player.attackStats.AdditionnalMetalCharge;
+        }
+        else if (currentElement.GetType() == typeof(FireflyElement))
+        {
+            chargeNumber = player.attackStats.GlobalChargeNumber + player.attackStats.AdditionnalFireflyCharge;
+        }
+        else if (currentElement.GetType() == typeof(FrogElement))
+        {
+            chargeNumber = player.attackStats.GlobalChargeNumber + player.attackStats.AdditionnalFrogCharge;
+        }
         currentElement.OnAbsorb(this);
     }
 

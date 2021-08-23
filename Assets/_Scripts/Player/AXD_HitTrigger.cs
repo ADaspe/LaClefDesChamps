@@ -15,7 +15,7 @@ public class AXD_HitTrigger : MonoBehaviour
     }
     private void OnTriggerEnter(Collider other)
     {
-        //Debug.Log("J'ai tapé " + other.gameObject.name+" et son layer est "+ LayerMask.LayerToName(other.gameObject.layer));
+        Debug.Log("J'ai tapé " + other.gameObject.name+" et son layer est "+ LayerMask.LayerToName(other.gameObject.layer));
         if (other.gameObject.layer == layersToHit)
         {
             if (other.gameObject.layer == LayerMask.NameToLayer("Enemy"))

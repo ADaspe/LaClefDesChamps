@@ -65,16 +65,16 @@ public class SkillSO : ScriptableObject
                 attackSO.GlobalChargeNumber += (int)skillValue;
                 break;
             case Effect.FireChargeBuff:
-                attackSO.MaxChargeFire += (int)skillValue;
+                attackSO.AdditionnalFireCharge += (int)skillValue;
                 break;
             case Effect.FrogChargeBuff:
-                attackSO.MaxChargeFrog += (int)skillValue;
+                attackSO.AdditionnalFrogCharge += (int)skillValue;
                 break;
             case Effect.FireflyChargeBuff:
-                attackSO.MaxChargeFirefly += (int)skillValue;
+                attackSO.AdditionnalFireflyCharge += (int)skillValue;
                 break;
             case Effect.MetalChargeBuff:
-                attackSO.MaxChargeMetal += (int)skillValue;
+                attackSO.AdditionnalMetalCharge += (int)skillValue;
                 break;
             default:
                 break;
@@ -109,16 +109,16 @@ public class SkillSO : ScriptableObject
                     attackSO.GlobalChargeNumber -= (int)skillValue;
                     break;
                 case Effect.FireChargeBuff:
-                    attackSO.MaxChargeFire -= (int)skillValue;
+                    attackSO.AdditionnalFireCharge -= (int)skillValue;
                     break;
                 case Effect.FrogChargeBuff:
-                    attackSO.MaxChargeFrog -= (int)skillValue;
+                    attackSO.AdditionnalFrogCharge -= (int)skillValue;
                     break;
                 case Effect.FireflyChargeBuff:
-                    attackSO.MaxChargeFirefly -= (int)skillValue;
+                    attackSO.AdditionnalFireflyCharge -= (int)skillValue;
                     break;
                 case Effect.MetalChargeBuff:
-                    attackSO.MaxChargeMetal -= (int)skillValue;
+                    attackSO.AdditionnalMetalCharge -= (int)skillValue;
                     break;
                 default:
                     break;
