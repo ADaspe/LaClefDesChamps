@@ -167,10 +167,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7749928771035615326}
-  - component: {fileID: 2849676219826748944}
   - component: {fileID: 2386732548084509485}
+  - component: {fileID: 2849676219826748944}
   m_Layer: 0
-  m_Name: LCR_Bouton_Poussoir
+  m_Name: LCR_Bouton_Poussoir_prefab
   m_TagString: Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -192,6 +192,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &2386732548084509485
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6973427668680706788}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 6.6806183, y: 5.792881, z: 2.1778412}
+  m_Center: {x: 0.14852905, y: 0.45095634, z: 0.5889206}
 --- !u!114 &2849676219826748944
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -218,16 +231,3 @@ MonoBehaviour:
           m_StringArgument: Activate
           m_BoolArgument: 0
         m_CallState: 2
---- !u!65 &2386732548084509485
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6973427668680706788}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 6.6806183, y: 5.792881, z: 2.1778412}
-  m_Center: {x: 0.14852905, y: 0.45095634, z: 0.5889206}
