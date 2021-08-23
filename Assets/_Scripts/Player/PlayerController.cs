@@ -59,6 +59,7 @@ namespace Player
         public int currentHitCombo = 1;
         public float lastHitTime;
         public bool shieldOn;
+        public float InputBufferToleranceSeconds;
 
         [Header("Interractible Settings")]
         public LayerMask interractibleLayer;
@@ -93,6 +94,7 @@ namespace Player
         public Player_Idle IdleState;
         public Player_Hurt HurtState;
         public Player_Attack1 AttackState;
+        public AXD_Player_Attack2 Attack2State;
         public AXD_Player_Attack3 Attack3State;
         public AXD_Player_Attack3_Fire Attack3FireState;
         public AXD_Player_Attack3_Firefly Attack3FireflyState;
@@ -113,6 +115,7 @@ namespace Player
             IdleState = new Player_Idle();
             HurtState = new Player_Hurt();
             AttackState = new Player_Attack1();
+            Attack2State = new AXD_Player_Attack2();
             Attack3State = new AXD_Player_Attack3();
             Attack3FireState = new AXD_Player_Attack3_Fire();
             Attack3FireflyState = new AXD_Player_Attack3_Firefly();

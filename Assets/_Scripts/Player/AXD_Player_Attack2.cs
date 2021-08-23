@@ -5,7 +5,10 @@ using UnityEngine;
 
 public class AXD_Player_Attack2 : PlayerState
 {
-    public float stateTime;
+    private float stateTime;
+    private bool bufferedX;
+    private bool bufferedY;
+
     public override void EnterState(PlayerController player)
     {
         player.currentHitCombo = 2;
@@ -24,7 +27,7 @@ public class AXD_Player_Attack2 : PlayerState
 
     public override void OnTriggerExit(PlayerController player, Collider collider)
     {
-        throw new System.NotImplementedException();
+        
     }
 
     public override void OnTriggerStay(PlayerController player, Collider collider)
@@ -36,13 +39,21 @@ public class AXD_Player_Attack2 : PlayerState
     {
         //Anim de coup 2
         //Passer au coup 3 en fonction de l'élément
+        if (Input.GetButtonDown("Fire1"))
+        {
+            player.StartCoroutine(BufferXCoroutine(player));
+        }
+        if (Input.GetButtonDown("UseElement"))
+        {
+            player.StartCoroutine(BufferYCoroutine(player));
+        }
         if (Time.time - stateTime <= player.attackStats.MaxInputDelayATK2)
         {
-            if (Input.GetButtonDown("Fire1"))
+            if (bufferedX)
             {
                 player.TransitionToState(player.Attack3State);
             }
-            else if (Input.GetButton("UseElement"))
+            else if (bufferedY)
             {
                 if (player.book.currentElement.GetType() == typeof(FireElement))
                 {
@@ -66,5 +77,19 @@ public class AXD_Player_Attack2 : PlayerState
         {
             player.TransitionToState(player.IdleState);
         }
+    }
+
+    IEnumerator BufferXCoroutine(PlayerController player)
+    {
+        bufferedX = true;
+        yield return new WaitForSeconds(player.InputBufferToleranceSeconds);
+        bufferedX = false;
+    }
+
+    IEnumerator BufferYCoroutine(PlayerController player)
+    {
+        bufferedY = true;
+        yield return new WaitForSeconds(player.InputBufferToleranceSeconds);
+        bufferedY = false;
     }
 }
