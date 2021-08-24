@@ -58,6 +58,8 @@ namespace Player
         public bool attackDebug;
         public int currentHitCombo = 1;
         public float lastHitTime;
+        public bool shieldOn;
+        public float InputBufferToleranceSeconds;
 
         [Header("Interractible Settings")]
         public LayerMask interractibleLayer;
@@ -91,7 +93,13 @@ namespace Player
         private PlayerState currentState;
         public Player_Idle IdleState;
         public Player_Hurt HurtState;
-        public Player_Attack AttackState;
+        public Player_Attack1 AttackState;
+        public AXD_Player_Attack2 Attack2State;
+        public AXD_Player_Attack3 Attack3State;
+        public AXD_Player_Attack3_Fire Attack3FireState;
+        public AXD_Player_Attack3_Firefly Attack3FireflyState;
+        public AXD_Player_Attack3_Frog Attack3FrogState;
+        public AXD_Player_Attack3_Metal Attack3MetalState;
         //public Player_Grapple GrappleState = new Player_Grapple();
         #endregion
 
@@ -106,8 +114,13 @@ namespace Player
             playerHealth = new HealthSystem(5);
             IdleState = new Player_Idle();
             HurtState = new Player_Hurt();
-            AttackState = new Player_Attack();
-            
+            AttackState = new Player_Attack1();
+            Attack2State = new AXD_Player_Attack2();
+            Attack3State = new AXD_Player_Attack3();
+            Attack3FireState = new AXD_Player_Attack3_Fire();
+            Attack3FireflyState = new AXD_Player_Attack3_Firefly();
+            Attack3FrogState = new AXD_Player_Attack3_Frog();
+            Attack3MetalState = new AXD_Player_Attack3_Metal();
             //playerAnimator = gameObject.GetComponentInChildren<Animator>();
         }
 
@@ -232,7 +245,42 @@ namespace Player
                     }
                 }
             }
+        }
 
+        public void FrogDetect()
+        {
+            Collider[] detectedEnemies = Physics.OverlapSphere(book.gameObject.transform.position, attackStats.maxDistanceDetectionATK3Fire, LayerMask.NameToLayer("Enemy"));
+            Debug.Log("J'ai détecté " + detectedEnemies.Length + " items.");
+            GameObject furtherEnemy = null;
+            foreach (Collider enemy  in detectedEnemies)
+            {
+                if(furtherEnemy == null || Vector3.Distance(enemy.transform.position, transform.position) > Vector3.Distance(furtherEnemy.transform.position, transform.position))
+                {
+                    furtherEnemy = enemy.gameObject;
+                }
+            }
+
+        }
+
+        public void FrogGrab(GameObject target) 
+        {
+
+
+        }
+
+        public bool GetHit(int damages = 1)
+        {
+            if (shieldOn)
+            {
+                shieldOn = false;
+                return false;
+            }
+            else
+            {
+                //prendre des dégats
+                playerHealth.Damage(damages);
+                return true;
+            }
         }
 
         public void AddPear(int number = 1)

@@ -3,46 +3,26 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Player_Attack : PlayerState
+public class Player_Attack1 : PlayerState
 {
-    private float attackDuration;
+    private float stateTime;
+    private bool bufferedInput;
     private Dictionary<Collider, int> attackDictionary = new Dictionary<Collider, int>();
     private bool anyHit;
     
     public override void EnterState(PlayerController player)
     {
-        if(player.attackDebug) Debug.Log("[Player State] Entering Attack State for the hit "+player.currentHitCombo);
-
-        Debug.Log("Current Hit Combo : "+ player.currentHitCombo);
-        Debug.Log("Time : "+Time.time+" LastHitTime : "+ player.lastHitTime);
-        Debug.Log("Temps depuis le dernier coup ? " + (Time.time - player.lastHitTime));
-        Debug.Log("A eu le temps ? "+ (Time.time - player.lastHitTime <= player.attackStats.MaxInputDelayATK3));
-
-        if(player.currentHitCombo == 3 && Time.time - player.lastHitTime <= player.attackStats.MaxInputDelayATK3)
+        stateTime = Time.time;
+        if (player.attackDebug)
         {
-            Debug.Log("Coup 3");
-            player.currentHitCombo = 1;
-            player.lastHitTime = Time.time;
-            //Anim de coup 3
-
-        } 
-        else if (player.currentHitCombo == 2 && Time.time - player.lastHitTime <= player.attackStats.MaxInputDelayATK2)
-        {
-            Debug.Log("Coup 2");
-            player.currentHitCombo = 3;
-            player.lastHitTime = Time.time;
-            //Anim de coup 2
-
-        } 
-        else
-        {
-            Debug.Log("Coup 1");
-            player.currentHitCombo = 2;
-            player.lastHitTime = Time.time;
-            //Anim de coup 1
-
+            Debug.Log("[Player State] Entering Attack State 1");
+            Debug.Log("Current Hit Combo : " + player.currentHitCombo);
+            Debug.Log("Time : " + Time.time + " LastHitTime : " + player.lastHitTime);
+            Debug.Log("Temps depuis le dernier coup ? " + (Time.time - player.lastHitTime));
+            Debug.Log("A eu le temps ? " + (Time.time - player.lastHitTime <= player.attackStats.MaxInputDelayATK3));
         }
-        attackDuration = player.attackDuration;
+
+        //Jouer l'anim
         player.animator.SetBool("isAttacking", true);
         anyHit = false;
 
@@ -50,10 +30,27 @@ public class Player_Attack : PlayerState
 
     public override void UpdateState(PlayerController player)
     {
-        Attack(player);
-        //ApplyAttack(player);
 
-        float baseAttackDuration = player.attackDuration;
+        if (Input.GetButtonDown("Fire1"))
+        {
+            player.StartCoroutine(BufferCoroutine(player));
+        }
+        if(bufferedInput && Time.time-stateTime <= player.attackStats.MaxInputDelayATK1)
+        {
+            //Attention à finir l'animation avant de transitionner
+            player.animator.SetBool("isAttacking", false);
+            player.TransitionToState(player.Attack2State);
+        }
+        else
+        {
+            player.animator.SetBool("isAttacking", false);
+            player.TransitionToState(player.IdleState);
+        }
+
+        //Ne pas oublier le buffering
+
+
+        /*float baseAttackDuration = player.attackDuration;
         if(attackDuration < baseAttackDuration - player.attackTrailOffset)
         {
             player.attackTrail.SetActive(true);
@@ -70,7 +67,7 @@ public class Player_Attack : PlayerState
 
             player.attackTrail.SetActive(false);
             player.TransitionToState(player.IdleState); 
-        }
+        }*/
     }
 
     public override void FixedUpdateState(PlayerController player)
@@ -89,7 +86,7 @@ public class Player_Attack : PlayerState
     }
 
     #region Attack Methods
-    private void Attack(PlayerController player)
+    /*private void Attack(PlayerController player)
     {
         Collider[] enemyHits = Physics.OverlapBox(player.attackPoint.position, player.attackDimension, player.attackPoint.rotation, player.enemyLayer);
 
@@ -128,13 +125,19 @@ public class Player_Attack : PlayerState
         }
 
         anyHit = true;
-    }
+    }*/
     #endregion
 
     public override void OnTriggerExit(PlayerController player, Collider collider)
     {
-        throw new System.NotImplementedException();
+        
     }
     
+    IEnumerator BufferCoroutine(PlayerController player)
+    {
+        bufferedInput = true;
+        yield return new WaitForSeconds(player.InputBufferToleranceSeconds);
+        bufferedInput = false;
+    }
 
 }
