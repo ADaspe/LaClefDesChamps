@@ -142,6 +142,7 @@ GameObject:
   - component: {fileID: 3228897295840587862}
   - component: {fileID: 3335170850804048692}
   - component: {fileID: 3870623028114554690}
+  - component: {fileID: 8580499583505053157}
   m_Layer: 0
   m_Name: moulin (1)
   m_TagString: Untagged
@@ -210,3 +211,16 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!65 &8580499583505053157
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8795320551720608360}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 8.300693, y: 8.055777, z: 19.940872}
+  m_Center: {x: 2.8114603, y: -9.623496, z: -3.4864943}

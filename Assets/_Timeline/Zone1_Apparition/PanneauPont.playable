@@ -145,7 +145,7 @@ MonoBehaviour:
   m_Name: DialogClip
   m_EditorClassIdentifier: 
   template:
-    text: Vers le village d'Egalliv
+    text: Vers le village d'Egalliv.
     name: Panneau
     dialogManager: {fileID: 0}
   dialogManager:
