@@ -18,12 +18,15 @@ EditorBuildSettings:
     path: "Assets/_Sc\xE8nes finales/ZONE2_VILLAGE.unity"
     guid: aeb32752d9c840f4bb7609ebf905d677
   - enabled: 1
-    path: "Assets/_Sc\xE8nes finales/ZONE1_DEPART_V2.unity"
-    guid: c8d97f2995f83ea46905f7003beaaa89
-  - enabled: 1
     path: "Assets/_Sc\xE8nes finales/ZONE3_MINE.unity"
     guid: 11fc50a8451d7c2479f11c16095dddb0
   - enabled: 1
     path: "Assets/_Sc\xE8nes finales/ZONE2_VILLAGE_V2.unity"
     guid: e6eda0a9a7eb7e647b243f11442e7fb8
+  - enabled: 1
+    path: "Assets/_Sc\xE8nes finales/ZONE1_DEPART_V2.unity"
+    guid: c8d97f2995f83ea46905f7003beaaa89
+  - enabled: 1
+    path: "Assets/_Sc\xE8nes finales/ZONE2_VILLAGE_V3.unity"
+    guid: 8c17db906a0b52b48b71c192897e7807
   m_configObjects: {}

@@ -1412,6 +1412,17 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 276316768}
+        m_MethodName: AddPear
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 2
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!135 &230301513
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -1899,6 +1910,18 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 276316766}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &276316768 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4558224477980250681, guid: 605262a5f97cc2640bb6b68c6e85c655,
+    type: 3}
+  m_PrefabInstance: {fileID: 276316766}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54aaf41f788c5a04c9e9e17a5e9c59f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &289910689
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13652,7 +13675,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 877876394}
-  m_LocalRotation: {x: 0.42047217, y: -0.71044695, z: -0.48564816, w: 0.287427}
+  m_LocalRotation: {x: 0.42047217, y: -0.7104469, z: -0.4856481, w: 0.287427}
   m_LocalPosition: {x: 108.7, y: -34.6, z: 20.1}
   m_LocalScale: {x: 1.4285712, y: 1.4285715, z: 1.4285709}
   m_Children:
@@ -28032,7 +28055,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1758997371}
-  m_LocalRotation: {x: 0.8319713, y: 0.103061326, z: 0.06702031, w: 0.54102725}
+  m_LocalRotation: {x: 0.83197135, y: 0.1030613, z: 0.0670203, w: 0.54102725}
   m_LocalPosition: {x: -45.2, y: -5.3, z: 25.3}
   m_LocalScale: {x: 1.4285713, y: 1.4285715, z: 1.4285709}
   m_Children:
@@ -29303,7 +29326,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1951718458}
-  m_LocalRotation: {x: 0.8485633, y: 0.02426089, z: 0.015105043, w: 0.5283215}
+  m_LocalRotation: {x: 0.8485633, y: 0.0242609, z: 0.01510505, w: 0.5283215}
   m_LocalPosition: {x: -289.23, y: 110.56, z: 16.17}
   m_LocalScale: {x: 1.428571, y: 1.4285713, z: 1.428571}
   m_Children:
