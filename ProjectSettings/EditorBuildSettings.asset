@@ -11,24 +11,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/_Scenes/TRX_Scenes/BootScene.unity
     guid: 89ec1387efef5e34597f17a9c09ab44e
-  - enabled: 0
-    path: "Assets/_Sc\xE8nes finales/Old scenes/ZONE1_TUTO.unity"
-    guid: 3b8203db19d76f44f873728e728d2ca3
-  - enabled: 0
-    path: "Assets/_Sc\xE8nes finales/Old scenes/ZONE2_VILLAGE.unity"
-    guid: 5ffa805426e37bc468cd0120597f682c
-  - enabled: 0
-    path: "Assets/_Sc\xE8nes finales/Old scenes/ZONE3_ASCENSION.unity"
-    guid: 29292c20148e93549b986ba5177ef043
-  - enabled: 0
-    path: "Assets/_Sc\xE8nes finales/Old scenes/ZONE4_DONJON.unity"
-    guid: 9aa2097f380495b45ae1fdd8fb73b48d
-  - enabled: 0
-    path: Assets/_Scenes/LCR_Scenes/LCR_TerrainCamera_Test.unity
-    guid: 2ed35395603040b4c8d5550a44e36604
-  - enabled: 0
-    path: Assets/LOW/LOW_scenes/LOW_zone1_blockmesh 1.unity
-    guid: 2b2831322f3320c449f07b6ac762da89
   - enabled: 1
     path: "Assets/_Sc\xE8nes finales/ZONE1_DEPART.unity"
     guid: 4bc88d0b132d7e44387bb284cbbd2523
@@ -38,4 +20,13 @@ EditorBuildSettings:
   - enabled: 1
     path: "Assets/_Sc\xE8nes finales/ZONE3_MINE.unity"
     guid: 11fc50a8451d7c2479f11c16095dddb0
+  - enabled: 1
+    path: "Assets/_Sc\xE8nes finales/ZONE2_VILLAGE_V2.unity"
+    guid: e6eda0a9a7eb7e647b243f11442e7fb8
+  - enabled: 1
+    path: "Assets/_Sc\xE8nes finales/ZONE1_DEPART_V2.unity"
+    guid: c8d97f2995f83ea46905f7003beaaa89
+  - enabled: 1
+    path: "Assets/_Sc\xE8nes finales/ZONE2_VILLAGE_V3.unity"
+    guid: 8c17db906a0b52b48b71c192897e7807
   m_configObjects: {}
