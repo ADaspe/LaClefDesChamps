@@ -38,7 +38,10 @@ public class AttackSettingsSO : ScriptableObject
     [Header("Attack 3 Frog")]
 
     public float frogTimeATK3;
-    public float stunTimeATK3Frog;
+    public float maxDistanceDetectionATK3Frog;
+    public float maxAngleDetectionATK3Frog;
+    public float grabSpeed;
+    public float grabMinDistance;
     public float MaxInputDelayATK3Frog;
     public int AdditionnalFrogCharge;
 
