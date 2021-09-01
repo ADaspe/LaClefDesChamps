@@ -15,7 +15,7 @@ public class AXD_HitTrigger : MonoBehaviour
     }
     private void OnTriggerEnter(Collider other)
     {
-        //Debug.Log("J'ai tapé " + other.gameObject.name+" et son layer est "+ LayerMask.LayerToName(other.gameObject.layer));
+        Debug.Log("J'ai tapé " + other.gameObject.name+" et son layer est "+ LayerMask.LayerToName(other.gameObject.layer));
 
         if (other.gameObject.layer == LayerMask.NameToLayer("Enemy"))
         {
@@ -35,7 +35,7 @@ public class AXD_HitTrigger : MonoBehaviour
         }
         else if (other.gameObject.layer == LayerMask.NameToLayer("DestructibleOnHit"))
         {
-            GetComponent<AXD_Brambles>().DestroyBrambles();
+            other.GetComponent<AXD_Brambles>().DestroyBrambles();
         }
         
     }

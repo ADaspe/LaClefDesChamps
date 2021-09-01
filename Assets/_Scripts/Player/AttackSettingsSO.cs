@@ -54,6 +54,7 @@ public class AttackSettingsSO : ScriptableObject
     [Header("Attack 3 Firefly")]
 
     public float stunTimeATK3Firefly;
+    public float maxDistanceDetectionATK3Firefly;
     public float MaxInputDelayATK3Firefly;
     public int AdditionnalFireflyCharge;
 
