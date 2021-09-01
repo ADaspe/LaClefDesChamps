@@ -6889,12 +6889,12 @@ PrefabInstance:
     - target: {fileID: 403354636690761602, guid: 22d5c9a885fa02e4887bdfe411dbbd8d,
         type: 3}
       propertyPath: m_Convex
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 403354636690761602, guid: 22d5c9a885fa02e4887bdfe411dbbd8d,
         type: 3}
       propertyPath: m_IsTrigger
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3604065354782010132, guid: 22d5c9a885fa02e4887bdfe411dbbd8d,
         type: 3}

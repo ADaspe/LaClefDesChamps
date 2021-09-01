@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 7820422480169521459}
   - component: {fileID: 8904716478895737957}
   - component: {fileID: 8957130582520838422}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: LCR_Ronce_Loop
   m_TagString: Untagged
   m_Icon: {fileID: 0}
