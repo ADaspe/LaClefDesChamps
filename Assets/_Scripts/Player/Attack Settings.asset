@@ -35,7 +35,7 @@ MonoBehaviour:
   maxDistanceDetectionATK3Frog: 30
   maxAngleDetectionATK3Frog: 15
   grabSpeed: 200
-  grabMinDistance: 2
+  grabMinDistance: 10
   MaxInputDelayATK3Frog: 10
   AdditionnalFrogCharge: 0
   damageReductionATK3Metal: 0

@@ -6,7 +6,10 @@ public class MobMob_Grab : MobMobState
 {
     public override void EnterState(MobMob mob)
     {
-        Debug.Log("I'm grabbed");
+        if (mob.stateDebug)
+        {
+            Debug.Log("I'm grabbed");
+        }
     }
 
     public override void Update(MobMob mob)
