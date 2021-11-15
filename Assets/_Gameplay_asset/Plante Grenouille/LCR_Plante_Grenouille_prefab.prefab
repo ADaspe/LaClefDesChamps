@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 5025353255889940021}
   - component: {fileID: 5025353255889940026}
   - component: {fileID: 5025353255889940027}
-  m_Layer: 8
+  m_Layer: 14
   m_Name: LCR_Light_Particles
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4813,7 +4813,8 @@ GameObject:
   - component: {fileID: 7878303991139479433}
   - component: {fileID: 5382273196919216963}
   - component: {fileID: 8256484165757071823}
-  m_Layer: 0
+  - component: {fileID: 3578910691966596943}
+  m_Layer: 14
   m_Name: LCR_Plante_Grenouille_prefab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4896,6 +4897,19 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 7470414021926513984, guid: b7c640165d382124b8bdde217f6536bc, type: 3}
+--- !u!65 &3578910691966596943
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5886574719923550870}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 7.557266, y: 6.8657174, z: 8.143099}
+  m_Center: {x: 1.0300461, y: -0.1505541, z: -2.5195322}
 --- !u!1 &6780412324341880609
 GameObject:
   m_ObjectHideFlags: 0
@@ -4906,7 +4920,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2244326337421198703}
   - component: {fileID: 3342751529661194556}
-  m_Layer: 8
+  m_Layer: 14
   m_Name: Particle System Force Field
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5431,7 +5445,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2645292971680950999}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: LCR_VFX_Pepin_Idle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5464,6 +5478,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: LCR_VFX_LensFlare
+      objectReference: {fileID: 0}
+    - target: {fileID: 4348949978073281733, guid: 305102a565d83fc498c67162ffeef302,
+        type: 3}
+      propertyPath: m_Layer
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 4348949978073281734, guid: 305102a565d83fc498c67162ffeef302,
         type: 3}
@@ -5519,6 +5538,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4348949979701666825, guid: 305102a565d83fc498c67162ffeef302,
+        type: 3}
+      propertyPath: m_Layer
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 9105329539631604640, guid: 305102a565d83fc498c67162ffeef302,
+        type: 3}
+      propertyPath: m_Layer
+      value: 14
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 305102a565d83fc498c67162ffeef302, type: 3}
