@@ -27,6 +27,9 @@ EditorBuildSettings:
     path: "Assets/_Sc\xE8nes finales/ZONE1_DEPART_V2.unity"
     guid: c8d97f2995f83ea46905f7003beaaa89
   - enabled: 1
+    path: "Assets/_Sc\xE8nes finales/ZONE4_LAC.unity"
+    guid: 1042ed4574d772a44bf57d9d2871146e
+  - enabled: 1
     path: "Assets/_Sc\xE8nes finales/ZONE2_VILLAGE_V3.unity"
-    guid: 8c17db906a0b52b48b71c192897e7807
+    guid: 29b2c85663e4b7045ac68df02b945319
   m_configObjects: {}
