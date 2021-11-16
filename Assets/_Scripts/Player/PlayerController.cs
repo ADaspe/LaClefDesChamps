@@ -274,6 +274,19 @@ namespace Player
 
         }
 
+        public void StunZone()
+        {
+            Collider[] detectedEnemies = Physics.OverlapSphere(book.gameObject.transform.position, attackStats.maxDistanceDetectionATK3Firefly, enemyLayer);
+            Debug.Log("J'ai détecté " + detectedEnemies.Length + " items.");
+            foreach (Collider enemy in detectedEnemies)
+            {
+                if (enemy.gameObject.layer == LayerMask.NameToLayer("Enemy"))
+                {
+                    enemy.GetComponent<Enemy_Core>().InvokeDamage(0,transform.position,attackStats.stunTimeATK3Firefly);
+                }
+            }
+        }
+
         /*public void FrogDetect()
         {
             Collider[] detectedEnemies = Physics.OverlapSphere(book.gameObject.transform.position, attackStats.maxDistanceDetectionATK3Fire, LayerMask.NameToLayer("Enemy"));
@@ -289,11 +302,6 @@ namespace Player
 
         }*/
 
-        public void FrogGrab(GameObject target) 
-        {
-
-
-        }
 
         public bool GetHit(int damages = 1)
         {
