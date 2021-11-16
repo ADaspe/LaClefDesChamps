@@ -14,12 +14,10 @@ public class AXD_Player_Attack3_Firefly : PlayerState
 
     public override void FixedUpdateState(PlayerController player)
     {
-        throw new System.NotImplementedException();
     }
 
     public override void OnTriggerEnter(PlayerController player, Collider collider)
     {
-        throw new System.NotImplementedException();
     }
 
     public override void OnTriggerExit(PlayerController player, Collider collider)
@@ -29,7 +27,6 @@ public class AXD_Player_Attack3_Firefly : PlayerState
 
     public override void OnTriggerStay(PlayerController player, Collider collider)
     {
-        throw new System.NotImplementedException();
     }
 
     public override void UpdateState(PlayerController player)

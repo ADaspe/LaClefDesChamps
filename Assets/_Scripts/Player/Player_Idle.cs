@@ -108,6 +108,11 @@ public class Player_Idle : PlayerState
             Debug.Log("Blastcone");
             player.BlastCone();
         }
+        if (Input.GetButtonDown("TestGrab"))
+        {
+            Debug.Log("Grab");
+            player.GrabZone();
+        }
     }
 
 

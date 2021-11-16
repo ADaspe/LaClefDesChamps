@@ -107,6 +107,7 @@ public class MobMob : MonoBehaviour
     [HideInInspector] public float[] interest;
     [HideInInspector] public float[] danger;
     [HideInInspector] public Vector3[] ray_dir;     //Forward is Forward
+    [HideInInspector] public Player.PlayerController PlayerGrab;
 
     [HideInInspector] public Vector3 velocity = Vector3.zero;
     #endregion
@@ -118,6 +119,7 @@ public class MobMob : MonoBehaviour
     public MobMob_Chasing ChasingState = new MobMob_Chasing();
     public MobMob_Patrol PatrolState = new MobMob_Patrol();
     public MobMob_Stun StunState = new MobMob_Stun();
+    public MobMob_Grab GrabState = new MobMob_Grab();
     #endregion
 
 
@@ -161,6 +163,15 @@ public class MobMob : MonoBehaviour
     
     void Update()
     {
+        /*if (isGrabbed)
+        {
+            Debug.Log("i am grabbed");
+            Vector3.MoveTowards(transform.position, PlayerGrab.transform.position, PlayerGrab.attackStats.grabSpeed);
+            if(Vector3.Distance(transform.position, PlayerGrab.transform.position)<= PlayerGrab.attackStats.grabMinDistance)
+            {
+                isGrabbed = false;
+            }
+        }*/
         currentState.Update(this);
     }
 
@@ -265,6 +276,13 @@ public class MobMob : MonoBehaviour
         StartCoroutine(FireCoroutine());
 
     }
+
+    public void Grab(Player.PlayerController targetToGetCloserTo)
+    {
+        PlayerGrab = targetToGetCloserTo;
+        TransitionToState(GrabState);
+    }
+
 
     IEnumerator BurnHitCoroutine()
     {
