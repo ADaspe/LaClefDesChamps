@@ -30,14 +30,17 @@ MonoBehaviour:
   maxDistanceDetectionATK3Fire: 30
   maxAngleDetectionATK3Fire: 15
   MaxInputDelayATK3Fire: 10
-  MaxChargeFire: 0
-  frogTimeATK3: 0
-  stunTimeATK3Frog: 0
+  AdditionnalFireCharge: 0
+  frogTimeATK3: 1
+  maxDistanceDetectionATK3Frog: 30
+  maxAngleDetectionATK3Frog: 15
+  grabSpeed: 200
+  grabMinDistance: 10
   MaxInputDelayATK3Frog: 10
-  MaxChargeFrog: 0
+  AdditionnalFrogCharge: 0
   damageReductionATK3Metal: 0
   MaxInputDelayATK3Metal: 0
-  MaxChargeMetal: 0
+  AdditionnalMetalCharge: 0
   stunTimeATK3Firefly: 0
   MaxInputDelayATK3Firefly: 0
-  MaxChargeFirefly: 0
+  AdditionnalFireflyCharge: 0

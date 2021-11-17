@@ -1069,8 +1069,8 @@ MonoBehaviour:
   m_Name: DialogClip(Clone)(Clone)
   m_EditorClassIdentifier: 
   template:
-    text: "Tenez pour vous remercier ! Je ne sais pas trop ce que c\u2019est, un
-      fruit \xE9trange, une sorte de poire..."
+    text: "Tenez pour vous remercier ! Je ne sais pas trop ce que c\u2019est, des
+      fruits \xE9tranges, on dirait des poires..."
     name: Milicien
     dialogManager: {fileID: 0}
   dialogManager:

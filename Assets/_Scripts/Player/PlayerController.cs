@@ -236,6 +236,7 @@ namespace Player
             StartCoroutine(BlastConeCoroutine(this));
             foreach (Collider detectedItem in detectedBurnable)
             {
+                
                 //Si le machin détecté est à moins de maxAngleDetectionATK3Fire° => s'il est dans le cône de feu
                 if (Vector3.Dot(lastDirection, (detectedItem.transform.position - book.transform.position).normalized) >= Mathf.Cos(attackStats.maxAngleDetectionATK3Fire*Mathf.Rad2Deg))
                 {
@@ -247,7 +248,46 @@ namespace Player
             }
         }
 
-        public void FrogDetect()
+        public void GrabZone()
+        {
+            Collider[] detectedEnemies = Physics.OverlapSphere(book.gameObject.transform.position, attackStats.maxDistanceDetectionATK3Frog, enemyLayer);
+            Debug.Log("J'ai détecté " + detectedEnemies.Length + " items.");
+            GameObject furtherEnemy = null;
+            // Appliquer Fx/Animation
+            //Detection de l'ennemi le plus éloigné dans le cône
+            foreach (var detectedItem in detectedEnemies)
+            {
+                if (Vector3.Dot(lastDirection, (detectedItem.transform.position - book.transform.position).normalized) >= Mathf.Cos(attackStats.maxAngleDetectionATK3Frog * Mathf.Rad2Deg))
+                {
+                    if (furtherEnemy == null || Vector3.Distance(detectedItem.transform.position, this.transform.position) > Vector3.Distance(furtherEnemy.transform.position, this.transform.position))
+                    {
+                        furtherEnemy = detectedItem.gameObject;
+                    }
+                }
+            }
+
+            // On attire l'ennemi désigné
+            if (furtherEnemy != null)
+            {
+                furtherEnemy.GetComponent<MobMob>().Grab(this);
+            }
+
+        }
+
+        public void StunZone()
+        {
+            Collider[] detectedEnemies = Physics.OverlapSphere(book.gameObject.transform.position, attackStats.maxDistanceDetectionATK3Firefly, enemyLayer);
+            Debug.Log("J'ai détecté " + detectedEnemies.Length + " items.");
+            foreach (Collider enemy in detectedEnemies)
+            {
+                if (enemy.gameObject.layer == LayerMask.NameToLayer("Enemy"))
+                {
+                    enemy.GetComponent<Enemy_Core>().InvokeDamage(0,transform.position,attackStats.stunTimeATK3Firefly);
+                }
+            }
+        }
+
+        /*public void FrogDetect()
         {
             Collider[] detectedEnemies = Physics.OverlapSphere(book.gameObject.transform.position, attackStats.maxDistanceDetectionATK3Fire, LayerMask.NameToLayer("Enemy"));
             Debug.Log("J'ai détecté " + detectedEnemies.Length + " items.");
@@ -260,13 +300,8 @@ namespace Player
                 }
             }
 
-        }
+        }*/
 
-        public void FrogGrab(GameObject target) 
-        {
-
-
-        }
 
         public bool GetHit(int damages = 1)
         {
