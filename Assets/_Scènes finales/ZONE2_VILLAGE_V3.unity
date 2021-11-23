@@ -11028,12 +11028,12 @@ MonoBehaviour:
   onTrigger:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_MethodName: 
+      - m_Target: {fileID: 1768986933}
+        m_MethodName: PlayDirector
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -11346,7 +11346,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 504646106}
-  m_LocalRotation: {x: 0.83095795, y: 0.0070244046, z: 0.00470237, w: 0.55627096}
+  m_LocalRotation: {x: 0.830958, y: 0.007024391, z: 0.0047023604, w: 0.5562709}
   m_LocalPosition: {x: -291.2, y: 125.9, z: 14.6}
   m_LocalScale: {x: 1.428571, y: 1.4285713, z: 1.428571}
   m_Children:
@@ -12484,7 +12484,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 763553140}
-  m_LocalRotation: {x: 0.80221933, y: -0.13291694, z: -0.09514002, w: 0.57421744}
+  m_LocalRotation: {x: 0.80221933, y: -0.13291697, z: -0.09514004, w: 0.5742174}
   m_LocalPosition: {x: 115.1, y: 378.2, z: 17.3}
   m_LocalScale: {x: 1.4285711, y: 1.4285716, z: 1.4285705}
   m_Children:
@@ -13222,7 +13222,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 877876394}
-  m_LocalRotation: {x: 0.42047217, y: -0.71044695, z: -0.48564816, w: 0.287427}
+  m_LocalRotation: {x: 0.42047217, y: -0.7104469, z: -0.4856481, w: 0.287427}
   m_LocalPosition: {x: 108.7, y: -34.6, z: 20.1}
   m_LocalScale: {x: 1.4285712, y: 1.4285715, z: 1.4285709}
   m_Children:
@@ -27707,7 +27707,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1758997371}
-  m_LocalRotation: {x: 0.83197135, y: 0.10306131, z: 0.06702029, w: 0.54102725}
+  m_LocalRotation: {x: 0.83197135, y: 0.1030613, z: 0.0670203, w: 0.5410272}
   m_LocalPosition: {x: -45.2, y: -5.3, z: 25.3}
   m_LocalScale: {x: 1.4285713, y: 1.4285715, z: 1.4285709}
   m_Children:
@@ -27917,6 +27917,7 @@ PlayableDirector:
     - 4b66cf2561d06b04fbf0b425cd1a22dc: {fileID: 1102787622}
     - 7a9123f9e70cdbf49a7e95ee441559fe: {fileID: 422783261}
     - e675f4715b22d9c40bd0830ff888a7c8: {fileID: 230301510}
+    - 019639e530cceb6409b6ffdf5ae23028: {fileID: 445075797}
     - f8854c69c43c2224695cf6ab06d900a9: {fileID: 1044461443}
 --- !u!1 &1771725249
 GameObject:
