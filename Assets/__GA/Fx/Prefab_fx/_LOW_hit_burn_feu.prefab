@@ -169,7 +169,7 @@ ParticleSystem:
       serializedVersion: 2
       minMaxState: 0
       scalar: 30
-      minScalar: 15
+      minScalar: 20
       maxCurve:
         serializedVersion: 2
         m_Curve:
@@ -14397,7 +14397,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2116913977359671837}
   m_Layer: 0
-  m_Name: hit_burn_feu
+  m_Name: _LOW_hit_burn_feu
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

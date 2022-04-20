@@ -91,7 +91,7 @@ namespace Player
 
         #region PlayerStates
         private PlayerState currentState;
-        public Player_Idle IdleState;
+        public Player_Idle IdleState; 
         public Player_Hurt HurtState;
         public Player_Attack1 AttackState;
         public AXD_Player_Attack2 Attack2State;

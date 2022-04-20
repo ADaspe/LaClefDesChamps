@@ -130,7 +130,5 @@ public class SkillSO : ScriptableObject
         {
             return false;
         }
-
     }
-
 }
