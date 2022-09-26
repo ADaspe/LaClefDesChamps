@@ -32,13 +32,31 @@ Material:
         m_Texture: {fileID: 2800000, guid: d5b4921c7c5920e4eb90c3466fad0426, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_b31b98a6dc29b88e8f46d046502459f2_Texture_1:
+        m_Texture: {fileID: 2800000, guid: d5b4921c7c5920e4eb90c3466fad0426, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
     m_Floats:
     - Vector1_14817718: 0
     - Vector1_2A3DC6D0: 0
-    - Vector1_34B7DD03: -1
-    - Vector1_488AB436: 1
-    - Vector1_9E59DAD1: 30
+    - Vector1_34B7DD03: 1
+    - Vector1_488AB436: 0
+    - Vector1_9E59DAD1: 1
     - Vector1_B4F8E51: 0
-    - Vector1_D5202C65: 0.5
+    - Vector1_D5202C65: 1.19
     - Vector1_E88352D9: 1
     m_Colors: []
+  m_BuildTextureStacks: []

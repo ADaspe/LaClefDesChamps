@@ -8,6 +8,8 @@ TagManager:
   - Metal
   - Pear
   - Seed
+  - PLayer
+  - HP
   layers:
   - Default
   - TransparentFX
@@ -26,7 +28,7 @@ TagManager:
   - Grapple
   - 
   - pipoutou
-  - 
+  - gamedev
   - 
   - 
   - 
